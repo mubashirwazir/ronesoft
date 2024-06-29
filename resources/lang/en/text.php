@@ -1,6 +1,14 @@
 <?php
+
+
 return [
-    'title' => 'Laravel 11x Web multi-language',
-    'welcome' => 'Welcome to our website',
-    'description' => 'This website supports Thai and English languages',
+    'welcome' => 'Welcome to Contixs',
+    'login' => 'Login',
+    'register' => 'Register',
+    'home' => 'Home',
+    'about' => 'About',
+    'services' => 'Services',
+    'projects' => 'Projects',
+    'blog' => 'Blog',
+    'contact' => 'Contact',
 ];

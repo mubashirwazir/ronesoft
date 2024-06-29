@@ -9,5 +9,6 @@
 
 <a href="{{ route('changeLang', ['lang' => 'en']) }}">English</a>
 <a href="{{ route('changeLang', ['lang' => 'th']) }}">ภาษาไทย</a>
+<a href="{{ route('changeLang', ['lang' => 'pt']) }}">pt</a>
 </body>
 </html>
