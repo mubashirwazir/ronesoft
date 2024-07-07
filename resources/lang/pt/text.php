@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'welcome' => 'sdsfso ao Contixs',
+    'welcome' => 'Bem-vindo ao Contixs',
     'login' => 'Entrar',
     'register' => 'Registrar',
     'home' => 'Início',
@@ -10,4 +10,17 @@ return [
     'projects' => 'Projetos',
     'blog' => 'Blog',
     'contact' => 'Contato',
+    'slider_title' => 'Solução de Gestão de Compras',
+    'slider_description' => 'Conheça o xChecker, o software de Gestão de Compras de próxima geração para Compradores, Fornecedores, Gerentes de Compras e Agentes.',
+    'btn_text' => 'Solicitar uma demonstração',
+    'business_support_title' => 'Como xChecker apoia o seu tipo de negócio?',
+    'business_support_description' => 'xChecker facilitará a gestão do seu negócio. xChecker tem ferramentas que você vai adorar.',
+    'construction' => 'Construção',
+    'manufacturing' => 'Manufatura',
+    'agriculture' => 'Agricultura',
+    'distribution' => 'Distribuição',
+    'resources' => 'Recursos',
+    'processing' => 'Processamento',
+    'municipalities' => 'Municípios',
+    'haulage_transport' => 'Transporte e Transporte',
 ];

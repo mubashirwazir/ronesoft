@@ -21,7 +21,7 @@ INDEX:
     12 - Components - Button
     13 - Components - Carousel
         13.00 - Carousel Gutter
-        13.01 - Slick Dot Margin Top 
+        13.01 - Slick Dot Margin Top
         13.02 - Carousel Dots
 
     14 - Components - Comment
@@ -146,7 +146,7 @@ a, button {
   cursor: pointer; }
 
 a:hover {
-  color: #002257;
+  color: #FEAE03;
   text-decoration: none; }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -164,7 +164,7 @@ a, a:hover, a:focus, a:active, button, button:focus, input, select, textarea, .s
 01 - Base - Typography
 *****************************/
 .heading__primary {
-  font-size: 6.5rem;
+  font-size: 4.8rem;
   line-height: 1.154; }
 
 .heading__secondary {
@@ -894,9 +894,9 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .btn, .s
 .header__top {
   font-size: 13px;
   font-weight: 300;
-  background-color: #002257;
+  background-color: #000000;
   color: #ffffff;
-  padding: 13px 0; }
+  padding: 10px 0; }
   .header__top a {
     color: inherit; }
   .header__top-inner {
@@ -930,8 +930,8 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .btn, .s
     -webkit-align-items: center;
     -moz-align-items: center;
     align-items: center;
-    padding-top: 25px;
-    padding-bottom: 25px; }
+    padding-top: 20px;
+    padding-bottom: 20px; }
   .header__middle-left {
     -webkit-flex-shrink: 0;
     -moz-flex-shrink: 0;
@@ -1304,7 +1304,7 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .btn, .s
 *****************************/
 .btn {
   color: #fefeff;
-  background-color: #002257;
+  background-color: #FEAE03;
   padding: 15px 39px; }
   @media (max-width: 61.94em) {
     .btn {
@@ -1316,7 +1316,7 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .btn, .s
     background-color: transparent;
     border-width: 1px;
     border-style: solid;
-    border-color: #002257; }
+    border-color: #FEAE03; }
   .btn-white {
     border-color: #ffffff; }
   .btn-shape-round {
@@ -1329,12 +1329,12 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .btn, .s
     border-width: 2px; }
   .btn:hover {
     background-color: transparent;
-    border-color: #002257;
-    color: #002257; }
+    border-color: #1c1c1d;
+    color: #1c1c1d; }
   .btn-hover-1:hover {
     background-color: #ffffff;
     border-color: #ffffff;
-    color: #002257; }
+    color: #1c1c1d; }
 
 .read-more-btn {
   border-bottom: 1px solid #dadada; }
@@ -1471,7 +1471,9 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .btn, .s
 
 .feature__title {
   font-size: 22px;
-  margin-bottom: 19px; }
+  margin-bottom: 19px;
+font-weight: 150; }
+
 
 .feature__desc {
   line-height: 1.625; }
@@ -1997,22 +1999,22 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .btn, .s
 23 - Components - Slider
 *****************************/
 .homepage-slider .single-slide {
-  height: 790px;
+  height: 590px;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center; }
   @media (max-width: 109.375em) {
     .homepage-slider .single-slide {
-      height: 745px; } }
+      height: 545px; } }
   @media (max-width: 100em) {
     .homepage-slider .single-slide {
-      height: 600px; } }
+      height: 400px; } }
   @media (max-width: 61.94em) {
     .homepage-slider .single-slide {
-      height: 500px; } }
+      height: 300px; } }
   @media (max-width: 47.94em) {
     .homepage-slider .single-slide {
-      height: 400px; } }
+      height: 200px; } }
 
 .homepage-slider .custom-paging {
   color: #fefeff;
@@ -2173,7 +2175,7 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .btn, .s
   color: #002257; }
 
 .heading__secondary:after, .pagination li .page-number, .pagination li .dot, .slick-dots li, .newsletter-form__btn, .service__category:before, .social-outline .social__link:hover, .social-shape-square .social__link {
-  background-color: #002257; }
+  background-color: #FEAE03; }
 
 .delimeter, .icon-outline, .social-outline .social__link:hover {
   border-color: #002257; }
@@ -2487,7 +2489,7 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .btn, .s
   margin-top: 9.6rem; }
 
 .mb--3pt6 {
-  margin-bottom: 3.6rem; }
+  margin-bottom: 3.4rem; }
 
 .mb--9pt {
   margin-bottom: 9rem; }
@@ -2537,3 +2539,7 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .btn, .s
 @media (max-width: 35.94em) {
   .mb-xs--6 {
     margin-bottom: 6rem; } }
+.buy-smarter
+{
+    background-color: #f5e4a5;
+}

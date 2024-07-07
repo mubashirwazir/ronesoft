@@ -1,8 +1,7 @@
 <?php
 
-
 return [
-    'welcome' => 'Welcome to Contixs',
+    'welcome' => 'Welcome to RonneSoft',
     'login' => 'Login',
     'register' => 'Register',
     'home' => 'Home',
@@ -11,4 +10,17 @@ return [
     'projects' => 'Projects',
     'blog' => 'Blog',
     'contact' => 'Contact',
+    'slider_title' => 'Procurement Management Solution',
+    'slider_description' => 'Meet xChecker, the next generation Procurement Management Software for Buyers, Suppliers, Purchasing Managers, and Agents.',
+    'btn_text' => 'Request a demo',
+    'business_support_title' => 'How xChecker supports your business type?',
+    'business_support_description' => 'xChecker will make running your business so much easier. xChecker has tools you will love.',
+    'construction' => 'Construction',
+    'manufacturing' => 'Manufacturing',
+    'agriculture' => 'Agriculture',
+    'distribution' => 'Distribution',
+    'resources' => 'Resources',
+    'processing' => 'Processing',
+    'municipalities' => 'Municipalities',
+    'haulage_transport' => 'Haulage & Transport',
 ];

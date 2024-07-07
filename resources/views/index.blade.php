@@ -1,31 +1,8 @@
-<!doctype html>
-<html class="no-js" lang=" ">
+@extends('layouts.app')
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Contixs - Finance and Business Consulting Bootstrap 5 Template</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="assets/img/icon.png">
+@section('content')
 
-    <!-- ************************* CSS Files ************************* -->
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-
-    <!-- Vendor CSS -->
-    <link rel="stylesheet" href="assets/css/vendor.css">
-
-    <!-- style css -->
-    <link rel="stylesheet" href="assets/css/main.css">
-</head>
-
-<body>
-
-    <!-- Main Wrapper Start -->
+    {{-- <!-- Main Wrapper Start --> --}}
     <div class="wrapper">
         <!-- Header Start -->
         <header class="header site-header">
@@ -41,17 +18,23 @@
                                         </div>
                                         <div class="header__top-right">
                                             <ul class="list-inline top-menu">
-                                                <li class="list-inline-item text-uppercase"><a href="#">@lang('text.login')</a></li>
-                                                <li class="list-inline-item text-uppercase"><a href="#">Register</a>
-                                                </li>
+                                                <li class="list-inline-item text-uppercase"><a href="#">{{ __('text.login') }}</a></li>
+                                                <li class="list-inline-item text-uppercase"><a href="#">{{ __('text.register') }}</a></li>
                                             </ul>
                                         </div>
                                         <div class="language-switcher">
                                             <ul class="list-inline top-menu">
-                                                <a href="{{ route('changeLang', ['lang' => 'en']) }}">English</a>
-                                                <a href="{{ route('changeLang', ['lang' => 'pt']) }}">Portuguese</a>
-                                                <a href="{{ route('changeLang', ['lang' => 'es']) }}">espanol</a>
+                                                <a href="{{ route('changeLang', ['lang' => 'en']) }}">
+                                                   <img src="assets\img\icons\en_US.png" alt=""> English
+                                                </a>
+                                                <a href="{{ route('changeLang', ['lang' => 'pt']) }}">
+                                                    <img src="assets\img\icons\fr_FR.png" alt=""> Portuguese
+                                                </a>
+                                                <a href="{{ route('changeLang', ['lang' => 'es']) }}">
+                                                   <img src="assets\img\icons\es_ES.png" alt=""> Spanish
+                                                </a>
                                             </ul>
+
                                         </div>
                                     </div>
                                 </div>
@@ -66,7 +49,7 @@
                                         <div class="header__middle-left">
                                             <div class="logo">
                                                 <a href="index.html" class="logo--normal">
-                                                    <img src="assets/img/logo/logo.png" alt="Logo">
+                                                    <img src="assets/img/logo/logo1.png" alt="Logo">
                                                 </a>
                                             </div>
                                         </div>
@@ -75,106 +58,91 @@
                                                 <ul class="mainmenu">
                                                     <li class="mainmenu__item menu-item-has-children">
                                                         <a href="index.html" class="mainmenu__link">
-                                                            <span data-hover="Home" class="mm-text">Home</span>
+                                                            <span data-hover="{{ __('text.home') }}" class="mm-text">{{ __('text.home') }}</span>
                                                         </a>
                                                         <ul class="sub-menu">
                                                             <li>
                                                                 <a href="index.html">
-                                                                    <span data-hover="Homepage 01"
-                                                                        class="mm-text">Homepage 01</span>
+                                                                    <span data-hover="{{ __('text.homepage_01') }}" class="mm-text">{{ __('text.homepage_01') }}</span>
                                                                 </a>
                                                             </li>
                                                             <li>
                                                                 <a href="index-02.html">
-                                                                    <span data-hover="Homepage 02"
-                                                                        class="mm-text">Homepage 02</span>
+                                                                    <span data-hover="{{ __('text.homepage_02') }}" class="mm-text">{{ __('text.homepage_02') }}</span>
                                                                 </a>
                                                             </li>
                                                         </ul>
                                                     </li>
                                                     <li class="mainmenu__item">
                                                         <a href="about-us.html" class="mainmenu__link">
-                                                            <span data-hover="About" class="mm-text">About</span>
+                                                            <span data-hover="{{ __('text.about') }}" class="mm-text">{{ __('text.about') }}</span>
                                                         </a>
                                                     </li>
                                                     <li class="mainmenu__item">
                                                         <a href="services.html" class="mainmenu__link">
-                                                            <span data-hover="Services" class="mm-text">Services</span>
+                                                            <span data-hover="{{ __('text.services') }}" class="mm-text">{{ __('text.services') }}</span>
                                                         </a>
                                                     </li>
                                                     <li class="mainmenu__item">
                                                         <a href="our-projects.html" class="mainmenu__link">
-                                                            <span data-hover="Projects" class="mm-text">Projects</span>
+                                                            <span data-hover="{{ __('text.projects') }}" class="mm-text">{{ __('text.projects') }}</span>
                                                         </a>
                                                     </li>
                                                     <li class="mainmenu__item menu-item-has-children">
                                                         <a href="blog.html" class="mainmenu__link">
-                                                            <span data-hover="Blog" class="mm-text">Blog</span>
+                                                            <span data-hover="{{ __('text.blog') }}" class="mm-text">{{ __('text.blog') }}</span>
                                                         </a>
                                                         <ul class="sub-menu">
                                                             <li class="menu-item-has-children">
                                                                 <a href="blog.html">
-                                                                    <span data-hover="Blog" class="mm-text">Blog</span>
+                                                                    <span data-hover="{{ __('text.blog') }}" class="mm-text">{{ __('text.blog') }}</span>
                                                                 </a>
                                                                 <ul class="sub-menu">
                                                                     <li>
                                                                         <a href="blog-01-column.html">
-                                                                            <span data-hover="01 Column"
-                                                                                class="mm-text">01 Column</span>
+                                                                            <span data-hover="{{ __('text.column_01') }}" class="mm-text">{{ __('text.column_01') }}</span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="blog-02-columns.html">
-                                                                            <span data-hover="02 Columns"
-                                                                                class="mm-text">02 Columns</span>
+                                                                            <span data-hover="{{ __('text.columns_02') }}" class="mm-text">{{ __('text.columns_02') }}</span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="blog-03-columns.html">
-                                                                            <span data-hover="03 Columns"
-                                                                                class="mm-text">03 Columns</span>
+                                                                            <span data-hover="{{ __('text.columns_03') }}" class="mm-text">{{ __('text.columns_03') }}</span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="blog-left-sidebar.html">
-                                                                            <span data-hover="Left Sidebar"
-                                                                                class="mm-text">Left Sidebar</span>
+                                                                            <span data-hover="{{ __('text.left_sidebar') }}" class="mm-text">{{ __('text.left_sidebar') }}</span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
                                                             </li>
                                                             <li class="menu-item-has-children">
                                                                 <a href="blog-details-image.html">
-                                                                    <span data-hover="Single Blog"
-                                                                        class="mm-text">Single Blog</span>
+                                                                    <span data-hover="{{ __('text.single_blog') }}" class="mm-text">{{ __('text.single_blog') }}</span>
                                                                 </a>
                                                                 <ul class="sub-menu">
                                                                     <li>
                                                                         <a href="blog-details-audio.html">
-                                                                            <span data-hover="Audio Blog Details"
-                                                                                class="mm-text">Audio Blog
-                                                                                Details</span>
+                                                                            <span data-hover="{{ __('text.audio_details') }}" class="mm-text">{{ __('text.audio_details') }}</span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="blog-details-gallery.html">
-                                                                            <span data-hover="Gallery Blog Details"
-                                                                                class="mm-text">Gallery Blog
-                                                                                Details</span>
+                                                                            <span data-hover="{{ __('text.gallery_details') }}" class="mm-text">{{ __('text.gallery_details') }}</span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="blog-details-image.html">
-                                                                            <span data-hover="Image Blog Details"
-                                                                                class="mm-text">Image Blog
-                                                                                Details</span>
+                                                                            <span data-hover="{{ __('text.image_details') }}" class="mm-text">{{ __('text.image_details') }}</span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="blog-details-video.html">
-                                                                            <span data-hover="Video Blog Details"
-                                                                                class="mm-text">Video Blog
-                                                                                Details</span>
+                                                                            <span data-hover="{{ __('text.video_details') }}" class="mm-text">{{ __('text.video_details') }}</span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -183,7 +151,7 @@
                                                     </li>
                                                     <li class="mainmenu__item">
                                                         <a href="contact.html" class="mainmenu__link">
-                                                            <span data-hover="Contact" class="mm-text">Contact</span>
+                                                            <span data-hover="{{ __('text.contact') }}" class="mm-text">{{ __('text.contact') }}</span>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -200,8 +168,7 @@
                                             </div>
                                             <div class="header-toolbar-wrap d-block d-lg-none">
                                                 <div class="header-toolbar">
-                                                    <a href="#offcanvasMenu"
-                                                        class="header-toolbar__btn toolbar-btn menu-btn">
+                                                    <a href="#offcanvasMenu" class="header-toolbar__btn toolbar-btn menu-btn">
                                                         <div class="hamburger-icon">
                                                             <span></span>
                                                             <span></span>
@@ -223,10 +190,11 @@
                 <div class="sticky-header-height"></div>
             </div>
         </header>
+
         <!-- Header End -->
 
         <!-- Main Content Wrapper Start -->
-        <main class="main-content-wrapper">
+        <main class="main-content-wrapper p-2">
             <!-- Slider area Start -->
             <section class="homepage-slider mb--10pt">
                 <div class="element-carousel" data-slick-options='{
@@ -234,32 +202,22 @@
                     "autoplay": true
                 }'>
                     <div class="single-slide d-flex align-items-center"
-                        style="background-image: url(assets/img/slider/slider-01.jpg);">
+                        style="background-image: url('assets/img/slider/pic3avif.avif'); background-size: cover; background-position: center; height: 300px;">
                         <div class="container">
                             <div class="row g-0">
-                                <div class="col-lg-6 col-sm-8">
+                                <div class="col-lg-8 col-sm-8">
                                     <div class="slider-content">
-                                        <h1 class="heading__primary mb--3pt6" data-animation="fadeInUp"
-                                            data-duration=".3s" data-delay=".3s">Financial solutions for New business.
+                                        <h1 class="heading__primary mb--3pt6" data-animation="fadeInUp" data-duration=".3s"
+                                            data-delay=".3s" style="color: black;">
+                                            @lang('text.slider_title')
                                         </h1>
-                                        <a href="#" class="btn" data-animation="fadeInUp" data-duration=".3s"
-                                            data-delay=".6s">Financial Services</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-slide d-flex align-items-center"
-                        style="background-image: url(assets/img/slider/slider-02.jpg);">
-                        <div class="container">
-                            <div class="row g-0">
-                                <div class="col-lg-6 col-sm-8">
-                                    <div class="slider-content">
-                                        <h1 class="heading__primary mb--3pt6" data-animation="fadeInUp"
-                                            data-duration=".3s" data-delay=".3s">Financial solutions for New business.
-                                        </h1>
-                                        <a href="#" class="btn" data-animation="fadeInUp" data-duration=".3s"
-                                            data-delay=".6s">Financial Services</a>
+                                        <p>
+                                            @lang('text.slider_description')
+                                        </p>
+                                        <a href="https://calendly.com/rslgary/ronesoft-demo" class="btn fw-bold"
+                                            data-animation="fadeInUp" data-duration=".3s" data-delay=".6s">
+                                            @lang('text.btn_text')
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -268,80 +226,29 @@
                 </div>
             </section>
             <!-- Slider area End -->
-
-            <!-- Feature Area Start -->
-            <section class="feature-area mb--9pt5">
-                <div class="container">
-                    <div class="row g-0 gutter-lg-30 justify-content-between">
-                        <div class="col-xl-3 col-md-4 mb-sm--45">
-                            <div class="feature">
-                                <div class="feature__icon text-center">
-                                    <span class="icon icon-box icon-outline">
-                                        <i class="ion-ios-lightbulb-outline"></i>
-                                    </span>
-                                </div>
-                                <div class="feature__info text-center">
-                                    <h3 class="feature__title">Get Idea</h3>
-                                    <p class="feature__desc">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-4 mb-sm--45">
-                            <div class="feature">
-                                <div class="feature__icon text-center">
-                                    <span class="icon icon-box icon-outline">
-                                        <i class="ion-magnet"></i>
-                                    </span>
-                                </div>
-                                <div class="feature__info text-center">
-                                    <h3 class="feature__title">Make A Plan</h3>
-                                    <p class="feature__desc">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-4">
-                            <div class="feature">
-                                <div class="feature__icon text-center">
-                                    <span class="icon icon-box icon-outline">
-                                        <i class="ion-pie-graph"></i>
-                                    </span>
-                                </div>
-                                <div class="feature__info text-center">
-                                    <h3 class="feature__title">Boost Your Business</h3>
-                                    <p class="feature__desc">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Feature Area End -->
-
-            <!-- About Area Start -->
-            <section class="about-area mb--9pt4">
+             <!-- About Area Start -->
+             <section class="about-area mb--9pt4">
                 <div class="container-fluid p-0">
                     <div class="row g-0">
                         <div class="col-md-6">
-                            <div class="bg-image bg-sm-padding h-100" data-bg-image="assets/img/about/about-01.jpg">
+                            <div class="bg-image bg-sm-padding h-100" data-bg-image="assets/img/about/2.jpeg">
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="h-100 pt--13pt pt-sm--9pt5 pb--13pt3 pb-sm--9pt8 pl-12percent pl-sm--15 pr--15 bg-color"
+                            <div class="h-100  pt-sm--9pt5 pb--13pt3 pb-sm--9pt8 pl-12percent pl-sm--15 pr--15 bg-color"
                                 data-bg-color="#f7f8f9">
                                 <div class="max-width-470">
                                     <div class="heading">
-                                        <h2 class="mb--18">About Consulting</h2>
+                                        <h2 class="mb--18">About RONEsoft</h2>
                                         <hr class="delimeter mb--22">
                                     </div>
-                                    <p class="mb--25">It is a long established fact that a reader will be distracted by
-                                        the readable content of a page when looking at its layout. The point of using
-                                        Lorem is that it has a more-or-less normal distribution of letters, as opposed
-                                        to using 'Content here, content here', making it look like readable English.
-                                        Many desktop publishing packages</p>
-                                    <a href="#" class="btn">Learn More</a>
+                                    <p>RONEsoft helps businesses to Buy Smarter.</p>
+                                    <p class="mb--25">RONEsoft specializes in Procurement Operations and provides customers with the ability to directly use xChecker to professionally execute their operations. We also provide Managed Procurement Services (MPS), offering customers complete peace of mind knowing that their Procurement Operations are in the hands of professionals who are trained to use xChecker to deliver results, so our clients can focus on their core business.</p>
+                                    <p class="mb--25">We give Business Owners more Control over their Buying Operations through an Intelligent Platform that holds all relevant information and provides deep insight and Buying Intelligence.</p>
+                                    <p class="mb--25">With xChecker, every Business can Buy Smarter, operate just as large corporations and Co-ops do. You will get the technology platform that expands your reach beyond your immediate Suppliers and gives you access to other Suppliers within your target industry. With this capability, our clients get measurable time savings and cost reduction.</p>
+                                    <p class="mb--25">Whether you are a self-managed client or a client using our Managed Procurement Services, you have 24/7 access to your account and full access to your business performance and results</p>
+                                    <p class="mb--25">Book a demo today.Contact <a href="sales@ronesoft.com">sales@ronesoft.com</a>  </p>
+                                    <a href="https://ronesoft.com/request-demo/" class="btn">Request a Demo</a>
                                 </div>
                             </div>
                         </div>
@@ -349,6 +256,154 @@
                 </div>
             </section>
             <!-- About Area End -->
+
+            <!-- Buy Smarter  Area Start -->
+            <section class="about-area mb--9pt4">
+                <div class="container p-5">
+                    <div class="row g-2 text-center d-flex align-items-stretch"> <!-- Added d-flex and align-items-stretch -->
+                        <div class="col-md-6 p-2">
+                            <div class="buy-smarter m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
+                                <h1>xChecker, Buy Smarter</h1>
+                                <p class="display-6">Let xChecker do the heavy lifting for you</p>
+                                <p class="text-secondary">Implementing xChecker will simplify your purchasing negotiation process, systemize it and most importantly improve your company’s ability to Buy Smarter.</p>
+                                <img src="assets\img\buysmarter\pngwing.com.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-2">
+                            <div class="bg-dark text-light m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
+                                <h2 class="text-light">For Business Owners, Procurement Managers and Operations</h2>
+                                <p class="display-7">Need the results but not the disruption to business?</p>
+                                <p class="text-secondary">Consider our Price Optimization as a Service offering. Try our Procurement Improvement Service that has been designed for businesses that need the Improvements that an Efficient Pricing Service offers but do not have the time or personnel to deliver them.</p>
+                                <a href="https://ronesoft.com/request-demo/" class="btn btn-sm pb-2 pt-2 mb-5">Buy Now</a>
+
+                                <img src="assets\img\buysmarter\partner_xero_homepage_block_800x575_v2.1659309197912.webp" alt="" class="mt-5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Buy Smarter Area End -->
+            <!-- Feature Area Start -->
+            <section class="feature-area mb--9pt5">
+                <div class="container">
+                    <div class="row g-0 gutter-lg-30 justify-content-center">
+                        <div class="col-md-12 text-center mb-5">
+                            <h1 class="display-3">@lang('text.business_support_title')</h1>
+                            <p>@lang('text.business_support_description')</p>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6 mb-sm-45">
+                            <div class="card m-4 shadow">
+                                <div class="feature text-center">
+                                    <div class="feature__icon">
+                                        <img src="assets\img\industry\1.jpg" class="rounded mt-3" alt="">
+                                    </div>
+                                    <div class="feature__info">
+                                        <h3 class="feature__title">@lang('text.construction')</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6 mb-sm-45">
+                            <div class="card m-4 shadow">
+                                <div class="feature text-center">
+                                    <div class="feature__icon">
+                                        <img src="assets\img\industry\2.jpg" class="rounded mt-3" alt="">
+                                    </div>
+                                    <div class="feature__info">
+                                        <h3 class="feature__title">@lang('text.manufacturing')</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6 mb-sm-45">
+                            <div class="card m-4 shadow">
+                                <div class="feature text-center">
+                                    <div class="feature__icon">
+                                        <img src="assets\img\industry\3.jpg" class="rounded mt-3" alt="">
+                                    </div>
+                                    <div class="feature__info">
+                                        <h3 class="feature__title">@lang('text.agriculture')</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6 mb-sm-45">
+                            <div class="card m-4 shadow">
+                                <div class="feature text-center">
+                                    <div class="feature__icon">
+                                        <img src="assets\img\industry\4.jpg" class="rounded mt-3" alt="">
+                                    </div>
+                                    <div class="feature__info">
+                                        <h3 class="feature__title">@lang('text.distribution')</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6 mb-sm-45">
+                            <div class="card m-4 shadow">
+                                <div class="feature text-center">
+                                    <div class="feature__icon">
+                                        <img src="assets\img\industry\5.jpg" class="rounded mt-3" alt="">
+                                    </div>
+                                    <div class="feature__info">
+                                        <h3 class="feature__title">@lang('text.resources')</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6 mb-sm-45">
+                            <div class="card m-4 shadow">
+                                <div class="feature text-center">
+                                    <div class="feature__icon">
+                                        <img src="assets\img\industry\6.jpg" class="rounded mt-3" alt="">
+                                    </div>
+                                    <div class="feature__info">
+                                        <h3 class="feature__title">@lang('text.processing')</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {{-- <div class="col-xl-4 col-md-6 mb-sm-45">
+                            <div class="card m-4 shadow">
+                                <div class="feature text-center">
+                                    <div class="feature__icon">
+                                        <img src="assets\img\industry\7.jpg" class="rounded mt-3" alt="">
+                                    </div>
+                                    <div class="feature__info">
+                                        <h3 class="feature__title">@lang('text.municipalities')</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> --}}
+
+                        {{-- <div class="col-xl-4 col-md-6 mb-sm-45">
+                            <div class="card m-4 shadow">
+                                <div class="feature text-center">
+                                    <div class="feature__icon">
+                                        <img src="assets\img\industry\8.jpg" class="rounded mt-3" alt="">
+                                    </div>
+                                    <div class="feature__info">
+                                        <h3 class="feature__title">@lang('text.haulage_transport')</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> --}}
+                    </div>
+                </div>
+            </section>
+            <!-- Feature Area End -->
+
+
+
+
 
             <!-- Services Area Start -->
             <section class="services-area mb--9pt mb-md--8pt5">
@@ -900,18 +955,48 @@
         <!-- Main Content Wrapper End -->
 
         <!-- Footer Start-->
-        <footer class="footer bg-color" data-bg-color="#F6F7FA">
+        <footer class="footer bg-dark text-white" data-bg-color="#F6F7FA">
             <div class="footer-top border-bottom pt--70 pb--65 pb-sm--60">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 col-md-6 mb-md--35">
+                        <div class="col-lg-3 col-md-7 mb-sm--30">
                             <div class="footer-widget">
                                 <div class="textwidget mb--21">
                                     <figure class="footer-logo">
-                                        <img src="assets/img/logo/logo.png" alt="Logo">
+                                        <img src="assets/img/logo/logo2.png" alt="Logo">
                                     </figure>
                                 </div>
                             </div>
+
+                        </div>
+                        <div class="col-lg-2 col-md-5 offset-md-1 mb-md--35 mb-sm--25">
+                            <div class="footer-widget">
+                                <h3 class="widget-title mb--35 mb-sm--20 text-white">Pages</h3>
+                                <div class="footer-widget">
+                                    <ul class="footer-menu text-secondary">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="services.html">About Us</a></li>
+                                        <li><a href="our-projects.html">Contact Us</a></li>
+                                        {{-- <li><a href="blog.html">News</a></li> --}}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-7 mb-sm--30">
+                            <div class="footer-widget">
+                                <h3 class="widget-title mb--35 mb-sm--20 text-white">Services</h3>
+                                <div class="footer-widget">
+                                    <ul class="footer-menu text-secondary">
+                                        <li><a href="#">Affiliates</a></li>
+                                        <li><a href="#">Why Xchecker</a></li>
+                                        <li><a href="#">Risk Management</a></li>
+                                        {{-- <li><a href="#">Features & Pricing</a></li> --}}
+                                        {{-- <li><a href="#">Business Planning</a></li> --}}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-7 mb-sm--30">
                             <div class="footer-widget">
                                 <div class="newsletter-form-widget">
                                     <p>Subscribe to our Newsletter. And get all update for next time</p>
@@ -932,46 +1017,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-5 offset-md-1 mb-md--35 mb-sm--25">
-                            <div class="footer-widget">
-                                <h3 class="widget-title mb--35 mb-sm--20">Pages</h3>
-                                <div class="footer-widget">
-                                    <ul class="footer-menu">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="our-projects.html">Project</a></li>
-                                        <li><a href="blog.html">News</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-7 mb-sm--30">
-                            <div class="footer-widget">
-                                <h3 class="widget-title mb--35 mb-sm--20">Services</h3>
-                                <div class="footer-widget">
-                                    <ul class="footer-menu">
-                                        <li><a href="#">Accumulation</a></li>
-                                        <li><a href="#">Taxation</a></li>
-                                        <li><a href="#">Risk Management</a></li>
-                                        <li><a href="#">Estate Planning</a></li>
-                                        <li><a href="#">Business Planning</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-5">
-                            <div class="footer-widget">
-                                <h3 class="widget-title mb--35 mb-sm--20">Legal</h3>
-                                <div class="footer-widget">
-                                    <ul class="footer-menu">
-                                        <li><a href="#">Terms of Services</a></li>
-                                        <li><a href="#">Security Policy</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Media</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -979,7 +1024,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <p class="copyright-text">&copy; Contixs 2021 Made With <i class="fa fa-heart"></i> BY Hasthemes</p>
+                            <p class="copyright-text">&copy;2024 RONEsoft . All rights reserved </p>
                         </div>
                     </div>
                 </div>
@@ -1102,14 +1147,5 @@
     </div>
     <!-- Main Wrapper End -->
 
+    @endsection
 
-    <!-- ************************* JS Files ************************* -->
-
-    <!-- jQuery JS -->
-    <script src="assets/js/vendor.js"></script>
-
-    <!-- Main JS -->
-    <script src="assets/js/main.js"></script>
-</body>
-
-</html>
