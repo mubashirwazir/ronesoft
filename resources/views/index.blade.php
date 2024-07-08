@@ -12,35 +12,38 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-12">
-                                    <div class="header__top-inner">
-                                        <div class="header__top-left">
+                                    <div class="header__top-inner d-flex justify-content-between align-items-center flex-wrap">
+                                        <div class="header__top-left d-none d-md-block">
                                             {{ __('text.welcome') }}
                                         </div>
                                         <div class="header__top-right">
-                                            <ul class="list-inline top-menu">
-                                                <li class="list-inline-item text-uppercase"><a href="#">{{ __('text.login') }}</a></li>
-                                                <li class="list-inline-item text-uppercase"><a href="#">{{ __('text.register') }}</a></li>
+                                            <ul class="list-inline top-menu mb-0">
+                                                <li class="list-inline-item text-uppercase small-screen-text"><a href="https://xchecker.ronesoft.com/Account/Login">{{ __('text.login') }}</a></li>
+                                                <li class="list-inline-item text-uppercase small-screen-text"><a href="https://xchecker.ronesoft.com/Account/Register">{{ __('text.register') }}</a></li>
                                             </ul>
                                         </div>
                                         <div class="language-switcher">
-                                            <ul class="list-inline top-menu">
-                                                <a href="{{ route('changeLang', ['lang' => 'en']) }}">
-                                                   <img src="assets\img\icons\en_US.png" alt=""> English
-                                                </a>
-                                                <a href="{{ route('changeLang', ['lang' => 'pt']) }}">
-                                                    <img src="assets\img\icons\fr_FR.png" alt=""> Portuguese
-                                                </a>
-                                                <a href="{{ route('changeLang', ['lang' => 'es']) }}">
-                                                   <img src="assets\img\icons\es_ES.png" alt=""> Spanish
-                                                </a>
+                                            <ul class="list-inline top-menu mb-0">
+                                                <li class="list-inline-item small-screen-text"><a href="{{ route('changeLang', ['lang' => 'en']) }}">
+                                                    <img src="assets/img/icons/en_US.png" alt=""> English
+                                                </a></li>
+                                                <li class="list-inline-item small-screen-text"><a href="{{ route('changeLang', ['lang' => 'pt']) }}">
+                                                    <img src="assets/img/icons/fr_FR.png" alt=""> Portuguese
+                                                </a></li>
+                                                <li class="list-inline-item small-screen-text"><a href="{{ route('changeLang', ['lang' => 'es']) }}">
+                                                    <img src="assets/img/icons/es_ES.png" alt=""> Spanish
+                                                </a></li>
                                             </ul>
-
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
+
+
                     <div class="header__middle">
                         <div class="container">
                             <div class="row">
@@ -161,8 +164,8 @@
                                             <div class="site-info--wrapper d-none d-lg-block">
                                                 <div class="site-info">
                                                     <div class="site-info__item">
-                                                        <a href="tel:+01223566678"><strong>+01 2235 666 78</strong></a>
-                                                        <a href="mailto:Support@contixs.com">Support@contixs.com</a>
+                                                        <a href="tel:1 844 402 2552"><strong>1 844 402 2552</strong></a>
+                                                        <a href="mailto:sales@ronesoft.com">sales@ronesoft.com</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -226,36 +229,37 @@
                 </div>
             </section>
             <!-- Slider area End -->
-             <!-- About Area Start -->
-             <section class="about-area mb--9pt4">
-                <div class="container-fluid p-0">
-                    <div class="row g-0">
-                        <div class="col-md-6">
-                            <div class="bg-image bg-sm-padding h-100" data-bg-image="assets/img/about/2.jpeg">
-                            </div>
+            <!-- About Area Start -->
+<section class="about-area mb--9pt4">
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <div class="bg-image bg-sm-padding h-100" data-bg-image="assets/img/about/2.jpeg">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="content-wrapper h-100 pt-sm--9pt5 pb--13pt3 pb-sm--9pt8 pl-12percent pl-sm--15 pr--15 bg-color"
+                    data-bg-color="#f7f8f9">
+                    <div class="max-width-470 mx-auto">
+                        <div class="heading">
+                            <h2 class="mb--18">About RONEsoft</h2>
+                            <hr class="delimeter mb--22">
                         </div>
-                        <div class="col-md-6">
-                            <div class="h-100  pt-sm--9pt5 pb--13pt3 pb-sm--9pt8 pl-12percent pl-sm--15 pr--15 bg-color"
-                                data-bg-color="#f7f8f9">
-                                <div class="max-width-470">
-                                    <div class="heading">
-                                        <h2 class="mb--18">About RONEsoft</h2>
-                                        <hr class="delimeter mb--22">
-                                    </div>
-                                    <p>RONEsoft helps businesses to Buy Smarter.</p>
-                                    <p class="mb--25">RONEsoft specializes in Procurement Operations and provides customers with the ability to directly use xChecker to professionally execute their operations. We also provide Managed Procurement Services (MPS), offering customers complete peace of mind knowing that their Procurement Operations are in the hands of professionals who are trained to use xChecker to deliver results, so our clients can focus on their core business.</p>
-                                    <p class="mb--25">We give Business Owners more Control over their Buying Operations through an Intelligent Platform that holds all relevant information and provides deep insight and Buying Intelligence.</p>
-                                    <p class="mb--25">With xChecker, every Business can Buy Smarter, operate just as large corporations and Co-ops do. You will get the technology platform that expands your reach beyond your immediate Suppliers and gives you access to other Suppliers within your target industry. With this capability, our clients get measurable time savings and cost reduction.</p>
-                                    <p class="mb--25">Whether you are a self-managed client or a client using our Managed Procurement Services, you have 24/7 access to your account and full access to your business performance and results</p>
-                                    <p class="mb--25">Book a demo today.Contact <a href="sales@ronesoft.com">sales@ronesoft.com</a>  </p>
-                                    <a href="https://ronesoft.com/request-demo/" class="btn">Request a Demo</a>
-                                </div>
-                            </div>
-                        </div>
+                        <p>RONEsoft helps businesses to Buy Smarter.</p>
+                        <p class="mb--25">RONEsoft specializes in Procurement Operations and provides customers with the ability to directly use xChecker to professionally execute their operations. We also provide Managed Procurement Services (MPS), offering customers complete peace of mind knowing that their Procurement Operations are in the hands of professionals who are trained to use xChecker to deliver results, so our clients can focus on their core business.</p>
+                        <p class="mb--25">We give Business Owners more Control over their Buying Operations through an Intelligent Platform that holds all relevant information and provides deep insight and Buying Intelligence.</p>
+                        <p class="mb--25">With xChecker, every Business can Buy Smarter, operate just as large corporations and Co-ops do. You will get the technology platform that expands your reach beyond your immediate Suppliers and gives you access to other Suppliers within your target industry. With this capability, our clients get measurable time savings and cost reduction.</p>
+                        <p class="mb--25">Whether you are a self-managed client or a client using our Managed Procurement Services, you have 24/7 access to your account and full access to your business performance and results</p>
+                        <p class="mb--25">Book a demo today. Contact <a href="mailto:sales@ronesoft.com">sales@ronesoft.com</a></p>
+                        <a href="https://ronesoft.com/request-demo/" class="btn">Request a Demo</a>
                     </div>
                 </div>
-            </section>
-            <!-- About Area End -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Area End -->
+
 
             <!-- Buy Smarter  Area Start -->
             <section class="about-area mb--9pt4">
@@ -284,6 +288,34 @@
             </section>
 
             <!-- Buy Smarter Area End -->
+            <!-- Buy Smarter  Area Start -->
+            <section class="about-area mb--9pt4">
+                <div class="container p-5">
+                    <div class="row g-2 text-center d-flex align-items-stretch"> <!-- Added d-flex and align-items-stretch -->
+                        <div class="col-md-6 p-2">
+                            <div class="buy-smarter m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
+                                <h1>xChecker, Buy Smarter</h1>
+                                <p class="display-6">Let xChecker do the heavy lifting for you</p>
+                                <p class="text-secondary">Implementing xChecker will simplify your purchasing negotiation process, systemize it and most importantly improve your company’s ability to Buy Smarter.</p>
+                                <img src="assets\img\buysmarter\pngwing.com.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-2">
+                            <div class="bg-dark text-light m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
+                                <h2 class="text-light">For Business Owners, Procurement Managers and Operations</h2>
+                                <p class="display-7">Need the results but not the disruption to business?</p>
+                                <p class="text-secondary">Consider our Price Optimization as a Service offering. Try our Procurement Improvement Service that has been designed for businesses that need the Improvements that an Efficient Pricing Service offers but do not have the time or personnel to deliver them.</p>
+                                <a href="https://ronesoft.com/request-demo/" class="btn btn-sm pb-2 pt-2 mb-5">Buy Now</a>
+
+                                <img src="assets\img\buysmarter\partner_xero_homepage_block_800x575_v2.1659309197912.webp" alt="" class="mt-5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Buy Smarter Area End -->
+
             <!-- Feature Area Start -->
             <section class="feature-area mb--9pt5">
                 <div class="container">
@@ -400,7 +432,33 @@
                 </div>
             </section>
             <!-- Feature Area End -->
+             <!-- Buy Smarter  Area Start -->
+             <section class="about-area mb--9pt4">
+                <div class="container p-5">
+                    <div class="row g-2 text-center d-flex align-items-stretch"> <!-- Added d-flex and align-items-stretch -->
+                        <div class="col-md-6 p-2">
+                            <div class="buy-smarter m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
+                                <h1>xChecker, Buy Smarter</h1>
+                                <p class="display-6">Let xChecker do the heavy lifting for you</p>
+                                <p class="text-secondary">Implementing xChecker will simplify your purchasing negotiation process, systemize it and most importantly improve your company’s ability to Buy Smarter.</p>
+                                <img src="assets\img\buysmarter\pngwing.com.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-2">
+                            <div class="bg-dark text-light m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
+                                <h2 class="text-light">For Business Owners, Procurement Managers and Operations</h2>
+                                <p class="display-7">Need the results but not the disruption to business?</p>
+                                <p class="text-secondary">Consider our Price Optimization as a Service offering. Try our Procurement Improvement Service that has been designed for businesses that need the Improvements that an Efficient Pricing Service offers but do not have the time or personnel to deliver them.</p>
+                                <a href="https://ronesoft.com/request-demo/" class="btn btn-sm pb-2 pt-2 mb-5">Buy Now</a>
 
+                                <img src="assets\img\buysmarter\partner_xero_homepage_block_800x575_v2.1659309197912.webp" alt="" class="mt-5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Buy Smarter Area End -->
 
 
 
@@ -466,7 +524,7 @@
             <!-- Services Area End -->
 
             <!-- Tetimonial Area Start -->
-            <section class="testimonial-area bg-color ptb--95 ptb-md--80 mb--9pt5" data-bg-color="#121420">
+            {{-- <section class="testimonial-area bg-color ptb--95 ptb-md--80 mb--9pt5" data-bg-color="#121420">
                 <div class="testimonial-wrapper testimonial--horizontal--active">
                     <div class="testimonial-container swiper-wrapper">
                         <div class="item swiper-slide">
@@ -571,7 +629,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- Tetimonial Area End -->
 
             <!-- Gallery Area Start -->
@@ -907,7 +965,7 @@
             <!-- Blog Area End -->
 
             <!-- Brand Logo Area Start -->
-            <div class="brand-logo-area bg-color ptb--100 ptb-md--80" data-bg-color="#121420">
+            {{-- <div class="brand-logo-area bg-color ptb--100 ptb-md--80" data-bg-color="#121420">
                 <div class="container-fluid">
                     <div class="row justify-content-center">
                         <div class="col-xl-11">
@@ -949,7 +1007,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <!-- Brand Logo Area End -->
         </main>
         <!-- Main Content Wrapper End -->
