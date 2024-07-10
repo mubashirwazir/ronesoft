@@ -22,6 +22,7 @@
 
     <!-- style css -->
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/scss/main.scss">
 </head>
 
 <body>

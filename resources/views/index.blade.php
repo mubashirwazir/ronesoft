@@ -340,8 +340,7 @@
                                 <p >Access all our service features for 14 days, then decide.
                                 </p>
                                 <p class="fw-bold">Or</p>
-                               <p> <a href="https://xchecker.ronesoft.com/registration
-" class="text-dark fw-bold text-decoration-underline">Register Here</a>  to self manage your account on our platform, xChecker.
+                               <p> <a href="https://xchecker.ronesoft.com/registration" class="text-dark fw-bold text-decoration-underline">Register Here</a>  to self manage your account on our platform, xChecker.
                                </p>
                                 <img src="assets\img\buysmarter\pngwing.com.png" alt="">
                             </div>
@@ -372,22 +371,32 @@
             <section class="about-area mb--9pt4">
                 <div class="container p-5">
                     <div class="row g-2 text-center d-flex align-items-stretch"> <!-- Added d-flex and align-items-stretch -->
-                        <div class="col-md-6 p-2">
+                        <div class="col-md-6 p-2 ">
                             <div class="buy-smarter m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
-                                <h1>xChecker, Buy Smarter</h1>
-                                <p class="display-6">Let xChecker do the heavy lifting for you</p>
-                                <p class="text-secondary">Implementing xChecker will simplify your purchasing negotiation process, systemize it and most importantly improve your company’s ability to Buy Smarter.</p>
-                                <img src="assets\img\buysmarter\pngwing.com.png" alt="">
+                                <div class="card p-5 shadow-lg">
+                                    <h1 class="heading__secondary_2">Do Simple RFQ or Complex RFP (RFx)</h1>
+                                    <p class="text-start ms-4 ">
+                                        <i class="fas fa-hand-holding-usd"></i> Simple RFQs (multiple bids and a buy)<br>
+                                        <i class="fas fa-file-contract"></i> Complex bids (company-specific tenders)<br>
+                                        <i class="fas fa-envelope"></i> No more emails, spreadsheets, and texting
+                                    </p>
+                                    <img src="assets/img/graph/2.png" alt="" class="flip-arrow img-fluid h-100" >
+                                </div>
+
+                                <div class="card mt-4 shadow-lg">
+                                    <img src="assets/img/graph/1.jpg" class="card-img-top" alt="Graph Image">
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-6 p-2">
-                            <div class="bg-dark text-light m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
-                                <h2 class="text-light">For Business Owners, Procurement Managers and Operations</h2>
-                                <p class="display-7">Need the results but not the disruption to business?</p>
-                                <p class="text-secondary">Consider our Price Optimization as a Service offering. Try our Procurement Improvement Service that has been designed for businesses that need the Improvements that an Efficient Pricing Service offers but do not have the time or personnel to deliver them.</p>
-                                <a href="https://ronesoft.com/request-demo/" class="btn btn-sm pb-2 pt-2 mb-5">Buy Now</a>
+                            <div class="bg-light-shade text-light m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
+                                <h3 class="heading__secondary_2 pt-5">   We support small and large businesses.</h3>
+                                 <p class="text-dark fw-bold ">  Keep your business a step ahead with  </p>
+                                   <p class="text-dark">"xChecker Procurement software.</p>
+                                   <p class="text-dark"> Procurement Specialists Explore Partner Program: </p>
+                                   <a href="" class="text-dark fw-bold text-decoration-underline">Register Here</a>
 
-                                <img src="assets\img\buysmarter\partner_xero_homepage_block_800x575_v2.1659309197912.webp" alt="" class="mt-5">
+                                <img src="assets\img\team\2.png" alt="" class="mt-5" class="img-fluid shadow-lg" >
                             </div>
                         </div>
                     </div>
@@ -395,13 +404,54 @@
             </section>
 
             <!-- Buy Smarter Area End -->
+            <!-- Buy Smarter  Area Start -->
+            {{-- <section class="about-area mb--9pt4">
+                <div class="container p-5">
+                    <div class="row g-2  d-flex align-items-stretch"> <!-- Added d-flex and align-items-stretch -->
+                        <div class="col-md-6 ps-5">
+                            <div class="col-md-6 ">
+                                <div class="flip-card bg-dark p-5">
+                                    <div class="flip-card-inner">
+                                      <div class="flip-card-front bg-dark">
+                                        <h4 class="heading__secondary_2 text-white">Do Simple RFQ or Complex RFP (RFx)</h4>
+                                        <p class="text-white">
+                                            <i class="fas fa-hand-holding-usd"></i> Simple RFQs (multiple bids and a buy)<br>
+                                            <i class="fas fa-file-contract"></i> Complex bids (company-specific tenders)<br>
+                                            <i class="fas fa-envelope"></i> No more emails, spreadsheets, and texting
+                                        </p>
+                                        <img src="assets\img\graph\pngegg.png" alt="Flip Arrow" class="flip-arrow img-fluid">
+                                      </div>
+                                      <div class="flip-card-back">
+                                        <img src="assets\img\graph\1.jpg" alt="Avatar" class="img-fluid ">
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 p-2">
+                            <div class="card">
+                                <div class="card p-3 text-white bg-grey">
+                                 <h3 class="heading__secondary_2">   We support small and large businesses.</h3>
+                                 <p>  Keep your business a step ahead with  xChecker Procurement software.</p>
+
+                                   <p> Procurement Specialists Explore Partner Program: <a href="" class="text-dark fw-bold text-decoration-underline">Register Here</a></p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> --}}
+
+            <!-- Buy Smarter Area End -->
 
             <!-- Feature Area Start -->
             <section class="feature-area mb--9pt5">
                 <div class="container">
                     <div class="row g-0 gutter-lg-30 justify-content-center">
-                        <div class="col-md-12 text-center mb-5">
-                            <h1 class="display-3">@lang('text.business_support_title')</h1>
+                        <div class="col-md-12  mb-5">
+                            <h1 class="heading__secondary">@lang('text.business_support_title')</h1>
                             <p>@lang('text.business_support_description')</p>
                         </div>
 
@@ -409,7 +459,7 @@
                             <div class="card m-4 shadow">
                                 <div class="feature text-center">
                                     <div class="feature__icon">
-                                        <img src="assets\img\industry\1.jpg" class="rounded mt-3" alt="">
+                                        <img src="assets\img\industry\3.jpg" class="rounded mt-3" alt="">
                                     </div>
                                     <div class="feature__info">
                                         <h3 class="feature__title">@lang('text.construction')</h3>
@@ -435,7 +485,7 @@
                             <div class="card m-4 shadow">
                                 <div class="feature text-center">
                                     <div class="feature__icon">
-                                        <img src="assets\img\industry\3.jpg" class="rounded mt-3" alt="">
+                                        <img src="assets\img\industry\1.jpg" class="rounded mt-3 " class="img-fluid w-75" alt="">
                                     </div>
                                     <div class="feature__info">
                                         <h3 class="feature__title">@lang('text.agriculture')</h3>
@@ -531,7 +581,7 @@
                                 <p class="text-secondary">Consider our Price Optimization as a Service offering. Try our Procurement Improvement Service that has been designed for businesses that need the Improvements that an Efficient Pricing Service offers but do not have the time or personnel to deliver them.</p>
                                 <a href="https://ronesoft.com/request-demo/" class="btn btn-sm pb-2 pt-2 mb-5">Buy Now</a>
 
-                                <img src="assets\img\buysmarter\partner_xero_homepage_block_800x575_v2.1659309197912.webp" alt="" class="mt-5">
+                                <img src="assets\img\buysmarter\1.webp" alt="" class="mt-5">
                             </div>
                         </div>
                     </div>
