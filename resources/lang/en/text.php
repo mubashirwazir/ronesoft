@@ -10,8 +10,10 @@ return [
     'projects' => 'Projects',
     'blog' => 'Blog',
     'contact' => 'Contact',
-    'slider_title' => 'Procurement Management Solution',
-    'slider_description' => 'Meet xChecker, the next generation Procurement Management Software for Buyers, Suppliers, Purchasing Managers, and Agents.',
+    'slider_title' => 'Procurement and Category Management Service.
+',
+    'slider_description' => 'Get 2 weeks of free service when you sign up right now*
+',
     'btn_text' => 'Request a demo',
     'business_support_title' => 'How xChecker supports your business type?',
     'business_support_description' => 'xChecker will make running your business so much easier. xChecker has tools you will love.',

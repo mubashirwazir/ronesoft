@@ -164,8 +164,9 @@ a, a:hover, a:focus, a:active, button, button:focus, input, select, textarea, .s
 01 - Base - Typography
 *****************************/
 .heading__primary {
-  font-size: 4.8rem;
-  line-height: 1.154; }
+  font-size: 6rem;
+  line-height: 1.154;
+ color: white;}
 
 .heading__secondary {
   font-size: 40px;
@@ -176,6 +177,36 @@ a, a:hover, a:focus, a:active, button, button:focus, input, select, textarea, .s
   @media (max-width: 47.94em) {
     .heading__secondary {
       font-size: 30px; } }
+  .heading__secondary:after {
+    width: 35px;
+    height: 5px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    border-radius: 35px; }
+  .heading__secondary--sub {
+    color: #979797; }
+
+.lh-1 {
+  line-height: 1; }
+
+.lh-1pt5 {
+  line-height: 1.5; }
+.heading__primary {
+  font-size: 6rem;
+  line-height: 1.154;
+ color: white;}
+
+.heading__secondary_2 {
+  font-size: 30px;
+  padding-bottom: 20px; }
+  @media (max-width: 61.94em) {
+    .heading__secondary {
+      font-size: 25px; } }
+  @media (max-width: 47.94em) {
+    .heading__secondary {
+      font-size: 20px; } }
   .heading__secondary:after {
     width: 35px;
     height: 5px;
@@ -1305,7 +1336,7 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .btn, .s
 .btn {
   color: #fefeff;
   background-color: #FEAE03;
-  padding: 15px 39px; }
+  padding: 10px 29px; }
   @media (max-width: 61.94em) {
     .btn {
       padding: 12px 30px; } }
@@ -1329,12 +1360,12 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .btn, .s
     border-width: 2px; }
   .btn:hover {
     background-color: transparent;
-    border-color: #1c1c1d;
-    color: #1c1c1d; }
+    border-color: #ececf1;
+    color: #ececf1; }
   .btn-hover-1:hover {
     background-color: #ffffff;
     border-color: #ffffff;
-    color: #1c1c1d; }
+    color: #ececf1; }
 
 .read-more-btn {
   border-bottom: 1px solid #dadada; }
@@ -2541,7 +2572,7 @@ font-weight: 150; }
     margin-bottom: 6rem; } }
 .buy-smarter
 {
-    background-color: #f5e4a5;
+    background-color: #f1ebeb;
 }
 /* .header__top-inner {
     flex-direction: column;
@@ -2582,4 +2613,18 @@ font-weight: 150; }
 
 /* Custom styles for small screens */
 
+.slider-container {
+    background: #3C3A3D;
+    background-size: cover;
+    background-position: center;
+}
+.bg-base
+{
+    background-color: #f7f0f0;
+    border: #f7f0f0;
+}
+.bg-black
+{
+    background-color: #3C3A3D;
+}
 

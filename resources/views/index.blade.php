@@ -195,42 +195,109 @@
         </header>
 
         <!-- Header End -->
-
         <!-- Main Content Wrapper Start -->
         <main class="main-content-wrapper p-2">
             <!-- Slider area Start -->
-            <section class="homepage-slider mb--10pt">
-                <div class="element-carousel" data-slick-options='{
-                    "slidesToShow": 1,
-                    "autoplay": true
-                }'>
-                    <div class="single-slide d-flex align-items-center"
-                        style="background-image: url('assets/img/slider/pic3avif.avif'); background-size: cover; background-position: center; height: 300px;">
-                        <div class="container">
-                            <div class="row g-0">
-                                <div class="col-lg-8 col-sm-8">
-                                    <div class="slider-content">
-                                        <h1 class="heading__primary mb--3pt6" data-animation="fadeInUp" data-duration=".3s"
-                                            data-delay=".3s" style="color: black;">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+            <section class="ms-3 me-3 homepage-slider mb-10pt">
+                <div class="element-carousel">
+                    <div class="d-flex align-items-center">
+                        <div class="container slider-container">
+                            <div class="row g-0 ps-5 pt-5 pb-5">
+                                <div class="col-lg-6 col-sm-12">
+                                    <div class="slider-content mt-3">
+                                        <h1 class="heading__primary mb-3pt6">
+                                            <i class="fas fa-quote-left text-secondary"></i><br>
                                             @lang('text.slider_title')
                                         </h1>
-                                        <p>
+                                        <p class="text-white">
+                                            Get back to doing what you do best and leave your Procurement Management and Buying activities to us.
+                                        </p>
+                                        <p class="text-white">
                                             @lang('text.slider_description')
                                         </p>
-                                        <a href="https://calendly.com/rslgary/ronesoft-demo" class="btn fw-bold"
-                                            data-animation="fadeInUp" data-duration=".3s" data-delay=".6s">
+                                        <a href="https://calendly.com/rslgary/ronesoft-demo" class="btn btn-primary fw-bold mb-3">
                                             @lang('text.btn_text')
                                         </a>
                                     </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
+                                    <img src="assets/img/slider/2.png" alt="Professional Team" class="img-fluid slider-image">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            <div class="p-3"></div>
+            {{-- Feature section --}}
+            <section class="features-section pt-5 pb-5 mt-5 ">
+                <div class="container bg-base">
+                    <div class="container">
+                        <div class=" mb-4 pt-5">
+                            <h2 class="heading__secondary">Spend more time on your core business</h2>
+                            <p>Try our Procurement and Category Management Service for every business. You focus on the results. We manage the hard work with our tools and analytics so you can Buy Smarter
+                                <a href="#" class="text-dark text-underline fw-bold text-decoration-underline">Explore all features.</a>
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card p-4  bg-base ">
+                                    <div class="row g-0">
+                                        <div class="col-2">
+                                          <img src="assets\img\icons\16852407.png" class="img-fluid w-100" alt="">
+                                        </div>
+                                        <div class="col-10 card-body ">
+                                         <h1 class="fw-bold">All Supplier Information in one place.
+                                        </h1>
+                                        </div>
+                                        <p class="card-text">Centralize your data and eliminate multiple spreadsheets.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card p-4  bg-base ">
+                                    <div class="row g-0">
+                                        <div class="col-2">
+                                          <img src="assets\img\icons\16852407.png" class="img-fluid w-100" alt="">
+                                        </div>
+                                        <div class="col-10 card-body ">
+                                         <h2 class="fw-bold">Categories, Products and Services  in one place.
+                                        </h2>
+                                        </div>
+                                        <p class="card-text">For traceability, repeatability, and historical information.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class="card p-4  bg-base ">
+                                    <div class="row g-0">
+                                        <div class="col-2">
+                                          <img src="assets\img\icons\16852407.png" class="img-fluid w-100" alt="">
+                                        </div>
+                                        <div class="col-10 card-body ">
+                                         <h2 class="fw-bold">Buy Smarter. Analytics and Insight
+                                        </h2>
+                                        </div>
+                                        <p class="card-text">Trend analysis, identify optimization opportunities, smart reporting.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+{{-- Feature section --}}
             <!-- Slider area End -->
             <!-- About Area Start -->
-<section class="about-area mb--9pt4">
+{{-- <section class="about-area mb--9pt4">
     <div class="container-fluid p-0">
         <div class="row g-0">
             <div class="col-md-6">
@@ -257,7 +324,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- About Area End -->
 
 
@@ -267,18 +334,31 @@
                     <div class="row g-2 text-center d-flex align-items-stretch"> <!-- Added d-flex and align-items-stretch -->
                         <div class="col-md-6 p-2">
                             <div class="buy-smarter m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
-                                <h1>xChecker, Buy Smarter</h1>
-                                <p class="display-6">Let xChecker do the heavy lifting for you</p>
-                                <p class="text-secondary">Implementing xChecker will simplify your purchasing negotiation process, systemize it and most importantly improve your company’s ability to Buy Smarter.</p>
+                                <h1 class="heading__secondary_2 "> <a href="#" class="text-dark text-decoration-underline">Try our Service for free
+                                </a>
+                                </h1>
+                                <p >Access all our service features for 14 days, then decide.
+                                </p>
+                                <p class="fw-bold">Or</p>
+                               <p> <a href="https://xchecker.ronesoft.com/registration
+" class="text-dark fw-bold text-decoration-underline">Register Here</a>  to self manage your account on our platform, xChecker.
+                               </p>
                                 <img src="assets\img\buysmarter\pngwing.com.png" alt="">
                             </div>
                         </div>
                         <div class="col-md-6 p-2">
-                            <div class="bg-dark text-light m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
-                                <h2 class="text-light">For Business Owners, Procurement Managers and Operations</h2>
-                                <p class="display-7">Need the results but not the disruption to business?</p>
-                                <p class="text-secondary">Consider our Price Optimization as a Service offering. Try our Procurement Improvement Service that has been designed for businesses that need the Improvements that an Efficient Pricing Service offers but do not have the time or personnel to deliver them.</p>
-                                <a href="https://ronesoft.com/request-demo/" class="btn btn-sm pb-2 pt-2 mb-5">Buy Now</a>
+                            <div class="bg-black text-light m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
+                                <h2 class="text-light heading__secondary_2">For Business Owners
+                                    Procurement Managers
+                                   Operators
+                                   </h2>
+                                <p >Expand your team’s capabilities without disruption to business</p>
+                                <p >Get instant results from xChecker next generation procurement platform without the burden of learning yet another software.
+                                </p>
+                                <p >Get access to pre-negotiated products and services pricing where available.
+                                </p>
+                                <p class="fw-bold" >Gain smart insight and Buy Smarter.
+                                </p>
 
                                 <img src="assets\img\buysmarter\partner_xero_homepage_block_800x575_v2.1659309197912.webp" alt="" class="mt-5">
                             </div>
