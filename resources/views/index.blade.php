@@ -238,7 +238,7 @@
                         <div class=" mb-4 pt-5">
                             <h2 class="heading__secondary">Spend more time on your core business</h2>
                             <p>Try our Procurement and Category Management Service for every business. You focus on the results. We manage the hard work with our tools and analytics so you can Buy Smarter
-                                <a href="#" class="text-dark text-underline fw-bold text-decoration-underline">Explore all features.</a>
+                                <a href="#" class="text-dark text-underline fw-bold text-decoration-underline1">Explore all features.</a>
                             </p>
                         </div>
                         <div class="row">
@@ -268,8 +268,7 @@
                                          <h2 class="fw-bold">Categories, Products and Services  in one place.
                                         </h2>
                                         </div>
-                                        <p class="card-text">For traceability, repeatability, and historical information.
-                                        </p>
+                                       .
                                     </div>
                                 </div>
                             </div>
@@ -331,131 +330,197 @@
             <!-- Buy Smarter  Area Start -->
             <section class="about-area mb--9pt4">
                 <div class="container p-5">
-                    <div class="row g-2 text-center d-flex align-items-stretch"> <!-- Added d-flex and align-items-stretch -->
-                        <div class="col-md-6 p-2">
-                            <div class="buy-smarter m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
-                                <h1 class="heading__secondary_2 "> <a href="#" class="text-dark text-decoration-underline">Try our Service for free
-                                </a>
-                                </h1>
-                                <p >Access all our service features for 14 days, then decide.
-                                </p>
-                                <p class="fw-bold">Or</p>
-                               <p> <a href="https://xchecker.ronesoft.com/registration" class="text-dark fw-bold text-decoration-underline">Register Here</a>  to self manage your account on our platform, xChecker.
-                               </p>
-                                <img src="assets\img\buysmarter\pngwing.com.png" alt="">
-                            </div>
+                    <div class="row g-2 text-center d-flex align-items-stretch">
+                        <div class="col-md-6">
+                          <div class="bg-yellow text-white m-4 p-5 pb-0 mb-0 rounded d-flex flex-column h-100">
+                            <h1 class="heading__secondary_2 text-white">
+                              <a href="#" class="text-decoration-underline2">Try our Service for free</a>
+                            </h1>
+                            <p>Access all our service features for 14 days, then decide.</p>
+                            <p class="fw-bold text-center fs-1">Or</p>
+                            <p>
+                              <a href="https://xchecker.ronesoft.com/registration" class="text-white fw-bold text-decoration-underline1">Register Here</a>
+                              to self manage your account on our platform, xChecker.
+                            </p>
+                            <img src="assets/img/buysmarter/2.webp" alt="" class="img-fluid mt-auto" style="width: 100%;">
+                          </div>
                         </div>
                         <div class="col-md-6 p-2">
-                            <div class="bg-black text-light m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
-                                <h2 class="text-light heading__secondary_2">For Business Owners
-                                    Procurement Managers
-                                   Operators
-                                   </h2>
-                                <p >Expand your team’s capabilities without disruption to business</p>
-                                <p >Get instant results from xChecker next generation procurement platform without the burden of learning yet another software.
-                                </p>
-                                <p >Get access to pre-negotiated products and services pricing where available.
-                                </p>
-                                <p class="fw-bold" >Gain smart insight and Buy Smarter.
-                                </p>
-
-                                <img src="assets\img\buysmarter\partner_xero_homepage_block_800x575_v2.1659309197912.webp" alt="" class="mt-5">
-                            </div>
+                          <div class="bg-black text-light m-4 p-5 pb-0 mb-0 rounded d-flex flex-column h-100">
+                            <h2 class="heading__secondary_2 mb-30">
+                              <span class="heading__secondary--main text-light">For Business Owners Procurement <span class="heading__secondary--sub">Managers Operators</span></span>
+                            </h2>
+                            <p>Expand your team’s capabilities without disruption to business</p>
+                            <p>Get instant results from xChecker next generation procurement platform without the burden of learning yet another software.</p>
+                            <p>Get access to pre-negotiated products and services pricing where available.</p>
+                            <p class="fw-bold">Gain smart insight and Buy Smarter.</p>
+                            <img src="assets/img/buysmarter/partner_xero_homepage_block_800x575_v2.1659309197912.webp" alt="" class="img-fluid w-75 mt-auto">
+                          </div>
                         </div>
-                    </div>
+                      </div>
                 </div>
             </section>
 
             <!-- Buy Smarter Area End -->
             <!-- Buy Smarter  Area Start -->
-            <section class="about-area mb--9pt4">
+            <section class="about-area mb-9pt4">
                 <div class="container p-5">
-                    <div class="row g-2 text-center d-flex align-items-stretch"> <!-- Added d-flex and align-items-stretch -->
-                        <div class="col-md-6 p-2 ">
-                            <div class="buy-smarter m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
-                                <div class="card p-5 shadow-lg">
-                                    <h1 class="heading__secondary_2">Do Simple RFQ or Complex RFP (RFx)</h1>
-                                    <p class="text-start ms-4 ">
-                                        <i class="fas fa-hand-holding-usd"></i> Simple RFQs (multiple bids and a buy)<br>
-                                        <i class="fas fa-file-contract"></i> Complex bids (company-specific tenders)<br>
-                                        <i class="fas fa-envelope"></i> No more emails, spreadsheets, and texting
-                                    </p>
-                                    <img src="assets/img/graph/2.png" alt="" class="flip-arrow img-fluid h-100" >
-                                </div>
-
-                                <div class="card mt-4 shadow-lg">
-                                    <img src="assets/img/graph/1.jpg" class="card-img-top" alt="Graph Image">
-                                </div>
-                            </div>
-                        </div>
+                    <div class="row g-2  d-flex align-items-stretch">
                         <div class="col-md-6 p-2">
-                            <div class="bg-light-shade text-light m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
-                                <h3 class="heading__secondary_2 pt-5">   We support small and large businesses.</h3>
-                                 <p class="text-dark fw-bold ">  Keep your business a step ahead with  </p>
-                                   <p class="text-dark">"xChecker Procurement software.</p>
-                                   <p class="text-dark"> Procurement Specialists Explore Partner Program: </p>
-                                   <a href="" class="text-dark fw-bold text-decoration-underline">Register Here</a>
-
-                                <img src="assets\img\team\2.png" alt="" class="mt-5" class="img-fluid shadow-lg" >
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Buy Smarter Area End -->
-            <!-- Buy Smarter  Area Start -->
-            {{-- <section class="about-area mb--9pt4">
-                <div class="container p-5">
-                    <div class="row g-2  d-flex align-items-stretch"> <!-- Added d-flex and align-items-stretch -->
-                        <div class="col-md-6 ps-5">
-                            <div class="col-md-6 ">
-                                <div class="flip-card bg-dark p-5">
+                            <div class="buy-smarter m-4 p-5 pb-0 mb-0 rounded h-100">
+                                <div class="flip-card">
                                     <div class="flip-card-inner">
-                                      <div class="flip-card-front bg-dark">
-                                        <h4 class="heading__secondary_2 text-white">Do Simple RFQ or Complex RFP (RFx)</h4>
-                                        <p class="text-white">
-                                            <i class="fas fa-hand-holding-usd"></i> Simple RFQs (multiple bids and a buy)<br>
-                                            <i class="fas fa-file-contract"></i> Complex bids (company-specific tenders)<br>
-                                            <i class="fas fa-envelope"></i> No more emails, spreadsheets, and texting
-                                        </p>
-                                        <img src="assets\img\graph\pngegg.png" alt="Flip Arrow" class="flip-arrow img-fluid">
-                                      </div>
-                                      <div class="flip-card-back">
-                                        <img src="assets\img\graph\1.jpg" alt="Avatar" class="img-fluid ">
-                                      </div>
+                                        <div class="flip-card-front p-5">
+                                            <h1 class="heading__secondary fs-1 text-start">Do Simple RFQ or Complex RFP (RFx)</h1>
+                                            <p class="text-start ms-4">
+                                                <i class="fas fa-hand-holding-usd" style="color: #28a745;"></i> Simple RFQs (multiple bids and a buy)<br>
+                                                <i class="fas fa-file-contract" style="color: #007bff;"></i> Complex bids (company-specific tenders)<br>
+                                                <i class="fas fa-envelope" style="color: #dc3545;"></i> No more emails, spreadsheets, and texting
+                                            </p>
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <img src="assets/img/graph/1.jpg" alt="Graph Image" class="card-img-top img-fluid rounded">
+                                        </div>
                                     </div>
-                                  </div>
+                                </div>
+                                <img src="assets/img/buysmarter/1.webp" alt="" class="img-fluid pt-5">
                             </div>
-
                         </div>
+
                         <div class="col-md-6 p-2">
-                            <div class="card">
-                                <div class="card p-3 text-white bg-grey">
-                                 <h3 class="heading__secondary_2">   We support small and large businesses.</h3>
-                                 <p>  Keep your business a step ahead with  xChecker Procurement software.</p>
+                            <div class="bg-black m-4 p-5 pb-0 mb-0 rounded h-100 d-flex flex-column justify-content-between"> <!-- Added flex-column and justify-content-between -->
+                                <div>
+                                    <h3 class="heading__secondary fs-1 text-start pt-5 text-light">We support small and large businesses.</h3>
+                                    <p class="text-light">Keep your business a step ahead with "xChecker Procurement software.</p>
+                                    <p class="text-light">Procurement Specialists Explore Partner Program:</p>
+                                    <a href="https://ronesoft.com/request-demo/" class="btn btn-warning btn-lg mb-4">Register Here</a> <!-- Updated button class for better styling -->
 
-                                   <p> Procurement Specialists Explore Partner Program: <a href="" class="text-dark fw-bold text-decoration-underline">Register Here</a></p>
-
+                                </div>
+                                <div>
+                                    <img src="assets/img/team/4.png" alt="" class="img-fluid  w-75 p-5 ms-4  rounded-circle text-center">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section> --}}
+            </section>
+            <div class="p-5"></div>
 
             <!-- Buy Smarter Area End -->
+
+            {{-- form --}}
+            <section class=" mb--9pt mb-sm--7pt6">
+                <div class="container  p-4">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-6 offset-lg-1">
+                            <div class="contact-widget">
+
+                                <h2 class="heading__secondary mb--30">
+                                    <span class="heading__secondary--main ">Issue and Expedite Purchase Orders
+                                    </span>
+                                    <span class="heading__secondary--sub">Instantly</span>
+                                </h2>
+                                <p class="m-0 color--dust">No more manual Purchase Orders <br>
+                                    Instantly Sync Offers and Purchase Orders <br>
+                                    Track and Monitor Purchase Orders to delivery <br>
+                                    No conflict between Offer and Purchase
+                                    </p>
+                                <a href="tel:+01223566678"><strong></strong></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-sm--45 pe-5">
+                            <img src="assets\img\graph\image.png" alt="" class="img-fluid w-75">
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <!-- Services Area Start -->
+             <section class="services-area mb--9pt mb-md--8pt5">
+                <div class="container">
+                    <div class="row mb--60 mb-md--50">
+                        <div class="col-12 text-center">
+                            <h2 class="heading__secondary">xChecker, Buy Smarter</h2>
+                            {{-- <hr class="delimeter mx-auto"> --}}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-sm-40 ">
+                          <div class="card text-center shadow-lg ms-5 me-5 pt-4 pb-4">
+                            <img src="assets/img/icons/1.png" alt="Service" class="card-img-top img-fluid w-25 mx-auto">
+                            <a href="single-service.html" class="item-overlay"></a>
+                            <div class="card-body service__info">
+                              <h3 class="card-title service__title mt-3"><a href="single-service.html">Monthly Reporting</a></h3>
+                              <span class="card-subtitle service__category">/Savings</span>
+                              <p class="card-text color--dust mt-3 ">
+                                Measure actual monthly savings <br>
+                                Automated savings reporting <br>
+                                Understand pricing trends <br>
+
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6 mb-sm-40">
+                          <div class="card text-center shadow-lg ms-5 me-5 pt-4 pb-4;'\">
+                            <img src="assets/img/icons/2.png" alt="Service" class="card-img-top img-fluid w-25 mx-auto">
+                            <a href="single-service.html" class="item-overlay"></a>
+                            <div class="card-body service__info">
+                              <h3 class="card-title service__title mt-3"><a href="single-service.html">Price Trend Convergence</a></h3>
+                              <span class="card-subtitle service__category">/Divergence</span>
+                              <p class="card-text color--dust mt-3 pb-4">
+                                Advanced analytics <br>
+                                Technical charts <br>
+                                Smarter decisions
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </section>
+            <!-- Services Area End -->
+
+
+            <div class="p-3"></div>
+
+            <section class="mb-5">
+                <div class="container mt-5 mb-5">
+                    <div class="row justify-content-center text-center">
+                      <div class="col-md-6">
+                        <h2 class="heading__secondary mb--30">
+                            <span class="heading__secondary--main">Try xChecker for free</span>
+                            <span class="heading__secondary--sub mt2">$0 Per month</span>
+                        </h2>
+
+                          <ul class="list-unstyled fs-1">
+                            <li>✓ Access xChecker features</li>
+                            <li>✓ Setup your account</li>
+                            <li>✓ No credit card required</li>
+                            <li>✓ Cancel any time</li>
+                          </ul>
+                          <p class="pb-4">Access all xChecker features for 14 days, then decide.</p>
+                          <a href="page9.html" class="fs-2 btn-light btn-sm p-3 mb-5">Start free trial now</a>
+                          <span class="ms-4 text-secondary me-4 fs-1 fw-bold ">Or</span>
+                          <a href="page11.html" class="fs-2 btn-light btn-sm p-3 mb-5 ">Explore all features</a>
+
+                      </div>
+                    </div>
+                  </div>
+            </section>
+
+            <div class="p-3"></div>
 
             <!-- Feature Area Start -->
-            <section class="feature-area mb--9pt5">
+            <section class="feature-area mb--9pt5 mt-5 p-5">
                 <div class="container">
-                    <div class="row g-0 gutter-lg-30 justify-content-center">
+                    <div class="row g-0 gutter-lg-30 justify-content-center m-5">
                         <div class="col-md-12  mb-5">
                             <h1 class="heading__secondary">@lang('text.business_support_title')</h1>
                             <p>@lang('text.business_support_description')</p>
                         </div>
 
-                        <div class="col-xl-4 col-md-6 mb-sm-45">
+                        <div class="col-xl-4 col-md-6 mb-sm-45 ">
                             <div class="card m-4 shadow">
                                 <div class="feature text-center">
                                     <div class="feature__icon">
@@ -498,7 +563,7 @@
                             <div class="card m-4 shadow">
                                 <div class="feature text-center">
                                     <div class="feature__icon">
-                                        <img src="assets\img\industry\4.jpg" class="rounded mt-3" alt="">
+                                        <img src="assets\img\industry\4.jpg" class="rounded mt-3 img-fluid" alt="">
                                     </div>
                                     <div class="feature__info">
                                         <h3 class="feature__title">@lang('text.distribution')</h3>
@@ -563,14 +628,14 @@
             </section>
             <!-- Feature Area End -->
              <!-- Buy Smarter  Area Start -->
-             <section class="about-area mb--9pt4">
+             {{-- <section class="about-area mb--9pt4">
                 <div class="container p-5">
                     <div class="row g-2 text-center d-flex align-items-stretch"> <!-- Added d-flex and align-items-stretch -->
-                        <div class="col-md-6 p-2">
-                            <div class="buy-smarter m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
-                                <h1>xChecker, Buy Smarter</h1>
-                                <p class="display-6">Let xChecker do the heavy lifting for you</p>
-                                <p class="text-secondary">Implementing xChecker will simplify your purchasing negotiation process, systemize it and most importantly improve your company’s ability to Buy Smarter.</p>
+                        <div class="col-md-6 p-2 bg-warning">
+                            <div class=" m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
+                                <h1 class="text-white">xChecker, Buy Smarter</h1>
+                                <p class="display-6 text-white">Let xChecker do the heavy lifting for you</p>
+                                <p class="text-secondary text-white">Implementing xChecker will simplify your purchasing negotiation process, systemize it and most importantly improve your company’s ability to Buy Smarter.</p>
                                 <img src="assets\img\buysmarter\pngwing.com.png" alt="">
                             </div>
                         </div>
@@ -586,7 +651,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
 
             <!-- Buy Smarter Area End -->
 
@@ -594,7 +659,7 @@
 
 
             <!-- Services Area Start -->
-            <section class="services-area mb--9pt mb-md--8pt5">
+            {{-- <section class="services-area mb--9pt mb-md--8pt5">
                 <div class="container">
                     <div class="row mb--60 mb-md--50">
                         <div class="col-12 text-center">
@@ -650,7 +715,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- Services Area End -->
 
             <!-- Tetimonial Area Start -->
@@ -761,9 +826,33 @@
                 </div>
             </section> --}}
             <!-- Tetimonial Area End -->
+          <!-- xChecker, Buy Smarter -->
+          <section class="about-area mb--9pt4">
+            <div class="container p-5">
+                <div class="row g-2 text-center d-flex align-items-stretch"> <!-- Added d-flex and align-items-stretch -->
+                    <div class="  col-md-6 p-2 ">
+                        <div class="bg-yellow m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
+                            <h1 class="text-white">xChecker, Buy Smarter</h1>
+                            <p class="display-6 text-white">Let xChecker do the heavy lifting for you</p>
+                            <p class="text-secondary text-white">Implementing xChecker will simplify your purchasing negotiation process, systemize it and most importantly improve your company’s ability to Buy Smarter.</p>
+                            <img src="assets\img\buysmarter\2.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-2">
+                        <div class="bg-dark text-light m-4 p-5 pb-0 mb-0 rounded h-100"> <!-- Added h-100 -->
+                            <h2 class="text-light">For Business Owners, Procurement Managers and Operations</h2>
+                            <p class="display-7">Need the results but not the disruption to business?</p>
+                            <p class="text-secondary">Consider our Price Optimization as a Service offering. Try our Procurement Improvement Service that has been designed for businesses that need the Improvements that an Efficient Pricing Service offers but do not have the time or personnel to deliver them.</p>
+                            <a href="https://ronesoft.com/request-demo/" class="btn btn-sm pb-2 pt-2 mb-5">Buy Now</a>
 
+                            <img src="assets\img\buysmarter\1.webp" alt="" class="mt-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
             <!-- Gallery Area Start -->
-            <section class="gallery-area mb--10pt mb-sm--8pt7">
+            {{-- <section class="gallery-area mb--10pt mb-sm--8pt7">
                 <div class="container">
                     <div class="row mb--60 mb-md--50">
                         <div class="col-12 text-center">
@@ -900,11 +989,11 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- Gallery Area End -->
 
             <!-- Contact Area Start -->
-            <section class="contact-area mb--9pt mb-sm--7pt6">
+            {{-- <section class="contact-area mb--9pt mb-sm--7pt6">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 mb-sm--45">
@@ -932,11 +1021,11 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- Contact Area End -->
 
             <!-- Blog Area Start -->
-            <section class="blog-area mb--9pt3 mb-sm--8pt8">
+            {{-- <section class="blog-area mb--9pt3 mb-sm--8pt8">
                 <div class="container">
                     <div class="row mb--60 mb-md--50">
                         <div class="col-12 text-center">
@@ -1091,7 +1180,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
             <!-- Blog Area End -->
 
             <!-- Brand Logo Area Start -->
