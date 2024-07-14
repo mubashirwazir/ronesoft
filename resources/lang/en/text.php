@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'welcome' => 'Welcome to RonneSoft',
+    'welcome' => 'Welcome to RONEsoft',
     'login' => 'Login',
     'register' => 'Register',
     'home' => 'Home',
@@ -10,18 +10,19 @@ return [
     'projects' => 'Projects',
     'blog' => 'Blog',
     'contact' => 'Contact',
-    'slider_title' => 'Procurement and Category Management Service.
-',
-    'slider_description' => 'Get 2 weeks of free service when you sign up right now*
-',
+    'features' => 'Features',
+    'faq' => 'FAQ',
+    'slider_title' => 'Procurement and Category Management Service.',
+    'slider_description1' => 'Get 2 weeks of free service when you',
+    'slider_description2' => ' up right now*',
     'btn_text' => 'Request a demo',
     'business_support_title' => 'How xChecker supports your business type?',
-    'business_support_description' => 'xChecker will make running your business so much easier. xChecker has tools you will love.',
+    'business_support_description' => 'Manage your procurement and Buy Smarter across all these and more industry segments and categories.',
     'construction' => 'Construction',
     'manufacturing' => 'Manufacturing',
     'agriculture' => 'Agriculture',
     'distribution' => 'Distribution',
-    'resources' => 'Resources',
+    'resources' => 'Oil and Gas',
     'processing' => 'Processing',
     'municipalities' => 'Municipalities',
     'haulage_transport' => 'Haulage & Transport',

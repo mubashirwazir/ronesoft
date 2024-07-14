@@ -1,14 +1,14 @@
 <?php
 
 return [
-    'welcome' => 'Bienvenido a Contixs',
+    'welcome' => 'Bienvenido a RONEsoft',
     'login' => 'Iniciar sesión',
     'register' => 'Registrarse',
     'home' => 'Inicio',
     'about' => 'Acerca de',
-    'services' => 'Servicios',
+    'features' => 'Características', // Changed from 'services' to 'features'
     'projects' => 'Proyectos',
-    'blog' => 'Blog',
+    'faq' => 'Preguntas Frecuentes', // Added FAQ
     'contact' => 'Contacto',
     'slider_title' => 'Solución de Gestión de Compras',
     'slider_description' => 'Conozca xChecker, el software de Gestión de Compras de próxima generación para Compradores, Proveedores, Gerentes de Compras y Agentes.',
