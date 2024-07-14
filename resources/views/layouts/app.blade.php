@@ -23,6 +23,7 @@
     <!-- style css -->
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/scss/main.scss">
+
 </head>
 
 <body>
@@ -33,6 +34,7 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+   
 </body>
 
 </html>

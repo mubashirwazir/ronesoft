@@ -10,7 +10,7 @@
     // Global State Object
     var state = {};
     window.state = state;
-    
+
 
 	// Variables
 
@@ -29,7 +29,7 @@
 
 	/**********************
 	*Background Color settings
-	***********************/ 
+	***********************/
 	var $bgcolor = $('.bg-color');
 	$bgcolor.each(function(){
 		var $this = $(this),
@@ -39,7 +39,7 @@
 
 	/**********************
 	*Background Image settings
-	***********************/ 
+	***********************/
 
 	var $bgimage = $('.bg-image');
 	$bgimage.each(function(){
@@ -63,19 +63,19 @@
 
 	/**********************
 	*Off Canvas Menu
-	***********************/ 
+	***********************/
 
 
     /*Variables*/
     var $offcanvasNav = $('.offcanvas-menu'),
         $offcanvasNavSubMenu = $offcanvasNav.find('.sub-menu');
-    
+
     /*Add Toggle Button With Off Canvas Sub Menu*/
     $offcanvasNavSubMenu.parent().prepend('<span class="menu-expand"><i class="fa fa-angle-down"></i></span>');
-    
+
     /*Close Off Canvas Sub Menu*/
     $offcanvasNavSubMenu.slideUp();
-    
+
     /*Category Sub Menu Toggle*/
     $offcanvasNav.on('click', 'li a, li .menu-expand', function(e) {
         var $this = $(this);
@@ -94,7 +94,7 @@
         	$this.toggleClass('menu-open');
         }
     });
-	
+
 
 
 
@@ -113,7 +113,7 @@
 			$(scrollTop).css("opacity", "0");
 		}
 
-	}); 
+	});
 
 	$(scrollTop).on('click',function() {
 		$('html, body').animate({
@@ -121,7 +121,7 @@
 		}, 800);
 		return false;
 
-	}); 
+	});
 
 
 	/**********************
@@ -197,7 +197,7 @@
 	$body.on('click', function (e){
 	    var $target = e.target;
 	    var dom = $('.wrapper').children();
-	    
+
 	    if (!$($target).is('.toolbar-btn') && !$($target).is('.product-filter-btn') && !$($target).parents().is('.open')) {
 	        dom.removeClass('open');
 	        $body.removeClass('body-open');
@@ -221,7 +221,7 @@
 
 	/**********************
 	*Sticky Header
-	***********************/ 
+	***********************/
 
 	var $position = $(window).scrollTop();
 	if($position > $headerTotalHeight){
@@ -250,7 +250,7 @@
 
 	/**********************
 	*BootStrap Tab
-	***********************/ 
+	***********************/
 
 	$('a[data-bs-toggle="tab"]').on('shown.bs.tab', function (e) {
 		var target = $(e.target).attr("href");
@@ -261,7 +261,7 @@
 
 	/**********************
 	*Progress bar
-	***********************/ 
+	***********************/
 
 	$('.progress-bar').each(function() {
 		var $value = $(this).attr('aria-valuenow');
@@ -270,9 +270,9 @@
 
 	/**********************
 	*Element Carousel
-	***********************/ 
+	***********************/
 
-	   
+
 	function customPagingNumb($pagingOptions){
 		var i = ($pagingOptions.currentSlide ? $pagingOptions.currentSlide : 0) + 1;
 		var $current = i.toString().padStart(2, '0');
@@ -297,15 +297,15 @@
 	    if( $html.attr("dir") == "rtl" || $body.attr("dir") == "rtl" ){
 	        $elementCarousel.attr("dir", "rtl");
 	    }
- 
+
 		$elementCarousel.each(function(index, element){
-			var $this = $(this);	
+			var $this = $(this);
 
 			// Carousel Options
 			var $parent = $(this).parent()[0];
 			var $status = $($parent).find('.custom-paging');
 
-			var $options = typeof $this.data('slick-options') !== 'undefined' ? $this.data('slick-options') : ''; 
+			var $options = typeof $this.data('slick-options') !== 'undefined' ? $this.data('slick-options') : '';
 
 			var $spaceBetween = $options.spaceBetween ? parseInt($options.spaceBetween, 10) : 0,
 			    $spaceBetween_xl = $options.spaceBetween_xl ? parseInt($options.spaceBetween_xl, 10) : 0,
@@ -344,12 +344,12 @@
 			    $responsiveArray = [];
 			    for (var i = 0; i < $responsiveSettingLength; i++) {
 					$responsiveArray[i] = $responsiveSetting[i];
-					
+
 				}
 
 			// Adding Class to instances
-			$this.addClass('slick-carousel-'+index);		
-			$this.parent().find('.slick-dots').addClass('dots-'+index);		
+			$this.addClass('slick-carousel-'+index);
+			$this.parent().find('.slick-dots').addClass('dots-'+index);
 			$this.parent().find('.slick-btn').addClass('btn-'+index);
 
 			if($spaceBetween != 0){
@@ -360,7 +360,7 @@
 				addClassToItem($this);
 				$slideCount = slick.slideCount;
 				if($slideCount <= $slidesToShow){
-					$this.children('.slick-dots').hide();	
+					$this.children('.slick-dots').hide();
 				}
 				if($customPaging == true){
 					var $current = '01';
@@ -368,7 +368,7 @@
 					$status.html('<span class="current">'+$current+'</span>/<span class="total">'+$total+'</span>');
 				}
 		        var $firstAnimatingElements = $('.slick-slide').find('[data-animation]');
-		        doAnimations($firstAnimatingElements);  
+		        doAnimations($firstAnimatingElements);
 			});
 
 			$this.slick({
@@ -399,7 +399,7 @@
 				responsive: $responsiveArray,
 			});
 
-			
+
 
 			$this.on('beforeChange', function(e, slick, currentSlide, nextSlide) {
 				removeClassFromItem($this);
@@ -449,7 +449,7 @@
 
 
 	/**********************
-	*WOW Js activation 
+	*WOW Js activation
 	***********************/
 
 	new WOW().init();
@@ -458,7 +458,7 @@
 
 	/**********************
 	*Magnific Popup Activation
-	***********************/ 
+	***********************/
 
 	var imagePopup = $('.popup-btn');
 	var videoPopup = $('.video-popup');
@@ -487,7 +487,7 @@
 
 
 	/*================================
-	    Accordion 
+	    Accordion
 	==================================*/
 
 	$('.btn-link').on('click', function(e){
@@ -518,7 +518,7 @@
         }
     }
 	/**********************
-	* Light Gallery 
+	* Light Gallery
 	***********************/
 
 	var productThumb = $(".portfolio__img img"),
@@ -540,10 +540,10 @@
             dynamicEl: images
         });
     });
-    
+
 
 	/**********************
-	*Preloader 
+	*Preloader
 	***********************/
 
 	$(window).on('load', function(){
@@ -583,3 +583,35 @@
         $(window).trigger('resize');
     }
 })(jQuery);
+
+let currentStep = 0;
+
+function showStep(step) {
+    const steps = document.querySelectorAll('.step');
+    const stepIndicators = document.querySelectorAll('.step-indicator');
+    steps.forEach((stepElement, index) => {
+        stepElement.classList.toggle('active', index === step);
+        stepIndicators[index].classList.toggle('active', index === step);
+    });
+    currentStep = step;
+}
+
+function nextStep() {
+    showStep(currentStep + 1);
+}
+
+function previousStep() {
+    showStep(currentStep - 1);
+}
+document.querySelectorAll('.accordion-header').forEach(item => {
+    item.addEventListener('click', event => {
+        const currentlyActive = document.querySelector('.accordion-header.active');
+        if (currentlyActive && currentlyActive !== item) {
+            currentlyActive.classList.toggle('active');
+            currentlyActive.nextElementSibling.style.display = 'none';
+        }
+        item.classList.toggle('active');
+        const content = item.nextElementSibling;
+        content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    });
+});

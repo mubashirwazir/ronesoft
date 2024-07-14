@@ -5,194 +5,7 @@
     {{-- <!-- Main Wrapper Start --> --}}
     <div class="wrapper">
         <!-- Header Start -->
-        <header class="header site-header">
-            <div class="header__outer">
-                <div class="header__inner header--fixed">
-                    <div class="header__top">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="header__top-inner d-flex justify-content-between align-items-center flex-wrap">
-                                        <div class="header__top-left d-none d-md-block">
-                                            {{ __('text.welcome') }}
-                                        </div>
-                                        <div class="header__top-right">
-                                            <ul class="list-inline top-menu mb-0">
-                                                <li class="list-inline-item text-uppercase small-screen-text"><a href="https://xchecker.ronesoft.com/Account/Login">{{ __('text.login') }}</a></li>
-                                                <li class="list-inline-item text-uppercase small-screen-text"><a href="https://xchecker.ronesoft.com/Account/Register">{{ __('text.register') }}</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="language-switcher">
-                                            <ul class="list-inline top-menu mb-0">
-                                                <li class="list-inline-item small-screen-text"><a href="{{ route('changeLang', ['lang' => 'en']) }}">
-                                                    <img src="assets/img/icons/en_US.png" alt=""> English
-                                                </a></li>
-                                                <li class="list-inline-item small-screen-text"><a href="{{ route('changeLang', ['lang' => 'pt']) }}">
-                                                    <img src="assets/img/icons/fr_FR.png" alt=""> Portuguese
-                                                </a></li>
-                                                <li class="list-inline-item small-screen-text"><a href="{{ route('changeLang', ['lang' => 'es']) }}">
-                                                    <img src="assets/img/icons/es_ES.png" alt=""> Spanish
-                                                </a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-                    <div class="header__middle">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="header__middle-inner">
-                                        <div class="header__middle-left">
-                                            <div class="logo">
-                                                <a href="index.html" class="logo--normal">
-                                                    <img src="assets/img/logo/logo1.png" alt="Logo">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="header__middle-center">
-                                            <nav class="main-navigation text-center d-none d-lg-block">
-                                                <ul class="mainmenu">
-                                                    <li class="mainmenu__item menu-item-has-children">
-                                                        <a href="index.html" class="mainmenu__link">
-                                                            <span data-hover="{{ __('text.home') }}" class="mm-text">{{ __('text.home') }}</span>
-                                                        </a>
-                                                        <ul class="sub-menu">
-                                                            <li>
-                                                                <a href="index.html">
-                                                                    <span data-hover="{{ __('text.homepage_01') }}" class="mm-text">{{ __('text.homepage_01') }}</span>
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="index-02.html">
-                                                                    <span data-hover="{{ __('text.homepage_02') }}" class="mm-text">{{ __('text.homepage_02') }}</span>
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="mainmenu__item">
-                                                        <a href="about-us.html" class="mainmenu__link">
-                                                            <span data-hover="{{ __('text.about') }}" class="mm-text">{{ __('text.about') }}</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="mainmenu__item">
-                                                        <a href="services.html" class="mainmenu__link">
-                                                            <span data-hover="{{ __('text.services') }}" class="mm-text">{{ __('text.services') }}</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="mainmenu__item">
-                                                        <a href="our-projects.html" class="mainmenu__link">
-                                                            <span data-hover="{{ __('text.projects') }}" class="mm-text">{{ __('text.projects') }}</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="mainmenu__item menu-item-has-children">
-                                                        <a href="blog.html" class="mainmenu__link">
-                                                            <span data-hover="{{ __('text.blog') }}" class="mm-text">{{ __('text.blog') }}</span>
-                                                        </a>
-                                                        <ul class="sub-menu">
-                                                            <li class="menu-item-has-children">
-                                                                <a href="blog.html">
-                                                                    <span data-hover="{{ __('text.blog') }}" class="mm-text">{{ __('text.blog') }}</span>
-                                                                </a>
-                                                                <ul class="sub-menu">
-                                                                    <li>
-                                                                        <a href="blog-01-column.html">
-                                                                            <span data-hover="{{ __('text.column_01') }}" class="mm-text">{{ __('text.column_01') }}</span>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="blog-02-columns.html">
-                                                                            <span data-hover="{{ __('text.columns_02') }}" class="mm-text">{{ __('text.columns_02') }}</span>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="blog-03-columns.html">
-                                                                            <span data-hover="{{ __('text.columns_03') }}" class="mm-text">{{ __('text.columns_03') }}</span>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="blog-left-sidebar.html">
-                                                                            <span data-hover="{{ __('text.left_sidebar') }}" class="mm-text">{{ __('text.left_sidebar') }}</span>
-                                                                        </a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li class="menu-item-has-children">
-                                                                <a href="blog-details-image.html">
-                                                                    <span data-hover="{{ __('text.single_blog') }}" class="mm-text">{{ __('text.single_blog') }}</span>
-                                                                </a>
-                                                                <ul class="sub-menu">
-                                                                    <li>
-                                                                        <a href="blog-details-audio.html">
-                                                                            <span data-hover="{{ __('text.audio_details') }}" class="mm-text">{{ __('text.audio_details') }}</span>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="blog-details-gallery.html">
-                                                                            <span data-hover="{{ __('text.gallery_details') }}" class="mm-text">{{ __('text.gallery_details') }}</span>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="blog-details-image.html">
-                                                                            <span data-hover="{{ __('text.image_details') }}" class="mm-text">{{ __('text.image_details') }}</span>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="blog-details-video.html">
-                                                                            <span data-hover="{{ __('text.video_details') }}" class="mm-text">{{ __('text.video_details') }}</span>
-                                                                        </a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="mainmenu__item">
-                                                        <a href="contact.html" class="mainmenu__link">
-                                                            <span data-hover="{{ __('text.contact') }}" class="mm-text">{{ __('text.contact') }}</span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </nav>
-                                        </div>
-                                        <div class="header__middle-right">
-                                            <div class="site-info--wrapper d-none d-lg-block">
-                                                <div class="site-info">
-                                                    <div class="site-info__item">
-                                                        <a href="tel:1 844 402 2552"><strong>1 844 402 2552</strong></a>
-                                                        <a href="mailto:sales@ronesoft.com">sales@ronesoft.com</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="header-toolbar-wrap d-block d-lg-none">
-                                                <div class="header-toolbar">
-                                                    <a href="#offcanvasMenu" class="header-toolbar__btn toolbar-btn menu-btn">
-                                                        <div class="hamburger-icon">
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                            <span></span>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="sticky-header-height"></div>
-            </div>
-        </header>
+        @include('layouts.header')
 
         <!-- Header End -->
         <!-- Main Content Wrapper Start -->
@@ -243,52 +56,45 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-4 col-md-6 mb-4">
-                                <div class="card p-4  bg-base ">
-                                    <div class="row g-0">
-                                        <div class="col-2">
-                                          <img src="assets\img\icons\16852407.png" class="img-fluid w-100" alt="">
-                                        </div>
-                                        <div class="col-10 card-body ">
-                                         <h1 class="fw-bold">All Supplier Information in one place.
-                                        </h1>
-                                        </div>
-                                        <p class="card-text">Centralize your data and eliminate multiple spreadsheets.
-                                        </p>
-
-                                    </div>
+                              <div class="card p-4 bg-base">
+                                <div class="row g-0">
+                                  <div class="col-2">
+                                    <img src="assets/img/icons/16852407.png" class="img-fluid w-100" alt="">
+                                  </div>
+                                  <div class="col-10 card-body">
+                                    <h2 class="fw-bold h2-responsive">All Supplier Information in one place.</h2>
+                                    <p class="card-text">Centralize your data and eliminate multiple spreadsheets.</p>
+                                  </div>
                                 </div>
+                              </div>
                             </div>
                             <div class="col-lg-4 col-md-6 mb-4">
-                                <div class="card p-4  bg-base ">
-                                    <div class="row g-0">
-                                        <div class="col-2">
-                                          <img src="assets\img\icons\16852407.png" class="img-fluid w-100" alt="">
-                                        </div>
-                                        <div class="col-10 card-body ">
-                                         <h2 class="fw-bold">Categories, Products and Services  in one place.
-                                        </h2>
-                                        </div>
-                                       .
-                                    </div>
+                              <div class="card p-4 bg-base">
+                                <div class="row g-0">
+                                  <div class="col-2">
+                                    <img src="assets/img/icons/16852407.png" class="img-fluid w-100" alt="">
+                                  </div>
+                                  <div class="col-10 card-body">
+                                    <h2 class="fw-bold h2-responsive">Categories, Products and Services in one place.</h2>
+                                    <p class="card-text">Centralize your data and eliminate multiple spreadsheets.</p>
+                                  </div>
                                 </div>
+                              </div>
                             </div>
                             <div class="col-lg-4 col-md-6 mb-4">
-                                <div class="card p-4  bg-base ">
-                                    <div class="row g-0">
-                                        <div class="col-2">
-                                          <img src="assets\img\icons\16852407.png" class="img-fluid w-100" alt="">
-                                        </div>
-                                        <div class="col-10 card-body ">
-                                         <h2 class="fw-bold">Buy Smarter. Analytics and Insight
-                                        </h2>
-                                        </div>
-                                        <p class="card-text">Trend analysis, identify optimization opportunities, smart reporting.
-                                        </p>
-                                    </div>
+                              <div class="card p-4 bg-base">
+                                <div class="row g-0">
+                                  <div class="col-2">
+                                    <img src="assets/img/icons/16852407.png" class="img-fluid w-100" alt="">
+                                  </div>
+                                  <div class="col-10 card-body">
+                                    <h2 class="fw-bold h2-responsive">Buy Smarter. Analytics and Insight</h2>
+                                    <p class="card-text">Trend analysis, identify optimization opportunities, smart reporting.</p>
+                                  </div>
                                 </div>
+                              </div>
                             </div>
-
-                        </div>
+                          </div>
                     </div>
                 </div>
             </section>
@@ -393,7 +199,7 @@
                                     <h3 class="heading__secondary fs-1 text-start pt-5 text-light">We support small and large businesses.</h3>
                                     <p class="text-light">Keep your business a step ahead with "xChecker Procurement software.</p>
                                     <p class="text-light">Procurement Specialists Explore Partner Program:</p>
-                                    <a href="https://ronesoft.com/request-demo/" class="btn btn-warning btn-lg mb-4">Register Here</a> <!-- Updated button class for better styling -->
+                                    <a href="regsiter_procurement" class="btn btn-warning btn-lg mb-4">Register Here</a> <!-- Updated button class for better styling -->
 
                                 </div>
                                 <div>
@@ -409,31 +215,30 @@
             <!-- Buy Smarter Area End -->
 
             {{-- form --}}
-            <section class=" mb--9pt mb-sm--7pt6">
-                <div class="container  p-4">
-                    <div class="row">
-                        <div class="col-lg-5 col-md-6 offset-lg-1">
-                            <div class="contact-widget">
-
-                                <h2 class="heading__secondary mb--30">
-                                    <span class="heading__secondary--main ">Issue and Expedite Purchase Orders
-                                    </span>
-                                    <span class="heading__secondary--sub">Instantly</span>
-                                </h2>
-                                <p class="m-0 color--dust">No more manual Purchase Orders <br>
-                                    Instantly Sync Offers and Purchase Orders <br>
-                                    Track and Monitor Purchase Orders to delivery <br>
-                                    No conflict between Offer and Purchase
-                                    </p>
-                                <a href="tel:+01223566678"><strong></strong></a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-sm--45 pe-5">
-                            <img src="assets\img\graph\image.png" alt="" class="img-fluid w-75">
-                        </div>
+            <section class="mb--9pt mb-sm--7pt6">
+                <div class="container p-4">
+                  <div class="row">
+                    <div class="col-lg-5 col-md-6 offset-lg-1 mb-4 mb-md-0"> <!-- Add margin bottom for smaller screens -->
+                      <div class=" container contact-widget">
+                        <h2 class="heading__secondary mb--30">
+                          <span class="heading__secondary--main">Issue and Expedite Purchase Orders</span>
+                          <span class="heading__secondary--sub">Instantly</span>
+                        </h2>
+                        <p class="m-0 color--dust">
+                          No more manual Purchase Orders <br>
+                          Instantly Sync Offers and Purchase Orders <br>
+                          Track and Monitor Purchase Orders to delivery <br>
+                          No conflict between Offer and Purchase
+                        </p>
+                        <a href="tel:+01223566678"><strong></strong></a>
+                      </div>
                     </div>
+                    <div class="col-md-6 mb-sm--45 pe-5">
+                      <img src="assets/img/graph/image.png" alt="" class="img-fluid w-75 mx-auto d-block"> <!-- Center the image on small screens -->
+                    </div>
+                  </div>
                 </div>
-            </section>
+              </section>
              <!-- Services Area Start -->
              <section class="services-area mb--9pt mb-md--8pt5">
                 <div class="container">
@@ -500,9 +305,9 @@
                             <li>✓ Cancel any time</li>
                           </ul>
                           <p class="pb-4">Access all xChecker features for 14 days, then decide.</p>
-                          <a href="page9.html" class="fs-2 btn-light btn-sm p-3 mb-5">Start free trial now</a>
+                          <a href="register" class="fs-2 btn-light btn-sm p-3 mb-5">Start free trial now</a>
                           <span class="ms-4 text-secondary me-4 fs-1 fw-bold ">Or</span>
-                          <a href="page11.html" class="fs-2 btn-light btn-sm p-3 mb-5 ">Explore all features</a>
+                          <a href="features" class="fs-2 btn-light btn-sm p-3 mb-5 ">Explore all features</a>
 
                       </div>
                     </div>
@@ -1232,81 +1037,7 @@
         <!-- Main Content Wrapper End -->
 
         <!-- Footer Start-->
-        <footer class="footer bg-dark text-white" data-bg-color="#F6F7FA">
-            <div class="footer-top border-bottom pt--70 pb--65 pb-sm--60">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-7 mb-sm--30">
-                            <div class="footer-widget">
-                                <div class="textwidget mb--21">
-                                    <figure class="footer-logo">
-                                        <img src="assets/img/logo/logo2.png" alt="Logo">
-                                    </figure>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-2 col-md-5 offset-md-1 mb-md--35 mb-sm--25">
-                            <div class="footer-widget">
-                                <h3 class="widget-title mb--35 mb-sm--20 text-white">Pages</h3>
-                                <div class="footer-widget">
-                                    <ul class="footer-menu text-secondary">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="services.html">About Us</a></li>
-                                        <li><a href="our-projects.html">Contact Us</a></li>
-                                        {{-- <li><a href="blog.html">News</a></li> --}}
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-7 mb-sm--30">
-                            <div class="footer-widget">
-                                <h3 class="widget-title mb--35 mb-sm--20 text-white">Services</h3>
-                                <div class="footer-widget">
-                                    <ul class="footer-menu text-secondary">
-                                        <li><a href="#">Affiliates</a></li>
-                                        <li><a href="#">Why Xchecker</a></li>
-                                        <li><a href="#">Risk Management</a></li>
-                                        {{-- <li><a href="#">Features & Pricing</a></li> --}}
-                                        {{-- <li><a href="#">Business Planning</a></li> --}}
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-7 mb-sm--30">
-                            <div class="footer-widget">
-                                <div class="newsletter-form-widget">
-                                    <p>Subscribe to our Newsletter. And get all update for next time</p>
-                                    <form
-                                        action="https://company.us19.list-manage.com/subscribe/post?u=2f2631cacbe4767192d339ef2&amp;id=24db23e68a"
-                                        method="post" name="mc-embedded-subscribe-form" class="newsletter-form mc-form">
-                                        <input type="email" name="newsletter_email" class="newsletter-form__input"
-                                            placeholder="Enter Your Email">
-                                        <button type="submit" class="newsletter-form__btn">Subscribe</button>
-                                    </form>
-                                    <!-- mailchimp-alerts Start -->
-                                    <div class="mailchimp-alerts">
-                                        <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
-                                        <div class="mailchimp-success"></div><!-- mailchimp-success end -->
-                                        <div class="mailchimp-error"></div><!-- mailchimp-error end -->
-                                    </div>
-                                    <!-- mailchimp-alerts end -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom ptb--17">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <p class="copyright-text">&copy;2024 RONEsoft . All rights reserved </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+       @include('layouts.footer')
         <!-- Footer End-->
 
         <!-- OffCanvas Menu Start -->
