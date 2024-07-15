@@ -2991,3 +2991,6 @@ font-weight: 150; }
     color: #007bff;
     font-weight: bold;
 }
+.table th, .table td {
+    width: 33.33%;
+}
