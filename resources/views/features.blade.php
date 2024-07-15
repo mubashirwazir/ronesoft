@@ -5,7 +5,7 @@
 <div class="container mt-5">
     <div class="text-center mb-4">
         <h2 class="heading__secondary mb--30 ">
-            <span class="heading__secondary--main">PManaged Procurement Services</span>
+            <span class="heading__secondary--main">Managed Procurement Services</span>
             <span class="heading__secondary--sub mt2">(Fractional Procurement Specialist Service)</span>
         </h2>
     </div>
@@ -63,9 +63,9 @@
     <table class="table table-bordered shadow-lg p-4">
         <thead class="table-dark">
             <tr>
-                <th class="p-4">Supplier Mngt + RFQ Module</th>
+                <th class="p-4">Supplier Management + RFQ Module</th>
                 <th class="p-4">RFP/Tender Module</th>
-                <th class="p-4">PO Module</th>
+                <th class="p-4">Purchase Order Module</th>
             </tr>
         </thead>
         <tbody>

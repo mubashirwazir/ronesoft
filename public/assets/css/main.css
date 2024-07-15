@@ -2605,7 +2605,7 @@ font-weight: 150; }
     margin-bottom: 6rem; } }
 .buy-smarter
 {
-    background-color: #f1ebeb;
+    background-color: #dbd8d8;
 }
 /* .header__top-inner {
     flex-direction: column;
@@ -2957,7 +2957,7 @@ font-weight: 150; }
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ced4da;
+    border: 1px solid #636668;
     border-radius: 5px;
 }
 .pricing-plan {

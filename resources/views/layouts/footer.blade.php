@@ -33,7 +33,7 @@
                             <ul class="footer-menu text-secondary">
                                 <li><a href="#">Affiliates</a></li>
                                 <li><a href="#">Why Xchecker</a></li>
-                                <li><a href="#">Risk Management</a></li>
+                                {{-- <li><a href="#">Risk Management</a></li> --}}
                                 {{-- <li><a href="#">Features & Pricing</a></li> --}}
                                 {{-- <li><a href="#">Business Planning</a></li> --}}
                             </ul>

@@ -53,7 +53,7 @@
                         <div class=" mb-4 pt-5">
                             <h2 class="heading__secondary">Spend more time on your core business</h2>
                             <p class="fs-1">Try our Procurement and Category Management Service for every business. You focus on the results. We manage the hard work with our tools and analytics so you can Buy Smarter
-                                <a href="#" class="text-dark text-underline fw-bold text-decoration-underline1">Explore all features.</a>
+                                <a href="features" class="text-dark text-underline fw-bold text-decoration-underline1">Explore all features.</a>
                             </p>
                         </div>
                         <div class="row">
@@ -121,7 +121,7 @@
                         <div class="col-md-6 ">
                             <div class="bg-black text-light m-4 p-5 pb-0 mb-0 rounded d-flex flex-column h-100 ">
                                 <h2 class="heading__secondary_2 mb-30">
-                                    <span class="heading__secondary--main text-light">For Business Owners Procurement <span class="heading__secondary--sub">Managers Operators</span></span>
+                                    <span class="heading__secondary--main text-light">For <br> Business Owners <br> Procurement Managers <br> Operators
                                 </h2>
                                 <p class="fs-1">Expand your team’s capabilities without disruption to business</p>
                                 <p class="fs-1">Get instant results from xChecker next generation procurement platform without the burden of learning yet another software.</p>

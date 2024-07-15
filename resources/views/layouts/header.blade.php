@@ -22,7 +22,7 @@
                                             <img src="assets/img/icons/en_US.png" alt=""> English
                                         </a></li>
                                         <li class="list-inline-item small-screen-text"><a href="{{ route('changeLang', ['lang' => 'pt']) }}">
-                                            <img src="assets/img/icons/fr_FR.png" alt=""> Portuguese
+                                            <img src="assets\img\icons\pt_BR.png" alt="" class="img-fluid "> Portuguese
                                         </a></li>
                                         <li class="list-inline-item small-screen-text"><a href="{{ route('changeLang', ['lang' => 'es']) }}">
                                             <img src="assets/img/icons/es_ES.png" alt=""> Spanish
@@ -65,11 +65,11 @@
                                                     <span data-hover="{{ __('text.features') }}" class="mm-text">{{ __('text.features') }}</span>
                                                 </a>
                                             </li>
-                                            <li class="mainmenu__item">
+                                            {{-- <li class="mainmenu__item">
                                                 <a href="our-projects" class="mainmenu__link">
                                                     <span data-hover="{{ __('text.projects') }}" class="mm-text">{{ __('text.projects') }}</span>
                                                 </a>
-                                            </li>
+                                            </li> --}}
                                             <li class="mainmenu__item">
                                                 <a href="faq" class="mainmenu__link">
                                                     <span data-hover="{{ __('text.faq') }}" class="mm-text">{{ __('text.faq') }}</span>
