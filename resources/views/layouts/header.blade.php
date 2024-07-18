@@ -18,17 +18,24 @@
                                 </div>
                                 <div class="language-switcher">
                                     <ul class="list-inline top-menu mb-0">
-                                        <li class="list-inline-item small-screen-text"><a href="{{ route('changeLang', ['lang' => 'en']) }}">
-                                            <img src="assets/img/icons/en_US.png" alt=""> English
-                                        </a></li>
-                                        <li class="list-inline-item small-screen-text"><a href="{{ route('changeLang', ['lang' => 'pt']) }}">
-                                            <img src="assets\img\icons\pt_BR.png" alt="" class="img-fluid "> Portuguese
-                                        </a></li>
-                                        <li class="list-inline-item small-screen-text"><a href="{{ route('changeLang', ['lang' => 'es']) }}">
-                                            <img src="assets/img/icons/es_ES.png" alt=""> Spanish
-                                        </a></li>
+                                        <li class="list-inline-item small-screen-text">
+                                            <a href="{{ route('changeLang', ['lang' => 'en']) }}" class="disabled-link">
+                                                <img src="assets/img/icons/en_US.png" alt=""> English
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item small-screen-text">
+                                            <a href="{{ route('changeLang', ['lang' => 'pt']) }}" class="disabled-link">
+                                                <img src="assets/img/icons/pt_BR.png" alt="" class="img-fluid"> Portuguese
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item small-screen-text">
+                                            <a href="{{ route('changeLang', ['lang' => 'es']) }}" class="disabled-link">
+                                                <img src="assets/img/icons/es_ES.png" alt=""> Spanish
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -87,7 +94,7 @@
                                     <div class="site-info--wrapper d-none d-lg-block">
                                         <div class="site-info">
                                             <div class="site-info__item">
-                                                <a href="tel:1 844 402 2552"><strong>1 844 402 2552</strong></a>
+                                                <a href="tel:1 844 402 2552"><strong>1 844 710 8500</strong></a>
                                                 <a href="mailto:sales@ronesoft.com">sales@ronesoft.com</a>
                                             </div>
                                         </div>

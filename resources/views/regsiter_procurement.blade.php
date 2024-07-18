@@ -8,26 +8,48 @@
         <span class="heading__secondary--main">Procurement Specialists Partner Program </span>
         <span class="heading__secondary--sub mt2">Register Here</span>
     </h2>
-     <div class="row mb-5">
+    @if (session('success'))
+        <div class="alert alert-success">
+            {{ session('success') }}
+        </div>
+    @endif
+    @if ($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
 
+    <div class="row mb-5">
         <div class="col-md-6 ">
             <div class="container p-5 me-4">
-
-           <img src="assets\img\buysmarter\9.png" alt="" class="img-fluid">
-           <p class="fs-1">
-            Available to qualified Procurement and Category Management personnel and companies.
-        </p>
-        <p class="fs-1">
-            Join our Partner Program. Instantly grow your brand and provide Managed Procurement Service to as many clients as you can support.
-            <br> We provide the tech platform and access to all existing and registered supplier base. Start your journey to business independence today.
-       </p>
-        </div>
+                <img src="assets\img\buysmarter\9.png" alt="" class="img-fluid">
+                <p class="fs-1">
+                    Available to qualified Procurement and Category Management personnel and companies.
+                </p>
+                <p class="fs-1">
+                    Join our Partner Program. Instantly grow your brand and provide Managed Procurement Service to as many clients as you can support.
+                    <br> We provide the tech platform and access to all existing and registered supplier base. Start your journey to business independence today.
+                </p>
+            </div>
         </div>
         <div class="col-md-6 bg-black text-white">
-            <form id="regForm" action="/submit_registration" method="POST" class="form  shadow-lg p-5 rounded">
+            @if ($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
+            <form id="regForm" action="{{ url('/submit_registration') }}" method="POST" class="form shadow-lg p-5 rounded">
                 @csrf
 
-                <h2 class="heading__secondary_2 text-light  mb-4">Company Registration Information</h2>
+                <h2 class="heading__secondary_2 text-light mb-4">Company Registration Information</h2>
 
                 <div class="row mb-3">
                     <div class="col-md-6 mb-3">

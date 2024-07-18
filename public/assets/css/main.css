@@ -2994,3 +2994,22 @@ font-weight: 150; }
 .table th, .table td {
     width: 33.33%;
 }
+
+.disabled-link {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6; /* Optional: to visually indicate the link is disabled */
+}
+@media (max-width: 1200px) {
+    .flip-card {
+        display: none;
+    }
+    .responsive-image {
+        display: block;
+    }
+}
+@media (min-width: 1201px) {
+    .responsive-image {
+        display: none;
+    }
+}

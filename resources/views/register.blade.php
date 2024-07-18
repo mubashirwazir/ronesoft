@@ -13,8 +13,9 @@
         <div class="col-md-8 bg-light shadow-lg rounded">
             <div class="m-5">
                 <h1 class="heading__secondary text-start text-dark">Register Here For Free Trial:</h1>
-                <form id="regForm" action="/submit_registration" method="POST" class="form ">
+                <form id="regForm" action="{{ route('submit_freeregistration') }}" method="POST" class="form">
                     @csrf
+
                     <!-- Step indicators -->
                     <div class="steps mb-4">
                         <div class="step-indicator active">1</div>

@@ -20,7 +20,7 @@
                     $999/month
                 </div>
                 <div class="pricing-button">
-                    <a href="https://buy.stripe.com/4gw6rh3sBgEp4Vi7sw" class="text-dark text-decoration-underline1">Buy Now</a>
+                    <a href="https://buy.stripe.com/bIY3f54wFdsdcnK4gj" class="text-dark text-decoration-underline1">Buy Now</a>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
                     $1,999/month
                 </div>
                 <div class="pricing-button">
-                    <a href="https://buy.stripe.com/bIY3f54wFdsdcnK4gj" class="text-dark text-decoration-underline1">Buy Now</a>
+                    <a href="https://buy.stripe.com/4gw6rh3sBgEp4Vi7sw" class="text-dark text-decoration-underline1">Buy Now</a>
                 </div>
             </div>
         </div>
