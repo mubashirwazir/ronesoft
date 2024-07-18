@@ -10,7 +10,7 @@
                     <div class="col-12 text-center">
                         <h1 class="page-title">About Us</h1>
                         <ul class="breadcrumb">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li class="current"><span>About Us</span></li>
                         </ul>
                     </div>

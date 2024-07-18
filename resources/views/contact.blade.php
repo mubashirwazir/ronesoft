@@ -9,7 +9,7 @@
             <div class="col-12 text-center">
                 <h1 class="page-title">Contact Us</h1>
                 <ul class="breadcrumb">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li class="current"><span>Contact Us</span></li>
                 </ul>
             </div>
@@ -24,7 +24,7 @@
             {{ session('success') }}
         </div>
     @endif
-           
+
     <div class="inner-page-content mt--9pt5">
         <!-- Contact Area Start -->
         <section class="contact-area mb--9pt5">
@@ -91,33 +91,44 @@
             <div class="container mt-5">
                 <h2 class="heading__secondary">Business Locations</h2>
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="card text-center p-5">
+                    <div class="col-md-4 d-flex">
+                        <div class="card text-center p-5 flex-fill">
                             <div class="card-body">
-                                <h1 >Houston</h1>
-                                <p class="card-text">1201 Fannin St., Suite 262, <br> Houston, TX 77002. <br> Phone: 844 402 2552</p>
+                                <h1>Houston</h1>
+                                <p class="card-text">
+                                    1201 Fannin St., Suite 262, <br>
+                                    Houston, TX 77002. <br>
+                                    Phone: 1 844 710 8500
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card text-center p-5">
+                    <div class="col-md-4 d-flex">
+                        <div class="card text-center p-5 flex-fill">
                             <div class="card-body">
-                                <h1 >Tulsa</h1>
-                                <p class="card-text">8211 East Regal Place, Bridle Trails, Suite 100-103, Tulsa, OK 74133. Phone: 844 402 2552</p>
+                                <h1>Tulsa</h1>
+                                <p class="card-text">
+                                    8211 East Regal Place, Bridle Trails, <br>
+                                    Suite 100-103, Tulsa, OK 74133. <br>
+                                    Phone: 1 844 710 8500
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card text-center p-5">
+                    <div class="col-md-4 d-flex">
+                        <div class="card text-center p-5 flex-fill">
                             <div class="card-body">
-                                <h1 >Calgary</h1>
-                                <p class="card-text">1600 144 4th Ave SW, Calgary, AB T2P 3N4
+                                <h1>Calgary</h1>
+                                <p class="card-text">
+                                    1600 144 4th Ave SW, Calgary, AB T2P 3N4 <br>
                                     Email: sales@ronesoft.com <br>
-                                    Phone: 844 402 2552</p>
+                                    Phone: 1 844 710 8500
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
         <!-- Contact Area End -->
