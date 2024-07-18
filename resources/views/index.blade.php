@@ -21,23 +21,23 @@
                                 <div class="col-lg-6 col-md-12 col-sm-12">
                                     <div class="slider-content mt-3 ">
                                         <h1 class="heading__primary mb-3pt6">
-                                            <span class="heading__icon">
+                                            {{-- <span class="heading__icon">
                                                 <img src="assets/img/icons/3d-stripy-three-thick-black-lines.png" alt="" class="img-fluid icon-img">
-                                            </span>
+                                            </span> --}}
                                             <span class="heading__text">
                                                 @lang('text.slider_title')
                                             </span>
                                         </h1>
 
-                                        <p class="text-white fs-1 ms-5 ps-3">
+                                        <p class="text-white fs-1 ">
                                             Get back to doing what you do best and leave your Procurement Management and Buying activities to us.
                                         </p>
-                                        <p class="text-white fs-1 ms-5 ps-3">
+                                        <p class="text-white fs-1 ">
                                             @lang('text.slider_description1')
                                             <a href="register" class="fw-bold text-decoration-underline1">Sign Up</a>
                                             @lang('text.slider_description2')
                                         </p>
-                                        <a href="https://calendly.com/rslgary/ronesoft-demo" class="btn btn-primary fw-bold mb-3 ms-5 ps-3">
+                                        <a href="https://calendly.com/rslgary/ronesoft-demo" class="btn btn-primary fw-bold mb-3 ">
                                             @lang('text.btn_text')
                                         </a>
                                     </div>
