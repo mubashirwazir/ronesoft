@@ -99,7 +99,7 @@
                         <h2 class="heading__secondary_2 text-center">Select Service (No Credit Card Required)</h2>
                         <div class="mb-3">
                             <label for="service">Select Service:</label>
-                            <select id="service" name="service" required class="form__input mb--20">
+                            <select id="service" name="service" required class="form__input mb--20 text-dark">
                                 <option value="MPS-10">MPS-10 : Up to 10 hours per week of Procurement Specialist </option>
                                 <option value="MPS-20">MPS-20 : Up to 20 hours per week of Procurement Specialist </option>
                                 <option value="MPS-40">MPS-40 : Up to 40 hours per week of Procurement Specialist </option>

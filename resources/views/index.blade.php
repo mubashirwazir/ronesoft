@@ -183,6 +183,35 @@
                     </div>
                 </div>
             </section>
+            <div class="p-5 m-5"></div>
+         <section class="mb-5 mt-5 p-3">
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <h2 class="heading__secondary mb--30">
+                            <span class="heading__secondary--main">Try xChecker for free</span>
+                            <span class="heading__secondary--sub mt-2">$0 Per month</span>
+                        </h2>
+                        <ul class="list-unstyled fs-1">
+                            <li>✓ Access xChecker features</li>
+                            <li>✓ Setup your account</li>
+                            <li>✓ No credit card required</li>
+                            <li>✓ Cancel any time</li>
+                        </ul>
+                        <p class="pb-4">Access all xChecker features for 14 days, then decide.</p>
+                        <div class="d-flex flex-column flex-md-row align-items-center">
+                            <a href="register" class="fs-3  btn-light btn-sm p-3 mb-3 mb-md-0">Start free trial now</a>
+                            <span class="text-secondary text-center mx-4 fs-1 fw-bold">Or</span>
+                            <a href="features" class="fs-3  btn-light btn-sm p-3 mb-3 mb-md-0">Explore all features</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center mt-4">
+                        <img src="assets/img/buysmarter/6.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
             <div class="p-5 m-3"></div>
 
             <!-- Buy Smarter Area End -->
@@ -241,7 +270,7 @@
 <div class="container">
  <div class="update-news ">
     <div class="row">
-        <div class="col-lg-6 col-xxl-12 mb-4 mb-4 mb-md-0"> <!-- Add margin bottom for smaller screens -->
+        <div class="col-lg-6 col-md-12 mb-4 mb-4 mb-md-0"> <!-- Add margin bottom for smaller screens -->
             <div class="contact-widget">
                 <h2 class="heading__secondary mb-4">
                     <span class="heading__secondary--main text-white">Issue and Expedite Purchase Orders</span>
@@ -262,63 +291,92 @@
     </div>
 </div>
 </section>
+<div class="p-5 m-5"></div>
 <!-- Form Section -->
-{{-- <section class="mb-5">
+<section class="mb-5">
     <div class="container ">
         <div class="row">
-            <div class="col-lg-5 col-md-6 offset-lg-1 mb-4 mb-md-0"> <!-- Add margin bottom for smaller screens -->
-                <div class="container contact-widget">
-                    <h2 class="heading__secondary mb-4">
-                        <span class="heading__secondary--main">Issue and Expedite Purchase Orders</span>
+
+                <div class="col-12 text-center pb-5">
+                    <h2 class="display-2  fw-bold text-decoration-underline1 ">Plans for every business
+                    </h2>
+                </div>
+
+            <div class="col-lg-4 col-md-12 bg-black text-white  pt-5 pb-5 rounded m-5"> <!-- Add margin bottom for smaller screens -->
+                <div class="container ">
+                    <h2 class="heading__secondary mb-4 text-white">
+                        <span class="heading__secondary--main">Procurement Service Powered by xChecker
+                        </span>
                     </h2>
                     <p class="m-0 fs-1">
-                        No more manual Purchase Orders <br>
-                        Instantly Sync Offers and Purchase Orders <br>
-                        Track and Monitor Purchase Orders to delivery <br>
-                        No conflict between Offer and Purchase
+                        Select how much support hours you need each week. Switch plans anytime. <br>
+                        <a href="features" class="fs-3  btn-light btn-sm p-3 mb-3 mb-md-0">Explore all features</a>
                     </p>
-                    <a href="tel:+01223566678"><strong></strong></a>
                 </div>
             </div>
-            <div class="col-md-6 mb-sm-45 pe-5">
-                <img src="assets/img/graph/3.png" alt="" class="img-fluid w-75 mx-auto d-block"> <!-- Center the image on small screens -->
+            <div class="col-lg-7 col-md-12 mb-sm-45 ">
+                <div class="text-center mb-4">
+                    <h2 class=" mb--30 fs-1 ">
+                        <span class="">Managed Procurement Services</span>
+                        <span class="heading__secondary--sub mt2">(Fractional Procurement Specialist Service)</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="pricing-plan">
+                            <div class="pricing-header">
+                                <h3 class="text-white">MPS 10</h3>
+                                <p>up to 10 hours/week</p>
+                            </div>
+                            <div class="pricing-price">
+                                $999/month
+                            </div>
+                            <div class="pricing-button">
+                                <a href="https://buy.stripe.com/5kAaHx9QZ5ZL0F2aEG" class="text-dark text-decoration-underline1">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="pricing-plan">
+                            <div class="pricing-header">
+                                <h3 class="text-white">MPS 20</h3>
+                                <p>up to 20 hours/week</p>
+                                <span class="badge bg-warning">Most Popular</span>
+                            </div>
+                            <div class="pricing-price">
+                                $1,999/month
+                            </div>
+                            <div class="pricing-button">
+                                <a href="https://buy.stripe.com/bIY3f54wFdsdcnK4gj" class="text-dark text-decoration-underline1">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="pricing-plan">
+                            <div class="pricing-header">
+                                <h3 class="text-white">MPS 40</h3>
+                                <p>up to 40 hours/week</p>
+                            </div>
+                            <div class="pricing-price">
+                                $3,999/month
+                            </div>
+                            <div class="pricing-button">
+                                <a href="https://buy.stripe.com/4gw6rh3sBgEp4Vi7sw" class="text-dark text-decoration-underline1">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <p>All pricing in US Dollars</p>
+                </div>
             </div>
         </div>
     </div>
-</section> --}}
+</section>
 
-         <div class="p-5 m-5"></div>
-         <section class="mb-5 mt-5 p-3">
-            <div class="container mt-5 mb-5">
-                <div class="row">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-5">
-                        <h2 class="heading__secondary mb--30">
-                            <span class="heading__secondary--main">Try xChecker for free</span>
-                            <span class="heading__secondary--sub mt-2">$0 Per month</span>
-                        </h2>
-                        <ul class="list-unstyled fs-1">
-                            <li>✓ Access xChecker features</li>
-                            <li>✓ Setup your account</li>
-                            <li>✓ No credit card required</li>
-                            <li>✓ Cancel any time</li>
-                        </ul>
-                        <p class="pb-4">Access all xChecker features for 14 days, then decide.</p>
-                        <div class="d-flex flex-column flex-md-row align-items-center">
-                            <a href="register" class="fs-3  btn-light btn-sm p-3 mb-3 mb-md-0">Start free trial now</a>
-                            <span class="text-secondary text-center mx-4 fs-1 fw-bold">Or</span>
-                            <a href="features" class="fs-3  btn-light btn-sm p-3 mb-3 mb-md-0">Explore all features</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 text-center mt-4">
-                        <img src="assets/img/buysmarter/6.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </section>
+
 
             <div class="p-3"></div>
-
             <!-- Feature Area Start -->
             <section class="feature-area mb--9pt5 mt-5 p-5">
                 <div class="container">
@@ -425,7 +483,7 @@
 
                         <div class="col-md-5 mx-auto d-flex flex-column justify-content-center">
                             <p class="pb-4 fs-1">Keep your business a step ahead with xChecker Procurement software.</p>
-                            <p class="pb-4 fs-1">Procurement Specialists Explore Partner Program:</p>
+                            <p class="pb-4 fs-1">Procurement Specialists, Explore Partner Program:</p>
                             <a href="https://ronesoft.dserver.brainbrick.net/regsiter_procurement" class="text-center w-50 fs-2 btn-light btn-sm p-3 mb-5">Register Here</a>
                         </div>
 
