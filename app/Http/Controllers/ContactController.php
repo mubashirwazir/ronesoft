@@ -21,11 +21,12 @@ class ContactController extends Controller
         ];
 
         // Send email to the specified address
-        Mail::send('emails.contact', ['data' => $data], function ($message) use ($data) {
-            $message->to('sales@ronesoft.com')
-                    ->subject('Contact Form ');
+        Mail::send('emails.contact', ['data' => $data], function ($message) {
+            $message->to('khadijanawaz8302@gmail.com')
+                    ->subject('Contact Information');
         });
 
-        return back()->with('success', 'Your message has been sent successfully! We will contact You Soon');
+        return redirect()->back()->with('success', 'Registration submitted successfully.');
+
     }
 }
