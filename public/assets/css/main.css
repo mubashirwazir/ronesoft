@@ -1333,74 +1333,75 @@ a, button, .item-overlay, .global-overlay, .pagination li .page-number, .btn, .s
 /*****************************
 12 - Components - Button
 *****************************/
+/* Base styles for .btn */
 .btn {
-  color: #fefeff;
-  background-color: #FEAE03;
-  padding: 10px 29px; }
-  @media (max-width: 61.94em) {
+    color: #fefeff;
+    background-color: #FEAE03;
+    padding: 10px 29px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+@media (max-width: 61.94em) {
     .btn {
-      padding: 12px 30px; } }
-  @media (max-width: 47.94em) {
+        padding: 12px 30px;
+    }
+}
+@media (max-width: 47.94em) {
     .btn {
-      padding: 10px 25px; } }
-  .btn-outline {
+        padding: 10px 25px;
+    }
+}
+/* Hover styles for .btn */
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid #fefeff;
+    color: #fefeff;
+}
+/* Base styles for .btn-light */
+.btn-light {
+    color: #fefeff;
+    background-color: #FEAE03;
+    padding: 10px 29px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+@media (max-width: 61.94em) {
+    .btn-light {
+        padding: 12px 30px;
+    }
+}
+@media (max-width: 47.94em) {
+    .btn-light {
+        padding: 10px 25px;
+    }
+}
+/* Hover styles for .btn-light */
+.btn-light:hover {
+    background-color: transparent;
+    border: 1px solid #FEAE03;
+    color: #FEAE03;
+}
+/* Additional button styles */
+.btn-outline {
     background-color: transparent;
     border-width: 1px;
     border-style: solid;
-    border-color: #FEAE03; }
-  .btn-white {
-    border-color: #ffffff; }
-  .btn-shape-round {
-    -webkit-border-radius: 500px;
-    -moz-border-radius: 500px;
-    -ms-border-radius: 500px;
-    -o-border-radius: 500px;
-    border-radius: 500px; }
-  .btn-brw-2 {
-    border-width: 2px; }
-  .btn:hover {
-    background-color: transparent;
-    border-color: #ececf1;
-    color: #ececf1; }
-  .btn-hover-1:hover {
-    background-color: #0e0c0c;
-    border-color: #0e0c0c;
-    color: #0e0c0c; }
-.btn-light {
-        color: #fefeff;
-        background-color: #FEAE03;
-        padding: 10px 29px; }
-        @media (max-width: 61.94em) {
-          .btn {
-            padding: 12px 30px; } }
-        @media (max-width: 47.94em) {
-          .btn {
-            padding: 10px 25px; } }
-        .btn-outline {
-          background-color: transparent;
-          border-width: 1px;
-          border-style: solid;
-          border-color: #FEAE03; }
-        .btn-white {
-          border-color: #ffffff; }
-        .btn-shape-round {
-          -webkit-border-radius: 500px;
-          -moz-border-radius: 500px;
-          -ms-border-radius: 500px;
-          -o-border-radius: 500px;
-          border-radius: 500px; }
-        .btn-brw-2 {
-          border-width: 2px; }
-        .btn:hover {
-          background-color: transparent;
-          border-color: #ececf1;
-          color: #ececf1; }
-        .btn-hover-1:hover {
-          background-color: #ffffff;
-          border-color: #ffffff;
-          color: #ececf1; }
+    border-color: #FEAE03;
+}
+.btn-white {
+    border-color: #ffffff;
+}
+.btn-shape-round {
+    border-radius: 500px;
+}
+.btn-brw-2 {
+    border-width: 2px;
+}
 .read-more-btn {
-  border-bottom: 1px solid #dadada; }
+    border-bottom: 1px solid #dadada;
+}
 
 /*****************************
 13 - Components - Carousel

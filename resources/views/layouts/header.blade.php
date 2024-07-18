@@ -35,7 +35,6 @@
                                         </li>
                                     </ul>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -72,11 +71,6 @@
                                                     <span data-hover="{{ __('text.features') }}" class="mm-text">{{ __('text.features') }}</span>
                                                 </a>
                                             </li>
-                                            {{-- <li class="mainmenu__item">
-                                                <a href="our-projects" class="mainmenu__link">
-                                                    <span data-hover="{{ __('text.projects') }}" class="mm-text">{{ __('text.projects') }}</span>
-                                                </a>
-                                            </li> --}}
                                             <li class="mainmenu__item">
                                                 <a href="faq" class="mainmenu__link">
                                                     <span data-hover="{{ __('text.faq') }}" class="mm-text">{{ __('text.faq') }}</span>
