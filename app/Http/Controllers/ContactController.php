@@ -22,7 +22,7 @@ class ContactController extends Controller
 
         // Send email to the specified address
         Mail::send('emails.contact', ['data' => $data], function ($message) {
-            $message->to('khadijanawaz8302@gmail.com')
+            $message->to('sales@ronesoft.com')
                     ->subject('Contact Information');
         });
 

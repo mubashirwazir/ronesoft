@@ -190,9 +190,12 @@
                     <div class="col-md-1"></div>
                     <div class="col-md-5">
                         <h2 class="heading__secondary mb--30">
-                            <span class="heading__secondary--main">Try xChecker for free</span>
-                            <span class="heading__secondary--sub mt-2">$0 Per month</span>
+                            <span class="heading__secondary--main">Try Procurement Service for free
+
+                                </span>
+                            <span class="heading__secondary--sub mt-2">Powered by xChecker</span>
                         </h2>
+                        <p class="fs-1 fw-bold">$0 Per month</p>
                         <ul class="list-unstyled fs-1">
                             <li>✓ Access xChecker features</li>
                             <li>✓ Setup your account</li>
