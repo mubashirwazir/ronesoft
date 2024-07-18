@@ -3000,16 +3000,18 @@ font-weight: 150; }
     cursor: default;
     opacity: 0.6; /* Optional: to visually indicate the link is disabled */
 }
-@media (max-width: 1200px) {
-    .flip-card {
-        display: none;
-    }
-    .responsive-image {
-        display: block;
-    }
+.heading__primary {
+    display: flex;
+
 }
-@media (min-width: 1201px) {
-    .responsive-image {
-        display: none;
-    }
+
+.heading__icon {
+    margin-right: 8px; /* Adjust space between icon and text as needed */
 }
+
+.icon-img {
+    width: 54px; /* Adjust the width to the desired size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+

@@ -43,7 +43,7 @@
                 <div class="col-lg-3 col-md-7 mb-sm--30">
                     <div class="footer-widget">
                         <div class="newsletter-form-widget">
-                            <p>Subscribe to our Newsletter. And get all update for next time</p>
+                            <p>Subscribe to our Newsletter.</p>
                             <form
                                 action="https://company.us19.list-manage.com/subscribe/post?u=2f2631cacbe4767192d339ef2&amp;id=24db23e68a"
                                 method="post" name="mc-embedded-subscribe-form" class="newsletter-form mc-form">

@@ -14,7 +14,7 @@ return [
     'faq' => 'FAQ',
     'slider_title' => 'Procurement and Category Management Service.',
     'slider_description1' => 'Get 2 weeks of free service when you',
-    'slider_description2' => ' up right now*',
+    'slider_description2' => ' right now.',
     'btn_text' => 'Request a demo',
     'business_support_title' => 'How xChecker supports your business type?',
     'business_support_description' => 'Manage your procurement and Buy Smarter across all these and more industry segments and categories.',
