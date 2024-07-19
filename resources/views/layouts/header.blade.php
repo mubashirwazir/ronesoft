@@ -88,7 +88,7 @@
                                     <div class="site-info--wrapper d-none d-lg-block">
                                         <div class="site-info">
                                             <div class="site-info__item">
-                                                <a href="tel:1 844 402 2552"><strong>1 844 710 8500 </strong></a>
+                                                <a href="tel:1 844 710 8500"><strong>1 844 710 8500 </strong></a>
                                                 <a href="mailto:sales@ronesoft.com">sales@ronesoft.com</a>
                                             </div>
                                         </div>

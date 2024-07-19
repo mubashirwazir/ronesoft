@@ -164,7 +164,7 @@ a, a:hover, a:focus, a:active, button, button:focus, input, select, textarea, .s
 01 - Base - Typography
 *****************************/
 .heading__primary {
-  font-size: 6rem;
+  /* font-size: 9rem; */
   line-height: 1.154;
  color: white;}
 
@@ -194,7 +194,7 @@ a, a:hover, a:focus, a:active, button, button:focus, input, select, textarea, .s
 .lh-1pt5 {
   line-height: 1.5; }
 .heading__primary {
-  font-size: 6rem;
+  font-size: 7rem;
   line-height: 1.154;
  color: white;}
 
@@ -3011,7 +3011,7 @@ font-weight: 150; }
 }
 
 .icon-img {
-    width: 54px; /* Adjust the width to the desired size */
+    width: 74px; /* Adjust the width to the desired size */
     height: auto; /* Maintain aspect ratio */
 }
 

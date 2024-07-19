@@ -12,7 +12,11 @@
         <main class="main-content-wrapper p-2">
             <!-- Slider area Start -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+            @if (session('success'))
+            <script>
+                alert("{{ session('success') }}");
+            </script>
+        @endif
             <section class="ms-3 me-3 homepage-slider mb-10pt">
                 <div class="element-carousel">
                     <div class="d-flex align-items-center">
@@ -20,19 +24,15 @@
                             <div class="row g-0 ps-5 pt-5 pb-5">
                                 <div class="col-lg-6 col-md-12 col-sm-12">
                                     <div class="slider-content mt-3 ">
-                                        <h1 class="heading__primary mb-3pt6">
-                                            {{-- <span class="heading__icon">
+                                        <div class="heading__primary mb-3pt6">
+                                            <span class="heading__icon">
                                                 <img src="assets/img/icons/3d-stripy-three-thick-black-lines.png" alt="" class="img-fluid icon-img">
-                                            </span> --}}
-                                            <span class="heading__text">
-                                                @lang('text.slider_title')
                                             </span>
-                                        </h1>
-
-                                        <p class="text-white fs-1 ">
-                                            Get back to doing what you do best and leave your Procurement Management and Buying activities to us.
-                                        </p>
-                                        <p class="text-white fs-1 ">
+                                            <span class="heading__text">
+                                               <h1 class="heading__primary"> @lang('text.slider_title')</h1>
+                                               <p class="text-white fs-1 ">
+                                            Get back to doing what you do best and leave your <br class="m-3"> Procurement Management and Buying activities to us.
+                                        </p><p class="text-white fs-1 ">
                                             @lang('text.slider_description1')
                                             <a href="register" class="fw-bold text-decoration-underline1">Sign Up</a>
                                             @lang('text.slider_description2')
@@ -40,6 +40,11 @@
                                         <a href="https://calendly.com/rslgary/ronesoft-demo" class="btn btn-primary fw-bold mb-3 ">
                                             @lang('text.btn_text')
                                         </a>
+                                            </span>
+                                        </div>
+
+
+
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center mt-4 mt-lg-0">
@@ -171,7 +176,7 @@
                                 <div>
                                     <h3 class="heading__secondary fs-1 text-start pt-5 text-light">We support small and large businesses.</h3>
                                     <p class="text-light fs-1">Keep your business a step ahead with "xChecker Procurement software.</p>
-                                    <p class="text-light fs-1">Procurement Specialists Explore Partner Program:</p>
+                                    <p class="text-light fs-1">Procurement Specialists, Explore Partner Program:</p>
                                     <a href="regsiter_procurement" class="btn btn-warning btn-lg mb-4">Register Here</a> <!-- Updated button class for better styling -->
 
                                 </div>
@@ -487,7 +492,7 @@
                         <div class="col-md-5 mx-auto d-flex flex-column justify-content-center">
                             <p class="pb-4 fs-1">Keep your business a step ahead with xChecker Procurement software.</p>
                             <p class="pb-4 fs-1">Procurement Specialists, Explore Partner Program:</p>
-                            <a href="https://ronesoft.dserver.brainbrick.net/regsiter_procurement" class="text-center w-50 fs-2 btn-light btn-sm p-3 mb-5">Register Here</a>
+                            <a href="regsiter_procurement" class="text-center w-50 fs-2 btn-light btn-sm p-3 mb-5">Register Here</a>
                         </div>
 
                     </div>
@@ -510,96 +515,38 @@
                 </a>
                 <nav class="offcanvas-navigation">
                     <ul class="offcanvas-menu">
-                        <li class="menu-item-has-children active">
-                            <a href="#">
-                                <span class="mm-text">Home</span>
-                            </a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="index.html">
-                                        <span class="mm-text">Homepage 01</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="index-02.html">
-                                        <span class="mm-text">Homepage 02</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="about-us.html">
-                                <span class="mm-text">About</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="services.html">
-                                <span class="mm-text">Services</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="our-projects.html">
-                                <span class="mm-text">Projects</span>
-                            </a>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="blog.html">
-                                <span class="mm-text">Blog</span>
-                            </a>
-                            <ul class="sub-menu">
-                                <li class="menu-item-has-children">
-                                    <a href="#">
-                                        <span class="mm-text">Blog</span>
-                                    </a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog.html">Blog Right Sidebar</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-01-column.html">Blog 01 column</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-02-columns.html">Blog 02 columns</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-03-columns.html">Blog 03 columns</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">
-                                        <span class="mm-text">Blog Details</span>
-                                    </a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="blog-details-audio.html">Audio Blog Details</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-details-gallery.html">Gallery Blog Details</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-details-image.html">image Blog Details</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-details-video.html">Video Blog Details</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="contact.html">
-                                <span class="mm-text">Contact Us</span>
-                            </a>
-                        </li>
+
+                            <li class="mainmenu__item">
+                                <a href="/" class="mainmenu__link">
+                                    <span data-hover="{{ __('text.home') }}" class="mm-text">{{ __('text.home') }}</span>
+                                </a>
+                            </li>
+                            <li class="mainmenu__item">
+                                <a href="about-us" class="mainmenu__link">
+                                    <span data-hover="{{ __('text.about') }}" class="mm-text">{{ __('text.about') }}</span>
+                                </a>
+                            </li>
+                            <li class="mainmenu__item">
+                                <a href="features" class="mainmenu__link">
+                                    <span data-hover="{{ __('text.features') }}" class="mm-text">{{ __('text.features') }}</span>
+                                </a>
+                            </li>
+                            <li class="mainmenu__item">
+                                <a href="faq" class="mainmenu__link">
+                                    <span data-hover="{{ __('text.faq') }}" class="mm-text">{{ __('text.faq') }}</span>
+                                </a>
+                            </li>
+                            <li class="mainmenu__item">
+                                <a href="contact" class="mainmenu__link">
+                                    <span data-hover="{{ __('text.contact') }}" class="mm-text">{{ __('text.contact') }}</span>
+                                </a>
+                            </li>
+
                     </ul>
                     <div class="site-info vertical">
                         <div class="site-info__item">
-                            <a href="tel:+01223566678"><strong>+01 2235 666 78</strong></a>
-                            <a href="mailto:Support@contixs.com">Support@contixs.com</a>
+                            <a href="tel:1 844 710 8500"><strong>1 844 710 8500 </strong></a>
+                            <a href="mailto:sales@ronesoft.com">sales@ronesoft.com</a>
                         </div>
                     </div>
                 </nav>

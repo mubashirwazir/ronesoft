@@ -197,17 +197,44 @@
         </a>
         <nav class="offcanvas-navigation">
             <ul class="offcanvas-menu">
-                <!-- Menu items -->
+
+                    <li class="mainmenu__item">
+                        <a href="/" class="mainmenu__link">
+                            <span data-hover="{{ __('text.home') }}" class="mm-text">{{ __('text.home') }}</span>
+                        </a>
+                    </li>
+                    <li class="mainmenu__item">
+                        <a href="about-us" class="mainmenu__link">
+                            <span data-hover="{{ __('text.about') }}" class="mm-text">{{ __('text.about') }}</span>
+                        </a>
+                    </li>
+                    <li class="mainmenu__item">
+                        <a href="features" class="mainmenu__link">
+                            <span data-hover="{{ __('text.features') }}" class="mm-text">{{ __('text.features') }}</span>
+                        </a>
+                    </li>
+                    <li class="mainmenu__item">
+                        <a href="faq" class="mainmenu__link">
+                            <span data-hover="{{ __('text.faq') }}" class="mm-text">{{ __('text.faq') }}</span>
+                        </a>
+                    </li>
+                    <li class="mainmenu__item">
+                        <a href="contact" class="mainmenu__link">
+                            <span data-hover="{{ __('text.contact') }}" class="mm-text">{{ __('text.contact') }}</span>
+                        </a>
+                    </li>
+
             </ul>
             <div class="site-info vertical">
                 <div class="site-info__item">
-                    <a href="tel:+01223566678"><strong>+01 2235 666 78</strong></a>
-                    <a href="mailto:Support@contixs.com">Support@contixs.com</a>
+                    <a href="tel:1 844 710 8500"><strong>1 844 710 8500 </strong></a>
+                    <a href="mailto:sales@ronesoft.com">sales@ronesoft.com</a>
                 </div>
             </div>
         </nav>
     </div>
 </div>
+<!-- OffCanvas Menu End -->
 <!-- Global Overlay Start -->
 <div class="global-overlay"></div>
 <!-- Scroll to Top -->

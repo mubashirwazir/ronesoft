@@ -17,6 +17,6 @@ class RegistrationController extends Controller
                     ->subject('New Registration');
         });
 
-        return redirect('https://xchecker.ronesoft.com/Account/Login')->with('success', 'Registration submitted successfully!');
+        return redirect('https://ronesoft.com/')->with('success', 'Registration submitted successfully!');
     }
 }

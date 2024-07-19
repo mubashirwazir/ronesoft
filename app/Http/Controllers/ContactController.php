@@ -3,30 +3,29 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Log;
 
 class ContactController extends Controller
 {
-    public function sendEmail(Request $request)
+    public function sendMail(Request $request)
     {
-        $request->validate([
-            'con_email' => 'required|email',
-            'con_name' => 'required|string|max:255',
-            'con_message' => 'required|string',
-        ]);
+        try {
+            $data = $request->only(['companyName', 'email', 'description']);
 
-        $data = [
-            'email' => $request->input('con_email'),
-            'name' => $request->input('con_name'),
-            'message' => $request->input('con_message')
-        ];
+            // Send the email
+            Mail::send('emails.contact', ['data' => $data], function ($message) {
+                $message->to('sales@ronesoft.com')
+                        ->subject('New Contact Form');
+            });
 
-        // Send email to the specified address
-        Mail::send('emails.contact', ['data' => $data], function ($message) {
-            $message->to('sales@ronesoft.com')
-                    ->subject('Contact Information');
-        });
+            // Redirect back with a success message
+            return redirect('https://ronesoft.com/')->with('success', 'Registration submitted successfully.');
+        } catch (\Exception $e) {
+            // Log the error message
+            Log::error('Email could not be sent: ' . $e->getMessage());
 
-        return redirect()->back()->with('success', 'Registration submitted successfully.');
-
+            // Redirect back with an error message
+            return redirect()->back()->with('error', 'There was an issue submitting your registration. Please try again later.');
+        }
     }
 }

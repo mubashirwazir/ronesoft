@@ -19,11 +19,7 @@
 <!-- Breadcrumb area End -->
 
 <!-- Main Content Wrapper Start -->
-<main class="main-content-wrapper">  @if (session('success'))
-        <div class="alert alert-success">
-            {{ session('success') }}
-        </div>
-    @endif
+<main class="main-content-wrapper">
 
     <div class="inner-page-content mt--9pt5">
         <!-- Contact Area Start -->
@@ -71,13 +67,27 @@
                             <h2 class="heading__secondary">Contact Us</h2>
 
                         </div>
-                        <form action="{{ route('contact.send') }}" method="POST" class="form" id="contact-form">
+                        <form id="regForm" action="{{ url('/send-contact') }}" method="POST" class="form  p-5 rounded">
                             @csrf
-                            <input type="email" name="con_email" id="con_email" class="form__input mb--30" placeholder="Email*">
-                            <input type="text" name="con_name" id="con_name" class="form__input mb--30" placeholder="Name*">
-                            <textarea class="form__input form__input--textarea mb--30" placeholder="Message" id="con_message" name="con_message"></textarea>
-                            <button type="submit" class="btn-light btn-shape-round form__submit">Send Request</button>
+                            <div class=" mb-5">
+                                <label for="companyName"> Name:</label>
+                                <input type="text" id="companyName" name="companyName" required class="form-control form__input">
+                            </div>
+                            <div class="mb-5">
+                                <label for="email">Email, General Mailbox:</label>
+                                <input type="email" id="email" name="email" required class="form-control form__input">
+                            </div>
+                            <div class="mb-5">
+                                <label for="description">Message:</label>
+                                <textarea id="description" name="description" required class="form-control form__input form__input--textarea mb--30"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn-light">Submit</button>
+                            </div>
                         </form>
+
+
+
 
 
                     </div>
@@ -147,96 +157,38 @@
                 </a>
                 <nav class="offcanvas-navigation">
                     <ul class="offcanvas-menu">
-                        <li class="menu-item-has-children active">
-                            <a href="#">
-                                <span class="mm-text">Home</span>
-                            </a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="index.html">
-                                        <span class="mm-text">Homepage 01</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="index-02.html">
-                                        <span class="mm-text">Homepage 02</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="about-us.html">
-                                <span class="mm-text">About</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="services.html">
-                                <span class="mm-text">Services</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="our-projects.html">
-                                <span class="mm-text">Projects</span>
-                            </a>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="blog.html">
-                                <span class="mm-text">Blog</span>
-                            </a>
-                            <ul class="sub-menu">
-                                <li class="menu-item-has-children">
-                                    <a href="#">
-                                        <span class="mm-text">Blog</span>
-                                    </a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog.html">Blog Right Sidebar</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-01-column.html">Blog 01 column</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-02-columns.html">Blog 02 columns</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-03-columns.html">Blog 03 columns</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">
-                                        <span class="mm-text">Blog Details</span>
-                                    </a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="blog-details-audio.html">Audio Blog Details</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-details-gallery.html">Gallery Blog Details</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-details-image.html">image Blog Details</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-details-video.html">Video Blog Details</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="contact.html">
-                                <span class="mm-text">Contact Us</span>
-                            </a>
-                        </li>
+
+                            <li class="mainmenu__item">
+                                <a href="/" class="mainmenu__link">
+                                    <span data-hover="{{ __('text.home') }}" class="mm-text">{{ __('text.home') }}</span>
+                                </a>
+                            </li>
+                            <li class="mainmenu__item">
+                                <a href="about-us" class="mainmenu__link">
+                                    <span data-hover="{{ __('text.about') }}" class="mm-text">{{ __('text.about') }}</span>
+                                </a>
+                            </li>
+                            <li class="mainmenu__item">
+                                <a href="features" class="mainmenu__link">
+                                    <span data-hover="{{ __('text.features') }}" class="mm-text">{{ __('text.features') }}</span>
+                                </a>
+                            </li>
+                            <li class="mainmenu__item">
+                                <a href="faq" class="mainmenu__link">
+                                    <span data-hover="{{ __('text.faq') }}" class="mm-text">{{ __('text.faq') }}</span>
+                                </a>
+                            </li>
+                            <li class="mainmenu__item">
+                                <a href="contact" class="mainmenu__link">
+                                    <span data-hover="{{ __('text.contact') }}" class="mm-text">{{ __('text.contact') }}</span>
+                                </a>
+                            </li>
+
                     </ul>
                     <div class="site-info vertical">
                         <div class="site-info__item">
-                            <a href="tel:+01223566678"><strong>+01 2235 666 78</strong></a>
-                            <a href="mailto:Support@contixs.com">Support@contixs.com</a>
+                            <a href="tel:1 844 710 8500"><strong>1 844 710 8500 </strong></a>
+                            <a href="mailto:sales@ronesoft.com">sales@ronesoft.com</a>
                         </div>
                     </div>
                 </nav>

@@ -18,9 +18,9 @@
                         <h3 class="widget-title mb--35 mb-sm--20 text-white">Pages</h3>
                         <div class="footer-widget">
                             <ul class="footer-menu text-secondary">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="services.html">About Us</a></li>
-                                <li><a href="our-projects.html">Contact Us</a></li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="about-us">About Us</a></li>
+                                <li><a href="contact">Contact Us</a></li>
                                 {{-- <li><a href="blog.html">News</a></li> --}}
                             </ul>
                         </div>
@@ -32,7 +32,7 @@
                         <div class="footer-widget">
                             <ul class="footer-menu text-secondary">
                                 <li><a href="https://ronesoft.com/regsiter_procurement">Affiliates</a></li>
-                                <li><a href="#">Why Xchecker</a></li>
+                                <li><a href="WhyxChecker">Why Xchecker</a></li>
                                 {{-- <li><a href="#">Risk Management</a></li> --}}
                                 {{-- <li><a href="#">Features & Pricing</a></li> --}}
                                 {{-- <li><a href="#">Business Planning</a></li> --}}

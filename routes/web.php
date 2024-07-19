@@ -27,7 +27,7 @@ Route::get('/features', function () {
 });
 
 
-Route::post('/contact', [ContactController::class, 'sendEmail'])->name('contact.send');
+Route::post('/send-contact', [ContactController::class, 'sendMail'])->name('contact.send');
 
 
 Route::get('/change/{lang}',[LanguageController::class,'changeLang'])->name('changeLang');

@@ -17,7 +17,7 @@ class ProcurementRegistrationController extends Controller
             'postalCode' => 'required|string|max:20',
             'country' => 'required|string|max:255',
             'email' => 'required|email|max:255',
-            'companyWebsite' => 'nullable|url|max:255',
+            'companyWebsite' => 'nullable|max:255',
             'description' => 'required|string',
             'userFirstName' => 'required|string|max:255',
             'userLastName' => 'required|string|max:255',
@@ -32,7 +32,7 @@ class ProcurementRegistrationController extends Controller
             });
 
             // Redirect back with a success message
-            return redirect('https://xchecker.ronesoft.com/Account/Login')->with('success', 'Registration submitted successfully.');
+            return redirect('https://ronesoft.com/')->with('success', 'Registration submitted successfully.');
         } catch (\Exception $e) {
             // Log the error message
             Log::error('Email could not be sent: ' . $e->getMessage());

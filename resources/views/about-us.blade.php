@@ -83,103 +83,44 @@
                 </a>
                 <nav class="offcanvas-navigation">
                     <ul class="offcanvas-menu">
-                        <li class="menu-item-has-children active">
-                            <a href="#">
-                                <span class="mm-text">Home</span>
-                            </a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="index.html">
-                                        <span class="mm-text">Homepage 01</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="index-02.html">
-                                        <span class="mm-text">Homepage 02</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="about-us.html">
-                                <span class="mm-text">About</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="services.html">
-                                <span class="mm-text">Services</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="our-projects.html">
-                                <span class="mm-text">Projects</span>
-                            </a>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="blog.html">
-                                <span class="mm-text">Blog</span>
-                            </a>
-                            <ul class="sub-menu">
-                                <li class="menu-item-has-children">
-                                    <a href="#">
-                                        <span class="mm-text">Blog</span>
-                                    </a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog.html">Blog Right Sidebar</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-01-column.html">Blog 01 column</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-02-columns.html">Blog 02 columns</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-03-columns.html">Blog 03 columns</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">
-                                        <span class="mm-text">Blog Details</span>
-                                    </a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="blog-details-audio.html">Audio Blog Details</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-details-gallery.html">Gallery Blog Details</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-details-image.html">image Blog Details</a>
-                                        </li>
-                                        <li>
-                                            <a href="blog-details-video.html">Video Blog Details</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="contact.html">
-                                <span class="mm-text">Contact Us</span>
-                            </a>
-                        </li>
+
+                            <li class="mainmenu__item">
+                                <a href="/" class="mainmenu__link">
+                                    <span data-hover="{{ __('text.home') }}" class="mm-text">{{ __('text.home') }}</span>
+                                </a>
+                            </li>
+                            <li class="mainmenu__item">
+                                <a href="about-us" class="mainmenu__link">
+                                    <span data-hover="{{ __('text.about') }}" class="mm-text">{{ __('text.about') }}</span>
+                                </a>
+                            </li>
+                            <li class="mainmenu__item">
+                                <a href="features" class="mainmenu__link">
+                                    <span data-hover="{{ __('text.features') }}" class="mm-text">{{ __('text.features') }}</span>
+                                </a>
+                            </li>
+                            <li class="mainmenu__item">
+                                <a href="faq" class="mainmenu__link">
+                                    <span data-hover="{{ __('text.faq') }}" class="mm-text">{{ __('text.faq') }}</span>
+                                </a>
+                            </li>
+                            <li class="mainmenu__item">
+                                <a href="contact" class="mainmenu__link">
+                                    <span data-hover="{{ __('text.contact') }}" class="mm-text">{{ __('text.contact') }}</span>
+                                </a>
+                            </li>
+
                     </ul>
                     <div class="site-info vertical">
                         <div class="site-info__item">
-                            <a href="tel:+01223566678"><strong>+01 2235 666 78</strong></a>
-                            <a href="mailto:Support@contixs.com">Support@contixs.com</a>
+                            <a href="tel:1 844 710 8500"><strong>1 844 710 8500 </strong></a>
+                            <a href="mailto:sales@ronesoft.com">sales@ronesoft.com</a>
                         </div>
                     </div>
                 </nav>
             </div>
         </div>
         <!-- OffCanvas Menu End -->
-
         <!-- Global Overlay Start -->
         <div class="global-overlay"></div>
         <!-- Global Overlay End -->
