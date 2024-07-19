@@ -28,9 +28,7 @@ Route::get('/features', function () {
 Route::get('/WhyxChecker', function () {
     return view('WhyxChecker');
 });
-Route::get('/WhyxChecke', function () {
-    return view('WhyxChecker');
-});
+
 
 
 Route::post('/send-contact', [ContactController::class, 'sendMail'])->name('contact.send');
