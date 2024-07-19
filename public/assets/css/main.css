@@ -1569,7 +1569,7 @@ font-weight: 150; }
     -ms-transition: 0.4s ease;
     -o-transition: 0.4s ease;
     transition: 0.4s ease;
-    background-color: #3c54dc;
+    background-color: #FEAE03;
     bottom: 20px;
     left: -10px;
     z-index: -1; }
@@ -1578,7 +1578,7 @@ font-weight: 150; }
   .feature-style-2 .feature__title {
     margin-bottom: 27px; }
   .feature-style-2:hover {
-    background-color: #455eee; }
+    background-color: #3C3A3D; }
     .feature-style-2:hover:after {
       -webkit-transform: scale(1);
       -moz-transform: scale(1);

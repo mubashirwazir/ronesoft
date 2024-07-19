@@ -25,6 +25,9 @@ Route::get('/regsiter_procurement', function () {
 Route::get('/features', function () {
     return view('features');
 });
+Route::get('/WhyxChecker', function () {
+    return view('WhyxChecker');
+});
 
 
 Route::post('/send-contact', [ContactController::class, 'sendMail'])->name('contact.send');
