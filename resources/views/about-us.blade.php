@@ -58,7 +58,7 @@
             <section class="skill-area mb--9pt3 mb-md--8pt9">
                 <div class="container ">
                             <div class="heading mb--30 ms-4">
-                                <h2 class="text-uppercase mb--25">What we are doing?</h2>
+                                <h2 class="text-uppercase mb--25">What we do?</h2>
                                 <p class="mb--25">We give Business Owners more Control over their Buying Operations through an Intelligent Platform that holds all relevant information and provides deep insight and Buying Intelligence.</p>
                                 <p class="mb--25">With xChecker, every Business can Buy Smarter, operate just as large corporations and Co-ops do. You will get the technology platform that expands your reach beyond your immediate Suppliers and gives you access to other Suppliers within your target industry. With this capability, our clients get measurable time savings and cost reduction.</p>
                                 <p class="mb--25">Whether you are a self-managed client or a client using our Managed Procurement Services, you have 24/7 access to your account and full access to your business performance and results.</p>

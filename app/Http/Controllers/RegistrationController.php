@@ -13,7 +13,7 @@ class RegistrationController extends Controller
 
         // Send email to the specified address
         Mail::send('emails.Registration', ['data' => $request->all()], function ($message) {
-            $message->to('sales@ronesoft.com')
+            $message->to('khadijanawaz8302@gmail.com')
                     ->subject('New Registration');
         });
 

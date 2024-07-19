@@ -164,7 +164,7 @@ a, a:hover, a:focus, a:active, button, button:focus, input, select, textarea, .s
 01 - Base - Typography
 *****************************/
 .heading__primary {
-  /* font-size: 9rem; */
+  font-size: 7rem;
   line-height: 1.154;
  color: white;}
 

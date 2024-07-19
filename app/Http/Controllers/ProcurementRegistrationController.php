@@ -27,7 +27,7 @@ class ProcurementRegistrationController extends Controller
         try {
             // Send the email
             Mail::send('emails.ProcurementRegistration', ['data' => $request->all()], function ($message) {
-                $message->to('sales@ronesoft.com')
+                $message->to('khadijanawaz8302@gmail.com')
                         ->subject('New Procurement Registration');
             });
 
