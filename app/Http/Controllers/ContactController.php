@@ -19,7 +19,7 @@ class ContactController extends Controller
             });
 
             // Redirect back with a success message
-            return redirect('https://ronesoft.com/')->with('success', 'Registration submitted successfully.');
+            return redirect('https://ronesoft.com/')->with('success', 'Form submitted successfully! We will contact you soon.');
         } catch (\Exception $e) {
             // Log the error message
             Log::error('Email could not be sent: ' . $e->getMessage());
