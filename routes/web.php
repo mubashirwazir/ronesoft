@@ -28,7 +28,7 @@ Route::get('/features', function () {
 Route::get('/WhyxChecker', function () {
     return view('WhyxChecker');
 });
-Route::get('/WhyxChecker', function () {
+Route::get('/WhyxChecke', function () {
     return view('WhyxChecker');
 });
 
