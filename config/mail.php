@@ -38,7 +38,7 @@ return [
     'mailers' => [
 
         'smtp' => [
-            'transport' => 'mail',
+            'transport' => 'smtp',
             'url' => env('MAIL_URL'),
             'host' => env('MAIL_HOST', 'smtp.zoho.com'),
             'port' => env('MAIL_PORT', 465),
@@ -110,3 +110,4 @@ return [
     ],
 
 ];
+

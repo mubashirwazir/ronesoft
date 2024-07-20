@@ -77,6 +77,11 @@
                                                 </a>
                                             </li>
                                             <li class="mainmenu__item">
+                                                <a href="WhyxChecker" class="mainmenu__link">
+                                                    <span data-hover="Why Xchecker" class="mm-text">Why Xchecker</span>
+                                                </a>
+                                            </li>
+                                            <li class="mainmenu__item">
                                                 <a href="contact" class="mainmenu__link">
                                                     <span data-hover="{{ __('text.contact') }}" class="mm-text">{{ __('text.contact') }}</span>
                                                 </a>

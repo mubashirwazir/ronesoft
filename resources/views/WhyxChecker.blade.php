@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center">
-                <img src="assets/img/buysmarter/7.png" alt="" class="img-fluid">
+                <img src="assets/img/buysmarter/7.png" alt="" class="img-fluid mt-5">
             </div>
 
         </div>
@@ -119,27 +119,27 @@
 <section class="page-title-area bg-image ptb--80" data-bg-image="assets/img/background/2.jpg">
     <div class="container">
         <div class="row ">
-            <div class="col-lg-4 col-md-12  d-flex " >
+            <div class="col-lg-4 col-md-12  d-flex mb-4" >
                 <div class="feature bg-light text-dark shadow-lg p-4">
 
-                    <div class="feature__info">
+                    <div class="feature__info ">
                         <h1>Starting Fresh?</h1>
                         <p class="fs-1">
                             You only need your organisations details to get set up.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12  d-flex ">
+            <div class="col-lg-4 col-md-12  d-flex mb-4">
                 <div class="feature bg-light text-dark shadow-lg p-4">
 
-                    <div class="feature__info">
+                    <div class="feature__info ">
                         <h1 >Stuck?</h1>
                         <p class="fs-1">
                             Our friendly RFP and Purchasing specialists are here to help, around the clock</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12 d-flex ">
+            <div class="col-lg-4 col-md-12 d-flex mb-4">
                 <div class="feature bg-light text-dark shadow-lg p-4">
 
                     <div class="feature__info">
