@@ -7,6 +7,7 @@
         <!-- Header Start -->
         @include('layouts.header')
 
+        
         <!-- Header End -->
         <!-- Main Content Wrapper Start -->
         <main class="main-content-wrapper p-2">
