@@ -7,7 +7,6 @@
         <!-- Header Start -->
         @include('layouts.header')
 
-        
         <!-- Header End -->
         <!-- Main Content Wrapper Start -->
         <main class="main-content-wrapper p-2">
@@ -292,7 +291,7 @@
                 </p>
             </div>
         </div>
-        <div class="col-lg-6 col-xxl-12 mb-4 mb-sm-45 pe-5">
+        <div class="col-lg-6 col-md-12 mb-4 mb-sm-45 ">
             <img src="assets/img/graph/3.png" alt="" class="img-fluid  mx-auto d-block"> <!-- Center the image on small screens -->
         </div>
     </div>

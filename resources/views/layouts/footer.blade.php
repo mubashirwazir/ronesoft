@@ -32,7 +32,7 @@
                         <div class="footer-widget">
                             <ul class="footer-menu text-secondary">
                                 <li><a href="https://ronesoft.com/regsiter_procurement">Affiliates</a></li>
-                                <li><a href="WhyxChecker">Why Xchecker</a></li>
+                                <li><a href="WhyxChecker">Why xChecker</a></li>
                                 {{-- <li><a href="#">Risk Management</a></li> --}}
                                 {{-- <li><a href="#">Features & Pricing</a></li> --}}
                                 {{-- <li><a href="#">Business Planning</a></li> --}}

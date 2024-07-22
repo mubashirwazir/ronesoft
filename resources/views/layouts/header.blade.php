@@ -78,7 +78,7 @@
                                             </li>
                                             <li class="mainmenu__item">
                                                 <a href="WhyxChecker" class="mainmenu__link">
-                                                    <span data-hover="Why Xchecker" class="mm-text">Why Xchecker</span>
+                                                    <span data-hover="Why xChecker" class="mm-text">Why xChecker</span>
                                                 </a>
                                             </li>
                                             <li class="mainmenu__item">
