@@ -13,7 +13,7 @@
     <link rel="apple-touch-icon" href="assets/img/icons/main.png">
 
     <!-- ************************* CSS Files ************************* -->
-
+      {!!htmlScriptTagJsApi()!!}
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 
@@ -34,6 +34,8 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 
 </body>
 

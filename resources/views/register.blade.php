@@ -84,6 +84,10 @@
                             <label for="userEmail">User Email:</label>
                             <input type="email" id="userEmail" name="userEmail" required class="form__input">
                         </div>
+                        <div class="mb-3">
+                            <label for="userPhone">Phone Number:</label>
+                            <input type="tel" id="userPhone" name="userPhone" required class="form__input">
+                        </div>
                         <div class="row">
                             <div class="col-md-6 text-center">
                                 <button type="button" class="btn-light" onclick="previousStep()">Previous</button>
@@ -105,12 +109,16 @@
                                 <option value="MPS-40">MPS-40 : Up to 40 hours per week of Procurement Specialist </option>
                             </select>
                         </div>
+                        <div class="mb-3">
+                            {!! NoCaptcha::display() !!}
+                            <div id="recaptcha-error" class="text-danger" style="display:none;">Please complete the reCAPTCHA.</div>
+                        </div>
                         <div class="row">
                             <div class="col-md-6 text-center">
                                 <button type="button" class="btn-light" onclick="previousStep()">Previous</button>
                             </div>
                             <div class="col-md-6 text-center">
-                                <button type="submit" class="btn-light">Submit</button>
+                                <button type="button" class="btn-light" onclick="submitForm()">Submit</button>
                             </div>
                         </div>
                     </div>
@@ -130,33 +138,31 @@
         </a>
         <nav class="offcanvas-navigation">
             <ul class="offcanvas-menu">
-
-                    <li class="mainmenu__item">
-                        <a href="/" class="mainmenu__link">
-                            <span data-hover="{{ __('text.home') }}" class="mm-text">{{ __('text.home') }}</span>
-                        </a>
-                    </li>
-                    <li class="mainmenu__item">
-                        <a href="about-us" class="mainmenu__link">
-                            <span data-hover="{{ __('text.about') }}" class="mm-text">{{ __('text.about') }}</span>
-                        </a>
-                    </li>
-                    <li class="mainmenu__item">
-                        <a href="features" class="mainmenu__link">
-                            <span data-hover="{{ __('text.features') }}" class="mm-text">{{ __('text.features') }}</span>
-                        </a>
-                    </li>
-                    <li class="mainmenu__item">
-                        <a href="faq" class="mainmenu__link">
-                            <span data-hover="{{ __('text.faq') }}" class="mm-text">{{ __('text.faq') }}</span>
-                        </a>
-                    </li>
-                    <li class="mainmenu__item">
-                        <a href="contact" class="mainmenu__link">
-                            <span data-hover="{{ __('text.contact') }}" class="mm-text">{{ __('text.contact') }}</span>
-                        </a>
-                    </li>
-
+                <li class="mainmenu__item">
+                    <a href="/" class="mainmenu__link">
+                        <span data-hover="{{ __('text.home') }}" class="mm-text">{{ __('text.home') }}</span>
+                    </a>
+                </li>
+                <li class="mainmenu__item">
+                    <a href="about-us" class="mainmenu__link">
+                        <span data-hover="{{ __('text.about') }}" class="mm-text">{{ __('text.about') }}</span>
+                    </a>
+                </li>
+                <li class="mainmenu__item">
+                    <a href="features" class="mainmenu__link">
+                        <span data-hover="{{ __('text.features') }}" class="mm-text">{{ __('text.features') }}</span>
+                    </a>
+                </li>
+                <li class="mainmenu__item">
+                    <a href="faq" class="mainmenu__link">
+                        <span data-hover="{{ __('text.faq') }}" class="mm-text">{{ __('text.faq') }}</span>
+                    </a>
+                </li>
+                <li class="mainmenu__item">
+                    <a href="contact" class="mainmenu__link">
+                        <span data-hover="{{ __('text.contact') }}" class="mm-text">{{ __('text.contact') }}</span>
+                    </a>
+                </li>
             </ul>
             <div class="site-info vertical">
                 <div class="site-info__item">
@@ -178,7 +184,9 @@
 
     function showStep(n) {
         let steps = document.querySelectorAll('.step');
-        steps[n].style.display = 'block';
+        steps.forEach((step, index) => {
+            step.style.display = (index === n) ? 'block' : 'none';
+        });
         let indicators = document.querySelectorAll('.step-indicator');
         indicators.forEach((indicator, index) => {
             if (index <= n) {
@@ -191,12 +199,14 @@
 
     function nextStep() {
         let steps = document.querySelectorAll('.step');
-        steps[currentStep].style.display = 'none';
-        currentStep++;
-        if (currentStep >= steps.length) {
-            currentStep = steps.length - 1;
+        if (validateStep(currentStep)) {
+            steps[currentStep].style.display = 'none';
+            currentStep++;
+            if (currentStep >= steps.length) {
+                currentStep = steps.length - 1;
+            }
+            showStep(currentStep);
         }
-        showStep(currentStep);
     }
 
     function previousStep() {
@@ -208,5 +218,33 @@
         }
         showStep(currentStep);
     }
+
+    function validateStep(step) {
+        let valid = true;
+        let currentStep = document.querySelectorAll('.step')[step];
+        let inputs = currentStep.querySelectorAll('input[required], select[required]');
+        inputs.forEach(input => {
+            if (!input.value) {
+                valid = false;
+                input.classList.add('is-invalid');
+            } else {
+                input.classList.remove('is-invalid');
+            }
+        });
+        return valid;
+    }
+
+    function submitForm() {
+        if (validateStep(currentStep)) {
+            let recaptchaResponse = grecaptcha.getResponse();
+            if (recaptchaResponse.length === 0) {
+                document.getElementById('recaptcha-error').style.display = 'block';
+            } else {
+                document.getElementById('recaptcha-error').style.display = 'none';
+                document.getElementById('regForm').submit();
+            }
+        }
+    }
 </script>
+{!! NoCaptcha::renderJs() !!}
 @endsection

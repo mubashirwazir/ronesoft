@@ -69,8 +69,8 @@
                         </div>
                         <form id="regForm" action="{{ url('/send-contact') }}" method="POST" class="form  p-5 rounded">
                             @csrf
-                            <div class=" mb-5">
-                                <label for="companyName"> Name:</label>
+                            <div class="mb-5">
+                                <label for="companyName">Name:</label>
                                 <input type="text" id="companyName" name="companyName" required class="form-control form__input">
                             </div>
                             <div class="mb-5">
@@ -78,13 +78,21 @@
                                 <input type="email" id="email" name="email" required class="form-control form__input">
                             </div>
                             <div class="mb-5">
+                                <label for="phone">Phone Number:</label>
+                                <input type="tel" id="phone" name="phone" required class="form-control form__input">
+                            </div>
+                            <div class="mb-5">
                                 <label for="description">Message:</label>
                                 <textarea id="description" name="description" required class="form-control form__input form__input--textarea mb--30"></textarea>
                             </div>
-                            <div>
+                            <div class="mb-5" id="recaptcha-container">{!! NoCaptcha::display() !!}</div>
+                            <div class="mb-5 text-danger" id="recaptcha-error" style="display: none;">Please Verify you are not a robot! </div>
+                            <div class="mb-5">
                                 <button type="submit" class="btn-light">Submit</button>
                             </div>
                         </form>
+
+
                     </div>
                 </div>
             </div>

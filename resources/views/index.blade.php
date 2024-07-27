@@ -48,7 +48,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center mt-4 mt-lg-0">
-                                    <img src="assets/img/slider/2.png" alt="Professional Team" class="img-fluid slider-image">
+                                    <img src="assets/img/slider/ok.png" alt="Professional Team" class="img-fluid slider-image">
                                 </div>
                             </div>
                         </div>

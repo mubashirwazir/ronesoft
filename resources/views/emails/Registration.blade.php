@@ -16,5 +16,7 @@
     <p><strong>User Last Name:</strong> {{ $data['userLastName'] }}</p>
     <p><strong>User Email:</strong> {{ $data['userEmail'] }}</p>
     <p><strong>Selected Service:</strong> {{ $data['service'] }}</p>
+    <p><strong>User Phone Number:</strong> {{ $data['userPhone'] }}</p>
+
 </body>
 </html>

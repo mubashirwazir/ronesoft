@@ -18,5 +18,6 @@
     <p><strong>First Name:</strong> {{ $data['userFirstName'] }}</p>
     <p><strong>Last Name:</strong> {{ $data['userLastName'] }}</p>
     <p><strong>Email:</strong> {{ $data['userEmail'] }}</p>
+    <p><strong>User Phone Number:</strong> {{ $data['userPhone'] }}</p>
 </body>
 </html>

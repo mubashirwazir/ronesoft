@@ -3,9 +3,12 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Http\Request;
+use Validator;
+use NoCaptcha;
 
 class ProcurementRegistrationController extends Controller
 {
+
     public function submit(Request $request)
     {
         // Validate the form data
@@ -24,6 +27,14 @@ class ProcurementRegistrationController extends Controller
             'userEmail' => 'required|email|max:255',
         ]);
 
+        $validator = Validator::make($request->all(), [
+            // Your other validation rules
+            'g-recaptcha-response' => 'required|captcha',
+        ]);
+
+        if ($validator->fails()) {
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
         try {
             // Send the email
             Mail::send('emails.ProcurementRegistration', ['data' => $request->all()], function ($message) {

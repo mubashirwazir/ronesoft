@@ -615,3 +615,14 @@ document.querySelectorAll('.accordion-header').forEach(item => {
         content.style.display = content.style.display === 'block' ? 'none' : 'block';
     });
 });
+
+    document.getElementById('regForm').addEventListener('submit', function(event) {
+        const response = grecaptcha.getResponse();
+        if (response.length === 0) {
+            event.preventDefault();
+            document.getElementById('recaptcha-error').style.display = 'block';
+        } else {
+            document.getElementById('recaptcha-error').style.display = 'none';
+        }
+    });
+

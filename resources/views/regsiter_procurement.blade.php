@@ -46,81 +46,94 @@
             </ul>
         </div>
     @endif
-            <form id="regForm" action="{{ url('/submit_registration') }}" method="POST" class="form shadow-lg p-5 rounded">
-                @csrf
+    <form id="regForm" action="{{ url('/submit_registration') }}" method="POST" class="form shadow-lg p-5 rounded">
+        @csrf
 
-                <h2 class="heading__secondary_2 text-light mb-4">Company Registration Information</h2>
+        <h2 class="heading__secondary_2 text-light mb-4">Company Registration Information</h2>
 
-                <div class="row mb-3">
-                    <div class="col-md-6 mb-3">
-                        <label for="companyName">Company Name:</label>
-                        <input type="text" id="companyName" name="companyName" required class="form-control">
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="businessAddress">Business Address:</label>
-                        <input type="text" id="businessAddress" name="businessAddress" required class="form-control">
-                    </div>
-                </div>
+        <div class="row mb-3">
+            <div class="col-md-6 mb-3">
+                <label for="companyName">Company Name:</label>
+                <input type="text" id="companyName" name="companyName" required class="form-control">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="businessAddress">Business Address:</label>
+                <input type="text" id="businessAddress" name="businessAddress" required class="form-control">
+            </div>
+        </div>
 
-                <div class="row mb-3">
-                    <div class="col-md-6 mb-3">
-                        <label for="city">City:</label>
-                        <input type="text" id="city" name="city" required class="form-control">
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="state">State/Province:</label>
-                        <input type="text" id="state" name="state" required class="form-control">
-                    </div>
-                </div>
+        <div class="row mb-3">
+            <div class="col-md-6 mb-3">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required class="form-control">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="state">State/Province:</label>
+                <input type="text" id="state" name="state" required class="form-control">
+            </div>
+        </div>
 
-                <div class="row mb-3">
-                    <div class="col-md-6 mb-3">
-                        <label for="postalCode">Postal/Zip Code:</label>
-                        <input type="text" id="postalCode" name="postalCode" required class="form-control">
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="country">Country:</label>
-                        <input type="text" id="country" name="country" required class="form-control">
-                    </div>
-                </div>
+        <div class="row mb-3">
+            <div class="col-md-6 mb-3">
+                <label for="postalCode">Postal/Zip Code:</label>
+                <input type="text" id="postalCode" name="postalCode" required class="form-control">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" required class="form-control">
+            </div>
+        </div>
 
-                <div class="mb-3">
-                    <label for="email">Email, General Mailbox:</label>
-                    <input type="email" id="email" name="email" required class="form-control">
-                </div>
+        <div class="mb-3">
+            <label for="email">Email, General Mailbox:</label>
+            <input type="email" id="email" name="email" required class="form-control">
+        </div>
 
-                <div class="mb-3">
-                    <label for="companyWebsite">Company Website:</label>
-                    <input type="text" id="companyWebsite" name="companyWebsite" class="form-control">
-                </div>
+        <div class="mb-3">
+            <label for="companyWebsite">Company Website:</label>
+            <input type="text" id="companyWebsite" name="companyWebsite" class="form-control">
+        </div>
 
-                <div class="mb-3">
-                    <label for="description">Describe how you will use xChecker to grow yours and your clients' business:</label>
-                    <textarea id="description" name="description" required class="form-control"></textarea>
-                </div>
+        <div class="mb-3">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required class="form-control">
+        </div>
 
-                <h2 class="heading__secondary_2 mb-4 text-light">User Information</h2>
+        <div class="mb-5">
+            <label for="description">Describe how you will use xChecker to grow yours and your clients' business:</label>
+            <textarea id="description" name="description" required class="form-control"></textarea>
+        </div>
 
-                <div class="row mb-3">
-                    <div class="col-md-6 mb-3">
-                        <label for="userFirstName">User First Name:</label>
-                        <input type="text" id="userFirstName" name="userFirstName" required class="form-control">
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="userLastName">User Last Name:</label>
-                        <input type="text" id="userLastName" name="userLastName" required class="form-control">
-                    </div>
-                </div>
+        <h2 class="heading__secondary_2 mb-4 mt-2 text-light">User Information</h2>
 
-                <div class="mb-3">
-                    <label for="userEmail">User Email:</label>
-                    <input type="email" id="userEmail" name="userEmail" required class="form-control">
-                </div>
+        <div class="row mb-3">
+            <div class="col-md-6 mb-3">
+                <label for="userFirstName">User First Name:</label>
+                <input type="text" id="userFirstName" name="userFirstName" required class="form-control">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="userLastName">User Last Name:</label>
+                <input type="text" id="userLastName" name="userLastName" required class="form-control">
+            </div>
+        </div>
 
-                <div >
-                    <button type="submit" class="btn">Submit</button>
-                </div>
-            </form>
+        <div class="mb-3">
+            <label for="userEmail">User Email:</label>
+            <input type="email" id="userEmail" name="userEmail" required class="form-control">
+        </div>
+
+        <div class="mb-5 ">
+            <label for="userPhone"> Phone Number:</label>
+            <input type="tel" id="userPhone" name="userPhone" required class="form-control">
+        </div>
+        <div class="mb-5" id="recaptcha-container">{!! NoCaptcha::display() !!}</div>
+        <div class="mb-5 text-danger" id="recaptcha-error" style="display: none;">Please Verify you are not a robot! </div>
+
+        <div>
+            <button type="submit" class="btn">Submit</button>
+        </div>
+    </form>
+
         </div>
     </div>
 </div>
