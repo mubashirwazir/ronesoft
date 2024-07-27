@@ -13,7 +13,7 @@
     <link rel="apple-touch-icon" href="assets/img/icons/main.png">
 
     <!-- ************************* CSS Files ************************* -->
-      {!!htmlScriptTagJsApi()!!}
+      {{-- {!!htmlScriptTagJsApi()!!} --}}
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 
