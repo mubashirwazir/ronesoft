@@ -35,6 +35,15 @@
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+    (function (o, u, t, b, a, s, e) {
+        window[b] = window[b] || {}; (e = e || [])['key'] = o; e['__obr'] = u.location.href; a = [];
+        u.location.search.replace('?', '').split('&').forEach(function (q) { if (q.startsWith(b) || q.startsWith('_obid')) e[q.split('=')[0]] = q.split('=')[1]; });
+        e['_obid'] = e['_obid'] || (u.cookie.match(/(^|;)\s*_obid\s*=\s*([^;]+)/) || []).pop() || 0;
+        for (k in e) { if (e.hasOwnProperty(k)) a.push(encodeURIComponent(k) + '=' + encodeURIComponent(e[k])); }
+        s = u.createElement('script'); s.src = t + '?' + a.join('&'); u.body.appendChild(s);
+    })('002df2af-6570-46d6-adac-437824a4ed4a', document, 'https://plugin.sopro.io/hq.js', 'outbase')
+</script>
 
 
 </body>
