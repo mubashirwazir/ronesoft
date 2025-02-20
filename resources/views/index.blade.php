@@ -17,7 +17,7 @@
             alert("{{ session('success') }}");
         </script>
         @endif
-        <section class="ms-3 me-3 homepage-slider mb-10pt">
+        <section class="homepage-slider mb-10pt">
             <div class="element-carousel">
                 <div class="d-flex align-items-center justify-content-start position-relative" style="height: 100vh; background: url('https://static.wixstatic.com/media/042abe_3e753b262bc34b218499414001007812~mv2.png/v1/fill/w_1349,h_674,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/042abe_3e753b262bc34b218499414001007812~mv2.png'); background-size: cover; background-position: center;">
                     <a href="https://calendly.com/rslgary/ronesoft-demo" class="btn btn-primary position-absolute fw-bold mb-3" style="left: 10%; bottom: 20%;">
