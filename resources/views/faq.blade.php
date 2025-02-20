@@ -12,7 +12,7 @@
 
         <!-- Header End -->
         <!-- Main Content Wrapper Start -->
-        <main class="main-content-wrapper p-2">
+        <main class="main-content-wrapper">
           <div class="container">
 
     <div class="accordion ">
