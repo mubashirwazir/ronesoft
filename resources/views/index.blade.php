@@ -19,8 +19,12 @@
         @endif
             <section class="ms-3 me-3 homepage-slider mb-10pt">
                 <div class="element-carousel">
-                    <div class="d-flex align-items-center">
-                        <div class="container slider-container">
+                    <div class="d-flex align-items-center justify-content-start position-relative" style="height: 100vh; background: url('https://static.wixstatic.com/media/042abe_3e753b262bc34b218499414001007812~mv2.png/v1/fill/w_1349,h_674,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/042abe_3e753b262bc34b218499414001007812~mv2.png'); background-size: cover; background-position: center;">
+                        <a href="https://calendly.com/rslgary/ronesoft-demo" class="btn btn-primary position-absolute fw-bold mb-3" style="left: 10%; bottom: 20%;">
+                            @lang('text.btn_text')
+                        </a>
+                        <h1 class="position-absolute text-dark" style="color: #feaf06;right: 10%; bottom: 20%;">We've Fixed it</h1>
+                        <!-- <div class="container slider-container">
                             <div class="row g-0 ps-5 pt-5 pb-5">
                                 <div class="col-lg-6 col-md-12 col-sm-12">
                                     <div class="slider-content mt-3 ">
@@ -51,14 +55,76 @@
                                     <img src="assets/img/slider/ok.png" alt="Professional Team" class="img-fluid slider-image">
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
 
             <div class="p-3"></div>
+
+            <div class="container mx-auto">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 d-flex flex-column flex-lg-row align-items-center justify-content-center gap-5" style="transform: translate(0%, -30%);">
+                    <div class="box position-relative bg-transparent w-25 p-0" style="border: 2px solid #feaf06; min-height: 300px;">
+                        <div class="position-absolute bg-white top-0 start-0 d-flex flex-column h-100 w-inherit p-5" style="border: 1px solid #000000; transform: translate(-5%, -5%); min-height: 300px;">
+                            <h1 class="fw-bold h-50">All Supplier Information</h1>
+                            <p class="h-50">Centralize your data and eliminate multiple spreadsheets.</p>
+                        </div>
+                    </div>
+                    <div class="box position-relative bg-transparent w-25 p-0" style="border: 2px solid #feaf06; min-height: 300px;">
+                        <div class="position-absolute bg-white top-0 start-0 d-flex flex-column h-100 w-inherit p-5" style="border: 1px solid #000000; transform: translate(-5%, -5%); min-height: 300px;">
+                            <h1 class="h-50">Categories, Products and Services</h1>
+                            <p class="h-50">For traceability, repeatability, and historical information.</p>
+                        </div>
+                    </div>
+                    <div class="box position-relative bg-transparent w-25 p-0" style="border: 2px solid #feaf06; min-height: 300px;">
+                        <div class="position-absolute bg-white top-0 start-0 d-flex flex-column h-100 w-inherit p-5" style="border: 1px solid #000000; transform: translate(-5%, -5%); min-height: 300px;">
+                            <h1 class="h-50">Buy Smarter. Analytics and Insight</h1>
+                            <p class="h-50">Trend analysis, identify optimization opportunities, smart reporting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-3"></div>
+
+            <div class="container-fluid bg-white">
+                <div class="position-relative w-75 me-auto" style="left: 10%; top: 20%;">
+                    <h2 style="color: #feaf06; font-size: 56px; font-weight: 1000;">Managed Procurement Service Powered by xChecker</h2>
+                    <span style="color: #177e89; font-size: 45px; font-weight: 1000;">The Next Generation Solution</span>
+                    <p style="font-size: 20px;">Streamline, Manage, and Collaborate with your Suppliers to enhance, Cost Control, Compliance, and Efficiency—so you can focus on high-value work in your core business.</p>
+                    <a href="https://calendly.com/rslgary/ronesoft-demo" class="btn btn-primary">
+                        @lang('text.btn_text')
+                    </a><br>
+                    <span style="color: #177e89; font-size: 45px; font-weight: 1000;">Leave the heavy lifting to xChecker</span>
+                    <p style="font-size: 20px;">Simplify and Optimize your Purchasing Negotiations, Systemize the Process, and Empower your company to <strong>Buy Smarter</strong>.</p>
+                </div>
+            </div>
+
+            <div class="p-5"></div>
+
+            <div class="container-fluid bg-black">
+                <div class="container mx-auto row d-flex flex-column flex-lg-row justify-content-around p-5">
+                    <div class="one w-50 py-5 px-5">
+                        <h2 style="color: #ffffff; font-size: 48px;">Procurement is Costly</h2>
+                        <h4 style="color: #feaf06;font-size: 23px;">We've Changed That</h4>
+                    </div>
+                    <div class="two w-50 py-5 px-5">
+                        <h3 style="color: #feaf06;font-size: 33px;">Try our Service For Free</h3>
+                        <p style="color:#ffffff;">Access all our Service Delivery, free, for 14 days, then decide</p>
+                        <a style="color: #ffffff;" href="register">Register Here</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="container-fluid p-5" style="background-color: #98999a;">
+                <div class="container mx-auto bg-dark d-flex align-items-center justify-content-center">
+                    <span class="text-white" style="font-size: 40px; font-weight: 1000;">Procurement Is For Large Companies</span>
+                </div>
+            </div> -->
+
+
             {{-- Feature section --}}
-            <section class="features-section pt-5 pb-5 mt-5">
+            <!-- <section class="features-section pt-5 pb-5 mt-5">
                 <div class="container bg-base">
                     <div class="container">
                         <div class="mb-4 pt-5 ">
@@ -111,10 +177,11 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <!-- Buy Smarter  Area Start -->
-            <section class="about-area mb--9pt4">
+            <!-- <section class="about-area mb--9pt4"> -->
+            <section class="about-area" style="margin-top: 50%;">
                 <div class="container p-5">
                     <div class="row g-2 text-center d-flex align-items-stretch">
                         <div class="col-lg-6 col-md-12 mb-4">

@@ -16,7 +16,7 @@
                                         <li class="list-inline-item text-uppercase small-screen-text"><a href="register">{{ __('text.register') }}</a></li>
                                     </ul>
                                 </div>
-                                <div class="language-switcher">
+                                <!-- <div class="language-switcher">
                                     <ul class="list-inline top-menu mb-0">
                                         <li class="list-inline-item small-screen-text">
                                             <a href="{{ route('changeLang', ['lang' => 'en']) }}" class="disabled-link">
@@ -34,7 +34,7 @@
                                             </a>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -90,14 +90,20 @@
                                     </nav>
                                 </div>
                                 <div class="header__middle-right">
-                                    <div class="site-info--wrapper d-none d-lg-block">
+                                    <div class="d-none d-lg-block">
+                                        <form class="d-flex position-relative" role="search">
+                                            <input class="form-control me-2 px-5" type="search" placeholder="Search" aria-label="Search">
+                                            <i class="fa-solid fa-magnifying-glass position-absolute top-50 start-0 translate-middle-y ms-2"></i>
+                                        </form>
+                                    </div>
+                                    <!-- <div class="site-info--wrapper d-none d-lg-block">
                                         <div class="site-info">
                                             <div class="site-info__item">
                                                 <a href="tel:1 844 710 8500"><strong>1 844 710 8500 </strong></a>
                                                 <a href="mailto:sales@ronesoft.com">sales@ronesoft.com</a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="header-toolbar-wrap d-block d-lg-none">
                                         <div class="header-toolbar">
                                             <a href="#offcanvasMenu" class="header-toolbar__btn toolbar-btn menu-btn">
