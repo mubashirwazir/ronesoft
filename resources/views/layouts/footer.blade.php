@@ -1,5 +1,5 @@
  <!-- Footer Start-->
- <footer class="footer bg-dark text-white" data-bg-color="#F6F7FA">
+ <footer class="footer text-white" data-bg-color="#feae03" style="background-color:#FEAE03">
     <div class="footer-top border-bottom pt--70 pb--65 pb-sm--60">
         <div class="container">
             <div class="row">
@@ -17,7 +17,7 @@
                     <div class="footer-widget">
                         <h3 class="widget-title mb--35 mb-sm--20 text-white">Pages</h3>
                         <div class="footer-widget">
-                            <ul class="footer-menu text-secondary">
+                            <ul class="footer-menu text-white">
                                 <li><a href="/">Home</a></li>
                                 <li><a href="about-us">About Us</a></li>
                                 <li><a href="contact">Contact Us</a></li>
@@ -30,7 +30,7 @@
                     <div class="footer-widget">
                         <h3 class="widget-title mb--35 mb-sm--20 text-white">Services</h3>
                         <div class="footer-widget">
-                            <ul class="footer-menu text-secondary">
+                            <ul class="footer-menu text-white">
                                 <li><a href="https://ronesoft.com/regsiter_procurement">Affiliates</a></li>
                                 <li><a href="WhyxChecker">Why xChecker</a></li>
                                 {{-- <li><a href="#">Risk Management</a></li> --}}
@@ -68,7 +68,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <p class="copyright-text">&copy;2024 RONEsoft . All rights reserved </p>
+                    <p class="copyright-text">&copy;2025 by ITG</p>
                 </div>
             </div>
         </div>
