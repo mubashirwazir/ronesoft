@@ -140,90 +140,89 @@
         <!-- Feature Area Start -->
         <div class="container-fluid d-flex flex-column align-items-center justify-content-center p-5" style="background: #3c3a3d;">
             <div class="container">
-                <div class="row g-0 gutter-lg-30 justify-content-center m-5">
-                    <div class="col-md-12  mb-5">
-                        <h1 class="heading__secondary">@lang('text.business_support_title')</h1>
-                        <p class="fs-1">@lang('text.business_support_description')</p>
-                    </div>
+                <div class="row align-items-center justify-content-center">
+                    <h1 class="" style="font-weight:1000; font-size: 55px; color: #feaf06;">Procurement Takes Time</h1>
+                    <p class="text-white fs-1">@lang('text.business_support_description')</p>
 
-                    <div class="col-xl-4 col-md-6 mb-sm-45 ">
-                        <div class="card m-4 shadow">
-                            <div class="feature text-center">
-                                <div class="feature__icon">
-                                    <img src="assets\img\industry\3.jpg" class="rounded mt-3" alt="">
+                    <div class="row d-flex flex-row justify-content-center gap-x-2 gap-y-4 mb-5 p-5" style="background: #000000;">
+                        <div class="col-xl-4 col-md-6 mb-sm-45">
+                            <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/3.jpg'); background-size: cover; background-position: center; height: 300px;">
+                                <!-- <div class="feature text-center">
+                                    <div class="feature__info">
+                                        <h3 class="feature__title">@lang('text.construction')</h3>
+                                    </div>
+                                </div> -->
+                                <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
+                                    <h3 class="">@lang('text.construction')</h3>
                                 </div>
-                                <div class="feature__info">
-                                    <h3 class="feature__title">@lang('text.construction')</h3>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6 mb-sm-45">
+                            <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/2.jpg'); background-size: cover; background-position: center; height: 300px;">
+                                <!-- <div class="feature text-center">
+                                    <div class="feature__info">
+                                        <h3 class="feature__title">@lang('text.manufacturing')</h3>
+                                    </div>
+                                </div> -->
+                                <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
+                                    <h3 class="">@lang('text.manufacturing')</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6 mb-sm-45">
+                            <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/1.jpg'); background-size: cover; background-position: center; height: 300px;">
+                                <!-- <div class="feature text-center">
+                                    <div class="feature__info">
+                                        <h3 class="feature__title">@lang('text.agriculture')</h3>
+                                    </div>
+                                </div> -->
+                                <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
+                                    <h3 class="">@lang('text.agriculture')</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6 mb-sm-45">
+                            <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/4.jpg'); background-size: cover; background-position: center; height: 300px;">
+                                <!-- <div class="feature text-center">
+                                    <div class="feature__info">
+                                        <h3 class="feature__title">@lang('text.distribution')</h3>
+                                    </div>
+                                </div> -->
+                                <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
+                                    <h3 class="">@lang('text.distribution')</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6 mb-sm-45">
+                            <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/5.jpg'); background-size: cover; background-position: center; height: 300px;">
+                                <!-- <div class="feature text-center">
+                                    <div class="feature__info">
+                                        <h3 class="feature__title">@lang('text.resources')</h3>
+                                    </div>
+                                </div> -->
+                                <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
+                                    <h3 class="">@lang('text.resources')</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-md-6 mb-sm-45">
+                            <div class="position-relative card m-4 shadow" style="background-image: url('/assets/img/industry/6.jpg'); background-size: cover; background-position: center; height: 300px;">
+                                <!-- <div class="feature text-center">
+                                    <div class="feature__info">
+                                        <h3 class="feature__title">@lang('text.processing')</h3>
+                                    </div>
+                                </div> -->
+                                <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
+                                    <h3 class="">@lang('text.processing')</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-xl-4 col-md-6 mb-sm-45">
-                        <div class="card m-4 shadow">
-                            <div class="feature text-center">
-                                <div class="feature__icon">
-                                    <img src="assets\img\industry\2.jpg" class="rounded mt-3" alt="">
-                                </div>
-                                <div class="feature__info">
-                                    <h3 class="feature__title">@lang('text.manufacturing')</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-md-6 mb-sm-45">
-                        <div class="card m-4 shadow">
-                            <div class="feature text-center">
-                                <div class="feature__icon">
-                                    <img src="assets\img\industry\1.jpg" class="rounded mt-3 " class="img-fluid w-75" alt="">
-                                </div>
-                                <div class="feature__info">
-                                    <h3 class="feature__title">@lang('text.agriculture')</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-md-6 mb-sm-45">
-                        <div class="card m-4 shadow">
-                            <div class="feature text-center">
-                                <div class="feature__icon">
-                                    <img src="assets\img\industry\4.jpg" class="rounded mt-3 img-fluid" alt="">
-                                </div>
-                                <div class="feature__info">
-                                    <h3 class="feature__title">@lang('text.distribution')</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-md-6 mb-sm-45">
-                        <div class="card m-4 shadow">
-                            <div class="feature text-center">
-                                <div class="feature__icon">
-                                    <img src="assets\img\industry\5.jpg" class="rounded mt-3" alt="">
-                                </div>
-                                <div class="feature__info">
-                                    <h3 class="feature__title">@lang('text.resources')</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-md-6 mb-sm-45">
-                        <div class="card m-4 shadow">
-                            <div class="feature text-center">
-                                <div class="feature__icon">
-                                    <img src="assets\img\industry\6.jpg" class="rounded mt-3" alt="">
-                                </div>
-                                <div class="feature__info">
-                                    <h3 class="feature__title">@lang('text.processing')</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
