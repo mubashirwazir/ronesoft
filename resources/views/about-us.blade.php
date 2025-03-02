@@ -2,46 +2,34 @@
 
 @section('content')
 @include('layouts.header')
-
-        <!-- Breadcrumb area Start -->
-        <section class="page-title-area bg-image ptb--80" data-bg-image="assets/img/background/1.webp">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <h1 class="page-title">About Us</h1>
-                        <ul class="breadcrumb">
-                            <li><a href="/">Home</a></li>
-                            <li class="current"><span>About Us</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Breadcrumb area End -->
-          <div class="m-5 p-3"></div>
+<div class="position-relative about-image container-fluid p-0">
+    <img class="image-holder" src="https://static.wixstatic.com/media/042abe_0afd0befcad2466c8efb0906d40672ea~mv2.jpg/v1/fill/w_1024,h_471,al_c,q_85,enc_auto/042abe_0afd0befcad2466c8efb0906d40672ea~mv2.jpg" alt="">
+    <div class="container mx-auto text-container">
+        <div class="one">Procurement is Broken?</div>
+        <div class="two">Let's Change That!</div>
+    </div>
+</div>
+          <div class="m-5 p-5"></div>
         <!-- Main Content Wrapper Start -->
-        <main class="main-content-wrapper">
+        <main class="main-content-wrapper pt-5">
             <!-- About Area Start -->
             <section class="about-area mb--9pt4">
                 <div class="container p-0">
                     <div class="row g-0">
-                        <div class="col-md-6 ">
+                        <!-- <div class="col-md-6 ">
 
                                 <img src="assets/img/about/5.jpg" alt="" class="bg-image bg-sm-padding img-fluid align-items-center">
 
-                        </div>
-                        <div class="col-md-6 ">
-                            <div class="h-100 pt--13pt pt-sm--9pt5 pb--13pt3 pb-sm--9pt8 pl-12percent pl-sm--15 pr--15 bg-color"
-                                data-bg-color="#f7f8f9">
+                        </div> -->
+                        <div class="col">
+                            <div class="h-100 pt--13pt pt-sm--9pt5 pb-sm--9pt8 pl-12percent pl-sm--15 pr--15">
                                 <div class="max-width-470">
                                     <div class="heading">
-                                        <h2 class="mb--18">About RONEsoft</h2>
-                                        <hr class="delimeter mb--22">
+                                        <h2 class="heading__secondary">About RONEsoft</h2>
+                                        <!-- <hr class="delimeter mb--22"> -->
                                     </div>
-                                    <p class="mb--25">RONEsoft helps businesses to Buy Smarter.
-
-                                       </p>
                                     <p class="mb--25">
+                                        RONEsoft helps businesses to Buy Smarter. <br>
                                         RONEsoft specializes in Procurement Operations and provides customers with the ability to directly use xChecker to professionally execute their operations. We also provide Managed Procurement Services (MPS), offering customers complete peace of mind knowing that their Procurement Operations are in the hands of professionals who are trained to use xChecker to deliver results, so our clients can focus on their core business.
 
                                        </p>
@@ -56,8 +44,31 @@
 
             <!-- Skoll Area Start -->
             <section class="skill-area mb--9pt3 mb-md--8pt9">
-                <div class="container ">
-                            <div class="heading mb--30 ms-4">
+                <div class="container bg-light p-5">
+                    <div class="row g-0">
+                        <!-- <div class="col-md-6 ">
+
+                                <img src="assets/img/about/5.jpg" alt="" class="bg-image bg-sm-padding img-fluid align-items-center">
+
+                        </div> -->
+                        <div class="col">
+                            <div class="h-100 pt-sm--9pt5 pb-sm--9pt8 pl-12percent pl-sm--15 pr--15">
+                                <div class="max-width-470">
+                                    <div class="heading">
+                                        <h2 class="heading__secondary">What We Do</h2>
+                                        <!-- <hr class="delimeter mb--22"> -->
+                                    </div>
+                                    <div class="mb--25 ms-5">
+                                        <p>xChecker empowers businesses with an intelligent platform that centralizes procurement information, provides actionable buying insights, and enhances supplier access to enable smarter, more efficient, and cost-effective purchasing operations.</p>
+                                        <!-- <br> -->
+                                        <p class="fw-bold">Book a demo today. Contact <a href="mailto:sales@ronesoft.com" class="text-decoration-underline1">sales@ronesoft.com</a> </p>
+                                    </div>
+                                    <a href="register" class="btn-light">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            <!-- <div class="heading mb--30 ms-4">
                                 <h2 class="text-uppercase mb--25">What we do</h2>
                                 <p class="mb--25">We give Business Owners more Control over their Buying Operations through an Intelligent Platform that holds all relevant information and provides deep insight and Buying Intelligence.</p>
                                 <p class="mb--25">With xChecker, every Business can Buy Smarter, operate just as large corporations and Co-ops do. You will get the technology platform that expands your reach beyond your immediate Suppliers and gives you access to other Suppliers within your target industry. With this capability, our clients get measurable time savings and cost reduction.</p>
@@ -65,7 +76,7 @@
                                 <p class="mb--25 fw-bold">Book a demo today. Contact  <a href="mailto:sales@ronesoft.com" class="text-decoration-underline1">sales@ronesoft.com</a> </p>
                                 <a href="register" class="btn-light">Get Started</a>
 
-                            </div>
+                            </div> -->
                 </div>
             </section>
             <!-- Skoll Area End -->

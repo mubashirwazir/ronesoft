@@ -2,11 +2,76 @@
 
 @section('content')
 @include('layouts.header')
-<div class="container mt-5">
+<div class="position-relative feature-image container-fluid p-0">
+    <img class="image-holder" src="https://static.wixstatic.com/media/ff8c7a3eb6144709a01d43ab283339d6.jpg/v1/fill/w_1349,h_404,al_r,q_85,usm_0.66_1.00_0.01,enc_auto/ff8c7a3eb6144709a01d43ab283339d6.jpg" alt="">
+    <div class="container mx-auto text-container">
+        <div class="one">Procurement is Broken?</div>
+        <div class="two">We've Fixed It!</div>
+    </div>
+</div>
+
+<div class="container mx-auto py-5">
+    <div class="heading mb--42">
+        <h2 class="heading__secondary">Services</h2>
+    </div>
+    <div class="service-container row gap-5">
+        <div class="row d-flex align-items-stretch">
+            <div class="col-lg-4 h-md-100">
+                <div class="pricing-header">Sourcing</div>
+                <div class="pricing-button">
+                    <li>Lorem ipsum dolor sit amet consectetur</li>
+                    <li>adipisicing elit. Similique ad cupiditate voluptates numquam</li>
+                    <li>quaerat quae, commodi eligendi nisi error omnis vero maiores consectetur dignissimos</li>
+                    <li> reprehenderit corrupti quisquam laudantium ut aspernatur!</li>
+                </div>
+            </div>
+            <div class="col-lg-8 h-md-100">
+                <div class="pricing-header">Demand and specs</div>
+                <div class="pricing-button">
+                    <li>Lorem ipsum dolor sit amet consectetur</li>
+                    <li>adipisicing elit. Similique ad cupiditate voluptates numquam</li>
+                    <li>quaerat quae, commodi eligendi nisi error omnis vero maiores consectetur dignissimos</li>
+                    <li> reprehenderit corrupti quisquam laudantium ut aspernatur!</li>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex align-items-stretch">
+            <div class="col-lg-3 h-md-100">
+                <div class="pricing-header">Purchasing</div>
+                <div class="pricing-button">
+                    <li>Lorem ipsum dolor sit amet consectetur</li>
+                    <li>adipisicing elit. Similique ad cupiditate voluptates numquam</li>
+                    <li>quaerat quae, commodi eligendi nisi error omnis vero maiores consectetur dignissimos</li>
+                    <li> reprehenderit corrupti quisquam laudantium ut aspernatur!</li>
+                </div>
+            </div>
+            <div class="col-lg-6 h-md-100">
+                <div class="pricing-header">Supply Management</div>
+                <div class="pricing-button">
+                    <li>Lorem ipsum dolor sit amet consectetur</li>
+                    <li>adipisicing elit. Similique ad cupiditate voluptates numquam</li>
+                    <li>quaerat quae, commodi eligendi nisi error omnis vero maiores consectetur dignissimos</li>
+                    <li> reprehenderit corrupti quisquam laudantium ut aspernatur!</li>
+                </div>
+            </div>
+            <div class="col-lg-3 h-md-100">
+                <div class="pricing-header">Spend Analytics</div>
+                <div class="pricing-button">
+                    <li>Lorem ipsum dolor sit amet consectetur</li>
+                    <li>adipisicing elit. Similique ad cupiditate voluptates numquam</li>
+                    <li>quaerat quae, commodi eligendi nisi error omnis vero maiores consectetur dignissimos</li>
+                    <li> reprehenderit corrupti quisquam laudantium ut aspernatur!</li>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="container mt-5 mb-5">
     <div class="text-center mb-4">
         <h2 class="heading__secondary mb--30 ">
-            <span class="heading__secondary--main">Managed Procurement Services</span>
-            <span class="heading__secondary--sub mt2">(Fractional Procurement Specialist Service)</span>
+            <span class="heading__secondary--main">Pricing</span>
+            <span class="heading__secondary--sub mt2">Managed Procurement Services</span>
         </h2>
     </div>
     <div class="row">
@@ -58,7 +123,7 @@
         <p>All pricing in US Dollars</p>
     </div>
 </div>
-<div class="row">
+<!-- <div class="row">
 <div class="container col-md-8 mt-5 mb-5">
     <table class="table table-bordered shadow-lg p-4">
         <thead class="table-dark">
@@ -186,7 +251,7 @@
             </tr>
         </tbody>
     </table>
-</div></div>
+</div></div> -->
 @include('layouts.footer')
 
 <!-- OffCanvas Menu Start -->
@@ -198,31 +263,31 @@
         <nav class="offcanvas-navigation">
             <ul class="offcanvas-menu">
 
-                    <li class="mainmenu__item">
-                        <a href="/" class="mainmenu__link">
-                            <span data-hover="{{ __('text.home') }}" class="mm-text">{{ __('text.home') }}</span>
-                        </a>
-                    </li>
-                    <li class="mainmenu__item">
-                        <a href="about-us" class="mainmenu__link">
-                            <span data-hover="{{ __('text.about') }}" class="mm-text">{{ __('text.about') }}</span>
-                        </a>
-                    </li>
-                    <li class="mainmenu__item">
-                        <a href="features" class="mainmenu__link">
-                            <span data-hover="{{ __('text.features') }}" class="mm-text">{{ __('text.features') }}</span>
-                        </a>
-                    </li>
-                    <li class="mainmenu__item">
-                        <a href="faq" class="mainmenu__link">
-                            <span data-hover="{{ __('text.faq') }}" class="mm-text">{{ __('text.faq') }}</span>
-                        </a>
-                    </li>
-                    <li class="mainmenu__item">
-                        <a href="contact" class="mainmenu__link">
-                            <span data-hover="{{ __('text.contact') }}" class="mm-text">{{ __('text.contact') }}</span>
-                        </a>
-                    </li>
+                <li class="mainmenu__item">
+                    <a href="/" class="mainmenu__link">
+                        <span data-hover="{{ __('text.home') }}" class="mm-text">{{ __('text.home') }}</span>
+                    </a>
+                </li>
+                <li class="mainmenu__item">
+                    <a href="about-us" class="mainmenu__link">
+                        <span data-hover="{{ __('text.about') }}" class="mm-text">{{ __('text.about') }}</span>
+                    </a>
+                </li>
+                <li class="mainmenu__item">
+                    <a href="features" class="mainmenu__link">
+                        <span data-hover="{{ __('text.features') }}" class="mm-text">{{ __('text.features') }}</span>
+                    </a>
+                </li>
+                <li class="mainmenu__item">
+                    <a href="faq" class="mainmenu__link">
+                        <span data-hover="{{ __('text.faq') }}" class="mm-text">{{ __('text.faq') }}</span>
+                    </a>
+                </li>
+                <li class="mainmenu__item">
+                    <a href="contact" class="mainmenu__link">
+                        <span data-hover="{{ __('text.contact') }}" class="mm-text">{{ __('text.contact') }}</span>
+                    </a>
+                </li>
 
             </ul>
             <div class="site-info vertical">
