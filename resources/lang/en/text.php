@@ -6,7 +6,7 @@ return [
     'register' => 'Register',
     'home' => 'Home',
     'about' => 'About',
-    'services' => 'Services',
+    'services' => 'Services & Pricing',
     'projects' => 'Projects',
     'blog' => 'Blog',
     'contact' => 'Contact',

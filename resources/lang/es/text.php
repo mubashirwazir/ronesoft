@@ -6,6 +6,7 @@ return [
     'register' => 'Registrarse',
     'home' => 'Inicio',
     'about' => 'Acerca de',
+    'services' => 'Servicios y precios',
     'features' => 'Características', // Changed from 'services' to 'features'
     'projects' => 'Proyectos',
     'faq' => 'Preguntas Frecuentes', // Added FAQ

@@ -1,5 +1,5 @@
  <!-- Footer Start-->
- <footer class="footer text-white" data-bg-color="#feae03" style="background-color:#FEAE03">
+ <footer class="footer text-white" data-bg-color="#feae03" style="background-color: #000000">
     <div class="footer-top border-bottom pt--70 pb--65 pb-sm--60">
         <div class="container">
             <div class="row">

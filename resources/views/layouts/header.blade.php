@@ -1,5 +1,5 @@
 <!-- Header Start -->
-<header class="header site-header">
+<header class="header position-fixed z-10 start-0 top-0">
     <div class="header__outer">
         <div class="header__inner header--fixed">
             <div class="header__top">
@@ -68,7 +68,7 @@
                                             </li>
                                             <li class="mainmenu__item">
                                                 <a href="features" class="mainmenu__link">
-                                                    <span data-hover="{{ __('text.features') }}" class="mm-text">{{ __('text.features') }}</span>
+                                                    <span data-hover="{{ __('text.services') }}" class="mm-text">{{ __('text.services') }}</span>
                                                 </a>
                                             </li>
                                             <li class="mainmenu__item">

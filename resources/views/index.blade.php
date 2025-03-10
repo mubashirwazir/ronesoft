@@ -20,9 +20,11 @@
         <section class="homepage-slider mb-10pt">
             <div class="element-carousel">
                 <div class="d-flex align-items-center justify-content-start position-relative" style="height: 100vh; background: url('https://static.wixstatic.com/media/042abe_3e753b262bc34b218499414001007812~mv2.png/v1/fill/w_1349,h_674,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/042abe_3e753b262bc34b218499414001007812~mv2.png'); background-size: cover; background-position: center;">
-                    <a href="https://calendly.com/rslgary/ronesoft-demo" class="btn btn-primary position-absolute fw-bold mb-3" style="left: 10%; bottom: 20%;">
-                        @lang('text.btn_text')
-                    </a>
+                    <div class="position-absolute fw-bold mb-3" style="left: 10%; bottom: 20%;">
+                        <a href="https://calendly.com/rslgary/ronesoft-demo" class="btn-light mb--25">
+                            @lang('text.btn_text')
+                        </a>
+                    </div>
                     <h1 class="position-absolute text-dark" style="color: #feaf06;right: 10%; bottom: 20%;">We've Fixed it</h1>
                     <!-- <div class="container slider-container">
                             <div class="row g-0 ps-5 pt-5 pb-5">
@@ -88,138 +90,156 @@
         <div class="p-3"></div>
 
         <div class="container-fluid bg-white">
-            <div class="position-relative w-75 me-auto" style="left: 10%; top: 20%;">
-                <h2 style="color: #feaf06; font-size: 56px; font-weight: 1000;">Managed Procurement Service Powered by xChecker</h2>
-                <span style="color: #177e89; font-size: 45px; font-weight: 1000;">The Next Generation Solution</span>
-                <p style="font-size: 20px;">Streamline, Manage, and Collaborate with your Suppliers to enhance, Cost Control, Compliance, and Efficiency—so you can focus on high-value work in your core business.</p>
-                <a href="https://calendly.com/rslgary/ronesoft-demo" class="btn btn-primary">
+            <div class="position-relative w-75 me-auto" style="left: 5%;">
+                <h2 class="heading__secondary">
+                    <span class="heading__secondary--main">Managed Procurement Service Powered by xChecker</span>
+                    <span class="heading__secondary--sub">The Next Generation Solution</span>
+                </h2>
+                <p class="mb--25">Streamline, Manage, and Collaborate with your Suppliers to enhance, Cost Control, Compliance, and Efficiency—so you can focus on high-value work in your core business.</p>
+                <a href="https://calendly.com/rslgary/ronesoft-demo" class="btn-light mb--25">
                     @lang('text.btn_text')
-                </a><br>
-                <span style="color: #177e89; font-size: 45px; font-weight: 1000;">Leave the heavy lifting to xChecker</span>
-                <p style="font-size: 20px;">Simplify and Optimize your Purchasing Negotiations, Systemize the Process, and Empower your company to <strong>Buy Smarter</strong>.</p>
+                </a>
+                <hr class="my-5">
+                <h2 class="heading__secondary">Leave the heavy lifting to xChecker</h2>
+                <p class="mb--25">Simplify and Optimize your Purchasing Negotiations, Systemize the Process, and Empower your company to <strong>Buy Smarter</strong>.</p>
             </div>
         </div>
 
         <div class="p-5"></div>
 
-        <div class="container-fluid bg-black">
+        <div class="container-fluid bg-light p-5">
             <div class="container mx-auto row d-flex flex-column flex-lg-row justify-content-around p-5">
                 <div class="one w-50 py-5 px-5">
-                    <h2 style="color: #ffffff; font-size: 48px;">Procurement is Costly</h2>
-                    <h4 style="color: #feaf06;font-size: 23px;">We've Changed That</h4>
+                    <h2 class="heading__secondary">Procurement is Costly</h2>
+                    <h2 class="heading__secondary--main" style="color:rgb(31, 31, 27);font-size: 25px;">We've Changed That</h2>
                 </div>
                 <div class="two w-50 py-5 px-5">
-                    <h3 style="color: #feaf06;font-size: 33px;">Try our Service For Free</h3>
-                    <p style="color:#ffffff;">Access all our Service Delivery, free, for 14 days, then decide</p>
-                    <a style="color: #ffffff;" href="register">Register Here</a>
+                    <h2 class="heading__secondary">
+                        <span class="heading__secondary--sub">Try our Service For Free</span>
+                    </h2>
+                    <p class="mb--25">Access all our Service Delivery, free, for 14 days, then decide</p>
+                    <a class="text-dark text-decoration-underline1 fw-bold" href="register">Register Here</a>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid p-5" style="background-color: #98999a;">
-            <div class="container mx-auto d-flex flex-column align-items-center justify-content-center" style="background: #000000;">
-                <span class="text-white" style="font-size: 40px; font-weight: 1000;">Procurement Is For Large Companies</span>
-                <img class="mb-5" src="https://static.wixstatic.com/media/042abe_8a265c50ee394e25bf422165ad711648~mv2.jpg/v1/fill/w_980,h_535,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/children%20wearing%20orange%20selling%20technology.jpg" alt="">
-                <!-- <span class="text-end">Our First Venture</span> -->
+        <div class="container-fluid bg-white p-5">
+            <div class="row g-3">
+                <div class="col-md-6 p-5">
+                    <h2 class="heading__secondary">
+                        <span>Procurement Is For Large Companies</span>
+                    </h2>
+                    <!-- <span class="text-white" style="font-size: 40px; font-weight: 1000;"></span> -->
+                </div>
+                <div class="col-md-6 p-5">
+                    <img src="https://static.wixstatic.com/media/042abe_8a265c50ee394e25bf422165ad711648~mv2.jpg/v1/fill/w_980,h_535,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/children%20wearing%20orange%20selling%20technology.jpg" alt="">
+                </div>
             </div>
         </div>
 
-        <div class="container-fluid d-flex flex-column align-items-center justify-content-center p-5" style="background: #000000;">
-            <h1 style="font-weight:1000; font-size: 55px; color: #feaf06;">Procurement Takes Time</h1>
+        <div class="container-fluid bg-light d-flex flex-column align-items-center justify-content-center p-5" style="background: #000000;">
+            <div class="d-flex align-items-center justify-content-center">
+                <h2 class="heading__secondary mb-5">Procurement Takes Time</h2>
+            </div>
             <img class="mb-5" src="https://static.wixstatic.com/media/042abe_a7907694a68248e2a4479f383ebc036a~mv2.png/v1/crop/x_0,y_915,w_1545,h_751/fill/w_980,h_411,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/042abe_a7907694a68248e2a4479f383ebc036a~mv2.png" alt="">
         </div>
 
-        <div class="container-fluid d-flex flex-column align-items-center justify-content-center p-5" style="background: #98999a;">
-            <h1 style="font-weight:1000; font-size: 55px; color: #3b3a3c;">Profit Is Falling</h1>
-            <h1 style="font-weight:1000; font-size: 37px; color: #000000;">We Will Help You Buy Smarter</h1>
-            <a href="register" class="btn btn-primary">
+        <div class="container-fluid bg-white d-flex flex-column align-items-center justify-content-center p-5">
+            <h2 class="heading__secondary">
+                <span class="heading__secondary--main">
+                    Profit Is Falling
+                </span>
+                <span class="heading__secondary--sub">
+                    We Will Help You Buy Smarter
+                </span>
+            </h2>
+            <a href="register" class="btn-light mb--25">
                 Register Here
-            </a><br>
+            </a>
         </div>
 
         <!-- Feature Area Start -->
-        <div class="container-fluid d-flex flex-column align-items-center justify-content-center p-5" style="background: #3c3a3d;">
+        <div class="container-fluid bg-light d-flex flex-column align-items-center justify-content-center p-5">
             <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <h1 class="" style="font-weight:1000; font-size: 55px; color: #feaf06;">Procurement Takes Time</h1>
-                    <p class="text-white fs-1">@lang('text.business_support_description')</p>
-
-                    <div class="row d-flex flex-row justify-content-center gap-x-2 gap-y-4 mb-5 p-5" style="background: #000000;">
-                        <div class="col-xl-4 col-md-6 mb-sm-45">
-                            <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/3.jpg'); background-size: cover; background-position: center; height: 300px;">
-                                <!-- <div class="feature text-center">
-                                    <div class="feature__info">
-                                        <h3 class="feature__title">@lang('text.construction')</h3>
-                                    </div>
-                                </div> -->
-                                <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
-                                    <h3 class="">@lang('text.construction')</h3>
+                <div class="d-flex flex-column align-items-center justify-content-center mb--9pt5">
+                    <h2 class="heading__secondary">Procurement Takes Time</h2>
+                    <p>@lang('text.business_support_description')</p>
+                </div>
+                <div class="row d-flex flex-row justify-content-center gap-x-2 gap-y-4 mb-5 p-5">
+                    <div class="col-xl-4 col-md-6 mb-sm-45">
+                        <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/3.jpg'); background-size: cover; background-position: center; height: 300px;">
+                            <!-- <div class="feature text-center">
+                                <div class="feature__info">
+                                    <h3 class="feature__title">@lang('text.construction')</h3>
                                 </div>
+                            </div> -->
+                            <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
+                                <h3 class="">@lang('text.construction')</h3>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-xl-4 col-md-6 mb-sm-45">
-                            <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/2.jpg'); background-size: cover; background-position: center; height: 300px;">
-                                <!-- <div class="feature text-center">
-                                    <div class="feature__info">
-                                        <h3 class="feature__title">@lang('text.manufacturing')</h3>
-                                    </div>
-                                </div> -->
-                                <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
-                                    <h3 class="">@lang('text.manufacturing')</h3>
+                    <div class="col-xl-4 col-md-6 mb-sm-45">
+                        <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/2.jpg'); background-size: cover; background-position: center; height: 300px;">
+                            <!-- <div class="feature text-center">
+                                <div class="feature__info">
+                                    <h3 class="feature__title">@lang('text.manufacturing')</h3>
                                 </div>
+                            </div> -->
+                            <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
+                                <h3 class="">@lang('text.manufacturing')</h3>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-xl-4 col-md-6 mb-sm-45">
-                            <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/1.jpg'); background-size: cover; background-position: center; height: 300px;">
-                                <!-- <div class="feature text-center">
-                                    <div class="feature__info">
-                                        <h3 class="feature__title">@lang('text.agriculture')</h3>
-                                    </div>
-                                </div> -->
-                                <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
-                                    <h3 class="">@lang('text.agriculture')</h3>
+                    <div class="col-xl-4 col-md-6 mb-sm-45">
+                        <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/1.jpg'); background-size: cover; background-position: center; height: 300px;">
+                            <!-- <div class="feature text-center">
+                                <div class="feature__info">
+                                    <h3 class="feature__title">@lang('text.agriculture')</h3>
                                 </div>
+                            </div> -->
+                            <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
+                                <h3 class="">@lang('text.agriculture')</h3>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-xl-4 col-md-6 mb-sm-45">
-                            <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/4.jpg'); background-size: cover; background-position: center; height: 300px;">
-                                <!-- <div class="feature text-center">
-                                    <div class="feature__info">
-                                        <h3 class="feature__title">@lang('text.distribution')</h3>
-                                    </div>
-                                </div> -->
-                                <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
-                                    <h3 class="">@lang('text.distribution')</h3>
+                    <div class="col-xl-4 col-md-6 mb-sm-45">
+                        <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/4.jpg'); background-size: cover; background-position: center; height: 300px;">
+                            <!-- <div class="feature text-center">
+                                <div class="feature__info">
+                                    <h3 class="feature__title">@lang('text.distribution')</h3>
                                 </div>
+                            </div> -->
+                            <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
+                                <h3 class="">@lang('text.distribution')</h3>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-xl-4 col-md-6 mb-sm-45">
-                            <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/5.jpg'); background-size: cover; background-position: center; height: 300px;">
-                                <!-- <div class="feature text-center">
-                                    <div class="feature__info">
-                                        <h3 class="feature__title">@lang('text.resources')</h3>
-                                    </div>
-                                </div> -->
-                                <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
-                                    <h3 class="">@lang('text.resources')</h3>
+                    <div class="col-xl-4 col-md-6 mb-sm-45">
+                        <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/5.jpg'); background-size: cover; background-position: center; height: 300px;">
+                            <!-- <div class="feature text-center">
+                                <div class="feature__info">
+                                    <h3 class="feature__title">@lang('text.resources')</h3>
                                 </div>
+                            </div> -->
+                            <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
+                                <h3 class="">@lang('text.resources')</h3>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="col-xl-4 col-md-6 mb-sm-45">
-                            <div class="position-relative card m-4 shadow" style="background-image: url('/assets/img/industry/6.jpg'); background-size: cover; background-position: center; height: 300px;">
-                                <!-- <div class="feature text-center">
-                                    <div class="feature__info">
-                                        <h3 class="feature__title">@lang('text.processing')</h3>
-                                    </div>
-                                </div> -->
-                                <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
-                                    <h3 class="">@lang('text.processing')</h3>
+                    <div class="col-xl-4 col-md-6 mb-sm-45">
+                        <div class="position-relative card m-4 shadow" style="background-image: url('/assets/img/industry/6.jpg'); background-size: cover; background-position: center; height: 300px;">
+                            <!-- <div class="feature text-center">
+                                <div class="feature__info">
+                                    <h3 class="feature__title">@lang('text.processing')</h3>
                                 </div>
+                            </div> -->
+                            <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
+                                <h3 class="">@lang('text.processing')</h3>
                             </div>
                         </div>
                     </div>
