@@ -1,5 +1,5 @@
 <!-- Header Start -->
-<header class="header position-fixed z-10 start-0 top-0">
+<header class="header site-header">
     <div class="header__outer">
         <div class="header__inner header--fixed">
             <div class="header__top">
