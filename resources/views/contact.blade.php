@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-@include('layouts.header')
 <!-- Breadcrumb area Start -->
 <!-- <section class="page-title-area bg-image ptb--80" data-bg-image="assets/img/background/2.jpg">
     <div class="container">
@@ -196,7 +195,6 @@
 
 </main>
 <!-- Main Content Wrapper End -->
-        @include('layouts.footer')
         <!-- Footer End-->
 
         <!-- OffCanvas Menu Start -->

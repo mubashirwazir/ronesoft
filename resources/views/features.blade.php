@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-@include('layouts.header')
 <div class="position-relative feature-image container-fluid p-0">
     <img class="image-holder" src="https://static.wixstatic.com/media/ff8c7a3eb6144709a01d43ab283339d6.jpg/v1/fill/w_1349,h_404,al_r,q_85,usm_0.66_1.00_0.01,enc_auto/ff8c7a3eb6144709a01d43ab283339d6.jpg" alt="">
     <div class="container mx-auto text-container">
@@ -252,7 +251,6 @@
         </tbody>
     </table>
 </div></div> -->
-@include('layouts.footer')
 
 <!-- OffCanvas Menu Start -->
 <div class="offcanvas-menu-wrapper" id="offcanvasMenu">

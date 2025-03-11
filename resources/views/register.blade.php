@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-@include('layouts.header')
 
 <div class="image-container position-relative">
     <img src="assets/img/background/2.jpg" alt="" class="img-fluid">
@@ -128,7 +127,6 @@
     </div>
 </div>
 
-@include('layouts.footer')
 
 <!-- OffCanvas Menu Start -->
 <div class="offcanvas-menu-wrapper" id="offcanvasMenu">

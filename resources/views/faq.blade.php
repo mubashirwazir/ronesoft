@@ -8,7 +8,6 @@
     {{-- <!-- Main Wrapper Start --> --}}
     <div class="wrapper">
         <!-- Header Start -->
-        @include('layouts.header')
 
         <!-- Header End -->
         <!-- Main Content Wrapper Start -->
@@ -119,7 +118,6 @@
         <!-- Main Content Wrapper End -->
 
         <!-- Footer Start-->
-       @include('layouts.footer')
         <!-- Footer End-->
 
         <!-- OffCanvas Menu Start -->

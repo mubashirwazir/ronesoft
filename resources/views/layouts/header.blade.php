@@ -90,12 +90,12 @@
                                     </nav>
                                 </div>
                                 <div class="header__middle-right">
-                                    <div class="d-none d-lg-block">
+                                    <!-- <div class="d-none d-lg-block">
                                         <form class="d-flex position-relative" role="search">
                                             <input class="form-control me-2 px-5" type="search" placeholder="Search" aria-label="Search">
                                             <i class="fa-solid fa-magnifying-glass position-absolute top-50 start-0 translate-middle-y ms-2"></i>
                                         </form>
-                                    </div>
+                                    </div> -->
                                     <!-- <div class="site-info--wrapper d-none d-lg-block">
                                         <div class="site-info">
                                             <div class="site-info__item">

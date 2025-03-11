@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-@include('layouts.header')
 
 <div class="container mt-5">
     <h2 class="heading__secondary mb--30 ">
@@ -138,7 +137,6 @@
     </div>
 </div>
 
-@include('layouts.footer')
 
 <!-- OffCanvas Menu Start -->
 <div class="offcanvas-menu-wrapper" id="offcanvasMenu">

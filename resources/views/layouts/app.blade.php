@@ -21,6 +21,11 @@
     <link rel="stylesheet" href="assets/css/vendor.css">
 
     <!-- style css -->
+     <style>
+        .main-container {
+            padding-top: 130px;
+        }
+     </style>
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/scss/main.scss">
 
@@ -28,7 +33,12 @@
 
 <body>
  <!-- ** *********************** JS Files ************************* -->
- @yield('content')
+@include('layouts.header')
+<div class="main-container">
+    @yield('content')
+</div>
+@include('layouts.footer')
+
     <!-- jQuery JS -->
     <script src="assets/js/vendor.js"></script>
 
