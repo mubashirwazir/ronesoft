@@ -132,7 +132,7 @@
                                     <label for="description">Message:</label>
                                     <textarea id="description" name="description" required class="form-control form__input form__input--textarea mb--30"></textarea>
                                 </div>
-                                <div class="mb-5" id="recaptcha-container">{!! NoCaptcha::display() !!}</div>
+                                <div class="mb-5" id="recaptcha-container">{!! NoCaptcha::display() ?? '' !!}</div>
                                 <div class="mb-5 text-danger" id="recaptcha-error" style="display: none;">Please Verify you are not a robot! </div>
                                 <div class="mb-5">
                                     <button type="submit" class="btn-light">Submit</button>

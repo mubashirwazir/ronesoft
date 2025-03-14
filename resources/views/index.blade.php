@@ -65,19 +65,19 @@
 
         <div class="container mx-auto">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 d-flex flex-column flex-lg-row align-items-center justify-content-center gap-5" style="transform: translate(0%, -30%);">
-                <div class="box position-relative bg-transparent w-25 p-0" style="border: 2px solid #feaf06; min-height: 300px;">
+                <div data-aos="fade-up" data-aos-delay="100" class="box position-relative bg-transparent w-25 p-0" style="border: 2px solid #feaf06; min-height: 300px;">
                     <div class="position-absolute bg-white top-0 start-0 d-flex flex-column h-100 w-inherit p-5" style="border: 1px solid #000000; transform: translate(-5%, -5%); min-height: 300px;">
                         <h1 class="h-50" style="color:#000000; font-size: 28px;">All Supplier Information</h1>
                         <p class="h-50" style="font-size: 16px;">Centralize your data and eliminate multiple spreadsheets.</p>
                     </div>
                 </div>
-                <div class="box position-relative bg-transparent w-25 p-0" style="border: 2px solid #feaf06; min-height: 300px;">
+                <div data-aos="fade-up" data-aos-delay="200" class="box position-relative bg-transparent w-25 p-0" style="border: 2px solid #feaf06; min-height: 300px;">
                     <div class="position-absolute bg-white top-0 start-0 d-flex flex-column h-100 w-inherit p-5" style="border: 1px solid #000000; transform: translate(-5%, -5%); min-height: 300px;">
                         <h1 class="h-50" style="color:#000000; font-size: 28px;">Categories, Products and Services</h1>
                         <p class="h-50" style="font-size: 16px;">For traceability, repeatability, and historical information.</p>
                     </div>
                 </div>
-                <div class="box position-relative bg-transparent w-25 p-0" style="border: 2px solid #feaf06; min-height: 300px;">
+                <div data-aos="fade-up" data-aos-delay="300" class="box position-relative bg-transparent w-25 p-0" style="border: 2px solid #feaf06; min-height: 300px;">
                     <div class="position-absolute bg-white top-0 start-0 d-flex flex-column h-100 w-inherit p-5" style="border: 1px solid #000000; transform: translate(-5%, -5%); min-height: 300px;">
                         <h1 class="h-50" style="color:#000000; font-size: 28px;">Buy Smarter. Analytics and Insight</h1>
                         <p class="h-50" style="font-size: 16px;">Trend analysis, identify optimization opportunities, smart reporting.</p>
@@ -90,17 +90,17 @@
 
         <div class="container-fluid bg-white">
             <div class="position-relative w-75 me-auto" style="left: 5%;">
-                <h2 class="heading__secondary">
+                <h2 data-aos="fade-up" class="heading__secondary">
                     <span class="heading__secondary--main">Managed Procurement Service Powered by xChecker</span>
                     <span class="heading__secondary--sub">The Next Generation Solution</span>
                 </h2>
-                <p class="mb--25">Streamline, Manage, and Collaborate with your Suppliers to enhance, Cost Control, Compliance, and Efficiency—so you can focus on high-value work in your core business.</p>
+                <p data-aos="fade-up" data-aos-delay="500" class="mb--25">Streamline, Manage, and Collaborate with your Suppliers to enhance, Cost Control, Compliance, and Efficiency—so you can focus on high-value work in your core business.</p>
                 <a href="https://calendly.com/rslgary/ronesoft-demo" class="btn-light mb--25">
                     @lang('text.btn_text')
                 </a>
                 <hr class="my-5">
-                <h2 class="heading__secondary">Leave the heavy lifting to xChecker</h2>
-                <p class="mb--25">Simplify and Optimize your Purchasing Negotiations, Systemize the Process, and Empower your company to <strong>Buy Smarter</strong>.</p>
+                <h2 data-aos="fade-up" data-aos-delay="500" class="heading__secondary">Leave the heavy lifting to xChecker</h2>
+                <p data-aos="fade-up" data-aos-delay="500" class="mb--25">Simplify and Optimize your Purchasing Negotiations, Systemize the Process, and Empower your company to <strong>Buy Smarter</strong>.</p>
             </div>
         </div>
 
@@ -109,10 +109,17 @@
         <div class="container-fluid bg-light p-5">
             <div class="container mx-auto row d-flex flex-column flex-lg-row justify-content-around p-5">
                 <div class="one w-50 py-5 px-5">
-                    <h2 class="heading__secondary">Procurement is Costly</h2>
-                    <h2 class="heading__secondary--main" style="color:rgb(31, 31, 27);font-size: 25px;">We've Changed That</h2>
+                    <h2 class="heading__secondary">
+                        <span class="heading__secondary--main" data-aos="fade-up">
+                            Procurement is Costly
+                        </span>
+                        <span class="heading__secondary--main" data-aos="fade-right" data-aos-delay="1000">
+                            We've Changed That
+                        </span>
+                    </h2>
+                    <h2 class="heading__secondary--main" style="color:rgb(31, 31, 27);font-size: 25px;"></h2>
                 </div>
-                <div class="two w-50 py-5 px-5">
+                <div class="two w-50 py-5 px-5" data-aos="fade-up">
                     <h2 class="heading__secondary">
                         <span class="heading__secondary--sub">Try our Service For Free</span>
                     </h2>
@@ -126,7 +133,10 @@
             <div class="row g-3">
                 <div class="col-md-6 p-5">
                     <h2 class="heading__secondary">
-                        <span>Procurement Is For Large Companies</span>
+                        <span class="heading__secondary--main" data-aos="fade-up">Procurement Is For Large Companies</span>
+                        <div class="d-flex align-items-end justify-content-end mt-5">
+                            <span class="heading__secondary--main" data-aos="fade-right" data-aos-delay="1000">We've fixed that!</span>
+                        </div>
                     </h2>
                     <!-- <span class="text-white" style="font-size: 40px; font-weight: 1000;"></span> -->
                 </div>
@@ -138,21 +148,32 @@
 
         <div class="container-fluid bg-light d-flex flex-column align-items-center justify-content-center p-5" style="background: #000000;">
             <div class="d-flex align-items-center justify-content-center">
-                <h2 class="heading__secondary mb-5">Procurement Takes Time</h2>
+                <h2 class="heading__secondary mb-5" data-aos="fade-up">Procurement Takes Time</h2>
             </div>
-            <img class="mb-5" src="https://static.wixstatic.com/media/042abe_a7907694a68248e2a4479f383ebc036a~mv2.png/v1/crop/x_0,y_915,w_1545,h_751/fill/w_980,h_411,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/042abe_a7907694a68248e2a4479f383ebc036a~mv2.png" alt="">
+            <div class="position-relative d-inline-block">
+                <img data-aos="zoom-in" data-aos-delay="500" class="img-fluid" src="https://static.wixstatic.com/media/042abe_a7907694a68248e2a4479f383ebc036a~mv2.png/v1/crop/x_0,y_915,w_1545,h_751/fill/w_980,h_411,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/042abe_a7907694a68248e2a4479f383ebc036a~mv2.png" alt="">
+
+                <!-- New Centered Heading -->
+                <div class="row position-absolute bottom-0 end-0 translate-middle">
+                    <h2 class="heading__secondary">
+                        <span class="heading__secondary--main" style="color: white;" data-aos="fade-right" data-aos-delay="1000">
+                            It's fixed now!
+                        </span>
+                    </h2>
+                </div>
+            </div>
         </div>
 
         <div class="container-fluid bg-white d-flex flex-column align-items-center justify-content-center p-5">
             <h2 class="heading__secondary">
-                <span class="heading__secondary--main">
+                <span class="heading__secondary--main" data-aos="fade-up">
                     Profit Is Falling
                 </span>
-                <span class="heading__secondary--sub">
+                <span class="heading__secondary--sub" data-aos="zoom-in" data-aos-delay="1000">
                     We Will Help You Buy Smarter
                 </span>
             </h2>
-            <a href="register" class="btn-light mb--25">
+            <a href="register" class="btn-light mb--25" data-aos="fade-up">
                 Register Here
             </a>
         </div>
@@ -160,92 +181,63 @@
         <!-- Feature Area Start -->
         <div class="container-fluid bg-light d-flex flex-column align-items-center justify-content-center p-5">
             <div class="container">
-                <div class="d-flex flex-column align-items-center justify-content-center mb--9pt5">
+                <div class="d-flex flex-column align-items-center justify-content-center mb--9pt5" data-aos="fade-up">
                     <h2 class="heading__secondary">Procurement Takes Time</h2>
                     <p>@lang('text.business_support_description')</p>
                 </div>
                 <div class="row d-flex flex-row justify-content-center gap-x-2 gap-y-4 mb-5 p-5">
-                    <div class="col-xl-4 col-md-6 mb-sm-45">
+                    <div class="col-xl-4 col-md-6 mb-sm-45" data-aos="fade-up" data-aos-delay="100">
                         <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/3.jpg'); background-size: cover; background-position: center; height: 300px;">
-                            <!-- <div class="feature text-center">
-                                <div class="feature__info">
-                                    <h3 class="feature__title">@lang('text.construction')</h3>
-                                </div>
-                            </div> -->
                             <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
-                                <h3 class="">@lang('text.construction')</h3>
+                                <h3>@lang('text.construction')</h3>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-md-6 mb-sm-45">
+                    <div class="col-xl-4 col-md-6 mb-sm-45" data-aos="fade-up" data-aos-delay="200">
                         <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/2.jpg'); background-size: cover; background-position: center; height: 300px;">
-                            <!-- <div class="feature text-center">
-                                <div class="feature__info">
-                                    <h3 class="feature__title">@lang('text.manufacturing')</h3>
-                                </div>
-                            </div> -->
                             <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
-                                <h3 class="">@lang('text.manufacturing')</h3>
+                                <h3>@lang('text.manufacturing')</h3>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-md-6 mb-sm-45">
+                    <div class="col-xl-4 col-md-6 mb-sm-45" data-aos="fade-up" data-aos-delay="300">
                         <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/1.jpg'); background-size: cover; background-position: center; height: 300px;">
-                            <!-- <div class="feature text-center">
-                                <div class="feature__info">
-                                    <h3 class="feature__title">@lang('text.agriculture')</h3>
-                                </div>
-                            </div> -->
                             <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
-                                <h3 class="">@lang('text.agriculture')</h3>
+                                <h3>@lang('text.agriculture')</h3>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-md-6 mb-sm-45">
+                    <div class="col-xl-4 col-md-6 mb-sm-45" data-aos="fade-up" data-aos-delay="400">
                         <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/4.jpg'); background-size: cover; background-position: center; height: 300px;">
-                            <!-- <div class="feature text-center">
-                                <div class="feature__info">
-                                    <h3 class="feature__title">@lang('text.distribution')</h3>
-                                </div>
-                            </div> -->
                             <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
-                                <h3 class="">@lang('text.distribution')</h3>
+                                <h3>@lang('text.distribution')</h3>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-md-6 mb-sm-45">
+                    <div class="col-xl-4 col-md-6 mb-sm-45" data-aos="fade-up" data-aos-delay="500">
                         <div class="card m-4 shadow" style="background-image: url('/assets/img/industry/5.jpg'); background-size: cover; background-position: center; height: 300px;">
-                            <!-- <div class="feature text-center">
-                                <div class="feature__info">
-                                    <h3 class="feature__title">@lang('text.resources')</h3>
-                                </div>
-                            </div> -->
                             <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
-                                <h3 class="">@lang('text.resources')</h3>
+                                <h3>@lang('text.resources')</h3>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-md-6 mb-sm-45">
+                    <div class="col-xl-4 col-md-6 mb-sm-45" data-aos="fade-up" data-aos-delay="600">
                         <div class="position-relative card m-4 shadow" style="background-image: url('/assets/img/industry/6.jpg'); background-size: cover; background-position: center; height: 300px;">
-                            <!-- <div class="feature text-center">
-                                <div class="feature__info">
-                                    <h3 class="feature__title">@lang('text.processing')</h3>
-                                </div>
-                            </div> -->
                             <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center p-3" style="background: #feaf06;">
-                                <h3 class="">@lang('text.processing')</h3>
+                                <h3>@lang('text.processing')</h3>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+
+
         {{-- Feature section --}}
         <!-- <section class="features-section pt-5 pb-5 mt-5">
                 <div class="container bg-base">
@@ -567,7 +559,7 @@
             </div>
         </section> -->
 
-        
+
 
         <!-- Welcome Area Start -->
         <!-- <section class="welcome-area mb--9pt5  p-5">

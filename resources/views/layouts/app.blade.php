@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="assets/img/icons/main.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="apple-touch-icon" href="assets/img/icons/main.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- ************************* CSS Files ************************* -->
 {{--       {!!htmlScriptTagJsApi()!!} --}}
@@ -38,6 +39,11 @@
     @yield('content')
 </div>
 @include('layouts.footer')
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- jQuery JS -->
     <script src="assets/js/vendor.js"></script>
