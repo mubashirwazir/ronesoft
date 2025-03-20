@@ -18,45 +18,33 @@
         @endif
         <section class="homepage-slider mb-10pt">
             <div class="element-carousel">
-                <div class="d-flex align-items-center justify-content-start position-relative" style="height: 100vh; background: url('https://static.wixstatic.com/media/042abe_3e753b262bc34b218499414001007812~mv2.png/v1/fill/w_1349,h_674,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/042abe_3e753b262bc34b218499414001007812~mv2.png'); background-size: cover; background-position: center;">
+                <div class="d-flex align-items-center justify-content-start position-relative"
+                    style="height: 100vh; background: url('{{ asset("assets/img/background/freepik__adjust__94342.jpeg") }}'); background-size: cover; background-position: center;">
+
+                    <!-- Large "Procurement is Painful" Text (Centered at the Top) -->
+                    <h1 class="position-absolute text-white fw-bold hero-text"
+                        data-aos="fade-down"
+                        data-aos-duration="2000">
+                        Procurement is Painful
+                    </h1>
+
+                    <!-- "We've Fixed It" Text (Bottom-Right Corner) -->
+                    <div class="d-flex align-items-center justify-content-center position-absolute fixed-text"
+                            data-aos="fade-up"
+                            data-aos-delay="1000"
+                            data-aos-duration="1500"
+                        >
+                        <h1 class=" fw-bold hero-text-small">
+                            We've Fixed It!
+                        </h1>
+                    </div>
+
+                    <!-- Request Demo Button (Remains in Place) -->
                     <div class="position-absolute fw-bold mb-3" style="left: 10%; bottom: 20%;">
                         <a href="https://calendly.com/rslgary/ronesoft-demo" class="btn-light mb--25">
                             @lang('text.btn_text')
                         </a>
                     </div>
-                    <h1 class="position-absolute text-dark" style="color: #feaf06;right: 10%; bottom: 20%;">We've Fixed it</h1>
-                    <!-- <div class="container slider-container">
-                            <div class="row g-0 ps-5 pt-5 pb-5">
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="slider-content mt-3 ">
-                                        <div class="heading__primary mb-3pt6">
-                                            <span class="heading__icon">
-                                                <img src="assets/img/icons/3d-stripy-three-thick-black-lines.png" alt="" class="img-fluid icon-img">
-                                            </span>
-                                            <span class="heading__text">
-                                               <h1 class="heading__primary"> @lang('text.slider_title')</h1>
-                                               <p class="text-white fs-1 ">
-                                            Get back to doing what you do best and leave your <br class="m-3"> Procurement Management and Buying activities to us.
-                                        </p><p class="text-white fs-1 ">
-                                            @lang('text.slider_description1')
-                                            <a href="register" class="fw-bold text-decoration-underline1">Sign Up</a>
-                                            @lang('text.slider_description2')
-                                        </p>
-                                        <a href="https://calendly.com/rslgary/ronesoft-demo" class="btn btn-primary fw-bold mb-3 ">
-                                            @lang('text.btn_text')
-                                        </a>
-                                            </span>
-                                        </div>
-
-
-
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center mt-4 mt-lg-0">
-                                    <img src="assets/img/slider/ok.png" alt="Professional Team" class="img-fluid slider-image">
-                                </div>
-                            </div>
-                        </div> -->
                 </div>
             </div>
         </section>
