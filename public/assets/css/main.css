@@ -2063,6 +2063,9 @@ font-weight: 150; }
 /*****************************
 23 - Components - Slider
 *****************************/
+.homepage-slider {
+  border-bottom: 15px solid #feae03;
+}
 .homepage-slider .single-slide {
   height: 590px;
   background-repeat: no-repeat;
